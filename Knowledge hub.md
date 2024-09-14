@@ -8,7 +8,7 @@ tags: []
 
 # Knowledge Hub
 
-This is the central hub for all the NTPU courses i am taking this year.
+This is the central hub for all the [NTPU](2024-09-14-ntpu.md) courses i am taking this year.
 
 ## Courses
 
