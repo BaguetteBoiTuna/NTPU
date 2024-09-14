@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-09-introduction_to_intelligent_electronics.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-09-introduction_to_intelligent_electronics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-09-introduction_to_intelligent_electronics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-09-09-introduction_to_intelligent_electronics.md"
               }
             }
           },
@@ -165,12 +165,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cc73958ecf69350f",
+  "active": "87ddfcb5dbea61f4",
   "lastOpenFiles": [
+    "2024-09-09-flexray.md",
+    "2024-09-09-can.md",
+    "2024-09-09-can.md~",
+    "2024-09-14-adas.md",
+    "2024-09-14-lidar.md",
+    "2024-09-14-adas.md~",
+    "2024-09-14-lidar.md~",
+    "2024-09-09-flexray.md~",
+    "2024-09-09-introduction_to_intelligent_electronics.md",
+    "2024-09-09-design_and_application_of_intelligent_electronics.md",
+    "Knowledge hub.md",
     "Knowledge hub.md~",
     "2024-09-14-ntpu.md",
     "2024-09-14-ntpu.md~",
-    "Knowledge hub.md",
     "2024-09-14-network-topologies.md",
     "2024-09-10-daftds_part1ch1.md~",
     "2024-09-10-daftds_part1ch1.md",
@@ -178,22 +188,13 @@
     "2024-09-09-automotive-intelligent-electronic-systems---introduction.md",
     "2024-09-09-automotive-intelligent-electronic-systems-introduction.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
-    "2024-09-09-design_and_application_of_intelligent_electronics.md",
     "2024-09-14-safety-concepts.md~",
     "2024-09-14-safety-concepts.md",
     "2024-09-10-fault-injection.md~",
-    "2024-09-10-fault-tolerance.md~",
-    "2024-09-09-automotive-intelligent-electronic-systems---introduction.md~",
-    "2024-09-09-introduction_to_intelligent_electronics.md",
-    "2024-09-09-introduction_to_intelligent_electronics.md~",
     "2024-09-10-advanced-computer-architectures.md",
     "2024-09-10-introduction---fundamentals-of-concurrent-computer-system-design---ai-enabled-computer-architectures.md",
     "2024-09-10-word.md",
-    "2024-09-10-word.md~",
-    "2024-09-09-flexray.md",
-    "2024-09-10-introduction---fundamentals-of-concurrent-computer-system-design---ai-enabled-computer-architectures.md~",
     "2024-09-10-fault-tolerance.md",
-    "2024-09-09-can.md",
     "2024-09-09-soc.md",
     "2024-09-09-ecu.md",
     "2024-09-09-daie_introduction.md",
@@ -201,8 +202,6 @@
     "ChatGPT/profile_prompt.md",
     "Testing/Solar System/Planets/2024-05-01-planets.md",
     "Testing/2024-05-01-tests.md",
-    "Notes/yes.md",
-    "Testing/Solar System/Planets/2024-05-01-venus.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
