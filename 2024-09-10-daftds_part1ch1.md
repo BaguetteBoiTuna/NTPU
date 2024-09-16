@@ -14,11 +14,15 @@ tags: []
   - Overcome defects in system design.
   - Improve system reliability.
 
+---
+
 ## Prerequisites
 
 - **Digital Design**
 - **Hardware Organization/Computer Architecture**
 - **Probability Theory**
+
+---
 
 ## Course Outline
 
@@ -33,6 +37,8 @@ Topics covered include:
 7. **Fault-Tolerant Case Studies**
 8. **Measures of Quality for Fault-Tolerant Design**
 
+---
+
 ## Relationship to Other Courses
 
 This course complements:
@@ -40,6 +46,8 @@ This course complements:
 - [Introduction to Intelligent Electronics](2024-09-09-introduction_to_intelligent_electronics.md)
 - [Automotive Intelligent Electronic Systems - Introduction](2024-09-09-automotive-intelligent-electronic-systems---introduction.md)
 - [Design and Application of Intelligent Electronics](2024-09-09-design_and_application_of_intelligent_electronics.md)
+
+---
 
 ## Importance of New Communication Network Standards
 
@@ -49,6 +57,8 @@ This course complements:
   - **High Bandwidth**: Essential for real-time applications.
   - **Determinism**: Simplifies realization of distributed control applications.
   - **[Fault Tolerance](2024-09-10-fault-tolerance.md)**: Crucial for safety-critical applications.
+
+---
 
 ## Network Topologies
 
@@ -67,6 +77,8 @@ This course complements:
   - **Fault Isolation**: Can isolate and manage faulty nodes, preventing network disruption.
   - **High Communication Flow Handling**: Central node manages traffic efficiently.
 - **Disadvantage**: More expensive due to additional hardware requirements.
+
+---
 
 ## [Intrinsic vs. Functional Safety](2024-09-14-safety-concepts.md)
 
@@ -87,12 +99,16 @@ This course complements:
   - Requires consideration of all possible failure causes.
   - Relies on proper functioning of safety mechanisms and user compliance.
 
+---
+
 ## [Fault Tolerance](2024-09-10-fault-tolerance.md) - Basic Definition
 
 - **Fault-Tolerant Systems**: Systems designed to continue functioning correctly even in the presence of faults.
 - **Reality**:
   - Flawless execution under all circumstances is impossible.
   - Focus on likely failures and errors to mitigate.
+
+---
 
 ## Need for [Fault Tolerance](2024-09-10-fault-tolerance.md)
 
@@ -126,6 +142,8 @@ This course complements:
   - High likelihood of faults due to the sheer number of devices.
   - Fault tolerance prevents frequent failures from rendering the system useless.
 
+---
+
 ## Faults, Errors, and Failures
 
 - **Fault**:
@@ -137,6 +155,8 @@ This course complements:
   - Manifestation of a fault during system operation.
 - **Failure**:
   - Deviation of the system from its intended function due to errors.
+
+---
 
 ## Hardware Fault Classification
 

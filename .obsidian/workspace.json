@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d8184d177bbb79cf",
+            "id": "c991434356836d76",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "c991434356836d76",
+            "id": "d6eeb39394a68537",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-14-adas.md",
+                "file": "2024-09-10-daftds_part1ch1.md",
                 "mode": "preview",
                 "source": true
               }
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-14-adas.md",
+                "file": "2024-09-10-daftds_part1ch1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-14-adas.md",
+                "file": "2024-09-10-daftds_part1ch1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-14-adas.md"
+                "file": "2024-09-10-daftds_part1ch1.md"
               }
             }
           },
@@ -173,35 +174,38 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c991434356836d76",
+  "active": "d6eeb39394a68537",
   "lastOpenFiles": [
-    "2024-09-16-automotive-intelligent-electronic-systems---1.md",
-    "2024-09-09-design_and_application_of_intelligent_electronics.md",
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "Knowledge hub.md",
+    "2024-09-09-design_and_application_of_intelligent_electronics.md",
+    "2024-09-16-automotive-intelligent-electronic-systems---1.md",
+    "2024-09-09-automotive-intelligent-electronic-systems---introduction.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
+    "2024-09-10-daftds_part1ch1.md~",
+    "2024-09-09-automotive-intelligent-electronic-systems---introduction.md~",
+    "2024-09-09-introduction_to_intelligent_electronics.md~",
+    "2024-09-16-automotive-intelligent-electronic-systems---1.md~",
+    "Pasted image 20240916105452.png",
+    "2024-09-16-automotive-ethernet-avb-systems.md",
+    "2024-09-16-automotive-ethernet-avb-systems.md~",
+    "Pasted image 20240916103222.png",
+    "2024-09-09-can.md",
+    "README.md",
+    "2024-09-14-adas.md",
     "2024-09-16.md",
     "Knowledge hub.md~",
-    "README.md",
-    "2024-09-16-automotive-intelligent-electronic-systems---1.md~",
     "2024-09-10-business-communication.md~",
     "2024-09-10-advanced-computer-architectures.md~",
     "2024-09-09-design_and_application_of_intelligent_electronics.md~",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md~",
-    "4913",
-    "2024-09-14-adas.md",
     "Pasted image 20240916092646.png",
-    "2024-09-09-can.md~",
     "2024-09-09-flexray.md",
-    "2024-09-09-can.md",
     "2024-09-14-lidar.md",
-    "2024-09-14-adas.md~",
-    "2024-09-14-lidar.md~",
     "2024-09-14-ntpu.md",
     "2024-09-14-network-topologies.md",
     "2024-09-10-daftds_part1ch1.md",
-    "2024-09-09-automotive-intelligent-electronic-systems---introduction.md",
     "2024-09-09-automotive-intelligent-electronic-systems-introduction.md",
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-09-14-safety-concepts.md",
     "2024-09-10-advanced-computer-architectures.md",
     "2024-09-10-introduction---fundamentals-of-concurrent-computer-system-design---ai-enabled-computer-architectures.md",
@@ -210,8 +214,6 @@
     "2024-09-09-soc.md",
     "2024-09-09-ecu.md",
     "2024-09-09-daie_introduction.md",
-    "Design and Application of Intelligent Electronics.md",
-    "ChatGPT/profile_prompt.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

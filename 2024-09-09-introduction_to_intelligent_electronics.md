@@ -31,6 +31,8 @@ tags: []
    - Development Tools and Platforms
    - Case Study: Steer-by-Wire Control System
 
+---
+
 ## Key Concepts
 
 ### Intelligent Electronics Components
@@ -62,6 +64,8 @@ tags: []
 Sensor → [ECU](2024-09-09-ecu.md) → Active Star → Actuators
 
 - **Legend**: "→" represents the communication network flow between components.
+
+---
 
 ## Additional Notes
 

@@ -29,6 +29,8 @@ tags: []
   - Must be cloud-based, secure, and dependable.
 - **Reference Video**: [Control of Unmanned Ground Vehicles](https://www.youtube.com/watch?v=0i7xzM9ybNk)
 
+---
+
 ## Current State of Automotive Electronic Systems
 
 ### Example: VW Phaeton
@@ -50,12 +52,16 @@ tags: []
 
 - Approximately 2,500 signals in 250 [CAN](2024-09-09-can.md) messages.
 
+---
+
 ## Expansion of Automotive Electronics
 
 - **Innovation Source**
   - Over 90% of automotive innovation comes from electronics.
 - **Trend**
   - Embedding electronic systems and silicon components (transistors, microprocessors, diodes) into vehicles.
+
+---
 
 ## Automotive Electronic Applications
 
@@ -65,6 +71,8 @@ tags: []
 - **2010**: 30-35%
 - **2020**: 35-40%
 - **2030 (Estimated)**: Around 50%
+
+---
 
 ## Drive-by-Wire Technology
 
@@ -103,6 +111,8 @@ tags: []
 - **Focus on Safety**
   - Increased emphasis on safety standards and reliability in development.
 
+---
+
 ## Global Megatrends in Automotive Industry
 
 1. **Connectivity**
@@ -113,6 +123,8 @@ tags: []
    - U.S. mandates:
      - 163 grams/mile CO₂ emissions.
      - 54.5 mpg fuel efficiency by 2025.
+
+---
 
 ## Automotive Advancements
 
@@ -134,6 +146,8 @@ tags: []
 - **Efficient Development Processes**
 - **Upgradable Platforms**
   - Scalable and future-proof solutions.
+
+---
 
 ## Levels of Driving Automation
 
