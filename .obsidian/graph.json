@@ -4,9 +4,17 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Knowledge Hub",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
@@ -14,9 +22,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.421875,
-  "repelStrength": 10.8333333333333,
+  "repelStrength": 16.5625,
   "linkStrength": 1,
   "linkDistance": 248,
-  "scale": 0.7734508696019103,
+  "scale": 0.38161296948742235,
   "close": true
 }

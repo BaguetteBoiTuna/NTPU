@@ -5,5 +5,7 @@
   "dataview",
   "cm-editor-syntax-highlight-obsidian",
   "homepage",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-mind-map",
+  "obsidian-kanban"
 ]

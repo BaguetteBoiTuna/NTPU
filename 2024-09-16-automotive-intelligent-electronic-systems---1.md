@@ -56,3 +56,4 @@ And other technologies such as Driving/Planning
      - the effort to collect the data and data diversity
      - the resource and the time to train the large deep learning AI model
      - the assurance of the AI model robustness and safety
+     - takes 2 years to train the model approximately
