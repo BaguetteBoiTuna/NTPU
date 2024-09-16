@@ -90,3 +90,36 @@ Modern vehicles are becoming more software-driven, with many traditional mechani
 - Use **simulations** and **closed field tests** to simulate rare, critical conditions before conducting final tests on real roads, reducing costs and speeding up the process.
   [Example of Virtual test drive from NVIDIA](https://www.youtube.com/watch?v=k54P6-Innt0)
 
+---
+
+## Five-Layered Scenario-Based Testing
+
+### Layered Approach to Autonomous Vehicle Testing
+
+Testing autonomous vehicles requires simulating various scenarios that can affect vehicle behavior. This **five-layered model** provides a comprehensive approach to scenario-based testing by accounting for all the elements an autonomous vehicle might encounter.
+
+#### **Layer 1: Roadbase**
+
+- **Elements**: Road topology, geometry, boundaries, and surface conditions.
+- **Description**: The foundational layer of the testing scenario, focusing on road structure and its physical characteristics, including elevation, curves, and surface quality.
+
+#### **Layer 2: Infrastructure**
+
+- **Elements**: Traffic signs, traffic lights, crosswalks, road markings.
+- **Description**: This layer focuses on the permanent infrastructure that governs vehicle movement and interaction with the environment.
+
+#### **Layer 3: Temporary Influences**
+
+- **Examples**: Construction materials, roadblocks, and temporary signs.
+- **Description**: Includes any temporary or dynamic elements introduced to the driving environment, such as roadworks or lane closures.
+
+#### **Layer 4: Movable Objects**
+
+- **Elements**: Vehicles, pedestrians, animals, cyclists.
+- **Description**: Represents all movable objects that the vehicle must detect and react to, including other road users.
+
+#### **Layer 5: Environmental Conditions**
+
+- **Elements**: Weather conditions (snow, rain, fog, sunlight, wind), time of day, and seasons.
+- **Description**: This layer involves environmental variables that affect visibility, road conditions, and the interaction with other layers. Environmental factors may also influence the behavior of movable objects or the visibility of infrastructure.
+

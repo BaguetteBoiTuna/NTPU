@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-10-daftds_part1ch1.md",
+                "file": "2024-09-16-automotive-intelligent-electronic-systems---1.md",
                 "mode": "preview",
                 "source": true
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-10-daftds_part1ch1.md",
+                "file": "2024-09-16-automotive-intelligent-electronic-systems---1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-10-daftds_part1ch1.md",
+                "file": "2024-09-16-automotive-intelligent-electronic-systems---1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-10-daftds_part1ch1.md"
+                "file": "2024-09-16-automotive-intelligent-electronic-systems---1.md"
               }
             }
           },
@@ -176,16 +176,17 @@
   },
   "active": "d6eeb39394a68537",
   "lastOpenFiles": [
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
-    "Knowledge hub.md",
+    "2024-09-16-automotive-intelligent-electronic-systems---1.md~",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
+    "Knowledge hub.md",
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
+    "2024-09-10-daftds_part1ch1.md",
     "2024-09-16-automotive-intelligent-electronic-systems---1.md",
     "2024-09-09-automotive-intelligent-electronic-systems---introduction.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-10-daftds_part1ch1.md~",
     "2024-09-09-automotive-intelligent-electronic-systems---introduction.md~",
     "2024-09-09-introduction_to_intelligent_electronics.md~",
-    "2024-09-16-automotive-intelligent-electronic-systems---1.md~",
     "Pasted image 20240916105452.png",
     "2024-09-16-automotive-ethernet-avb-systems.md",
     "2024-09-16-automotive-ethernet-avb-systems.md~",
@@ -204,7 +205,6 @@
     "2024-09-14-lidar.md",
     "2024-09-14-ntpu.md",
     "2024-09-14-network-topologies.md",
-    "2024-09-10-daftds_part1ch1.md",
     "2024-09-09-automotive-intelligent-electronic-systems-introduction.md",
     "2024-09-14-safety-concepts.md",
     "2024-09-10-advanced-computer-architectures.md",
