@@ -7,7 +7,7 @@ tags: []
 
 # Advanced Computer Architectures
 
-## course description will go there I am just lazy for the moment
+## /!\ I dropped this course
 
 ### courses
 
