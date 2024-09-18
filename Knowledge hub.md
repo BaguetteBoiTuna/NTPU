@@ -18,3 +18,4 @@ Contains the following courses:
 - [Design and Analysis of fault-tolerant Digital Systems](2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md)
 - [Business Communication](2024-09-10-business-communication.md)
 - [Advanced Computer Architectures](2024-09-10-advanced-computer-architectures.md)
+- [Deep Learning for Image Analysis](2024-09-18-deep-learning-for-image-analysis.md)
