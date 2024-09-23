@@ -2,9 +2,9 @@
 
 This repository contains my Obsidian setup for note-taking, primarily focused on the courses I have taken at National Taipei University (NTPU). All the notes, assignments, and related materials from my academic journey at NTPU are documented here.
 
-## Recommended Software
+## Required Software
 
-To fully explore and navigate these notes, it is highly recommended to use **Obsidian**, as it allows for easy access to linked notes and supports Obsidian’s unique note-linking features. Using Obsidian will enable you to get the most out of the interconnected structure of these notes.
+To properly view and navigate these notes, **Obsidian** is essential. Without it, accessing the interlinked notes and navigating through the material would be difficult and cumbersome. Obsidian's unique note-linking and organizational features are integral to the structure of this repository, and attempting to explore it without Obsidian will result in a suboptimal and frustrating experience.
 
 ## How to Get Started
 

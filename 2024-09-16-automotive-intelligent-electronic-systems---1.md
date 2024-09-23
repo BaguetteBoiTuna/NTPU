@@ -123,3 +123,7 @@ Testing autonomous vehicles requires simulating various scenarios that can affec
 - **Elements**: Weather conditions (snow, rain, fog, sunlight, wind), time of day, and seasons.
 - **Description**: This layer involves environmental variables that affect visibility, road conditions, and the interaction with other layers. Environmental factors may also influence the behavior of movable objects or the visibility of infrastructure.
 
+#### Bonus Layer 6: [Internet of Things (IoT)](2024-09-23-iot.md) and Connectivity
+
+- Elements: Connectivity to other vehicles, infrastructure, and cloud services.
+- Description: The integration of [IoT](2024-09-23-iot.md) and connectivity elements that enable V2X (Vehicle-to-Everything) communication, enhancing the vehicle's awareness and decision-making capabilities.

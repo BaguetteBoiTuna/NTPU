@@ -16,3 +16,4 @@ This course provides a comprehensive overview of **intelligent electronics**, wi
 - [Introduction to Intelligent Electronics](2024-09-09-introduction_to_intelligent_electronics.md)
 - [Automotive Intelligent Electronic Systems - Introduction](2024-09-09-automotive-intelligent-electronic-systems---introduction.md)
 - [Automotive Intelligent Electronic Systems - 1](2024-09-16-automotive-intelligent-electronic-systems---1.md)
+- [Automotive Intelligent Electronic Systems - 2](2024-09-23-automotive-intelligent-electronic-systems---2.md)
