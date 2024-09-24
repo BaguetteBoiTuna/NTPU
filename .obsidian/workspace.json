@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-10-fault-tolerance.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7be9cc747f9fdddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-09-24-daftds_part1ch1re.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-24-daftds_part1ch1re.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-24-daftds_part1ch1re.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-09-24-daftds_part1ch1re.md"
               }
             }
           },
@@ -165,9 +178,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "25e63ed4da0fbf0f",
+  "active": "7be9cc747f9fdddf",
   "lastOpenFiles": [
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
+    "Knowledge hub.md",
+    "2024-09-10-fault-tolerance.md",
     "2024-09-24-daftds_part1ch1re.md",
+    "README.md~",
     "2024-09-24-daftds_part1ch1re.md~",
     "2024-09-24-failure.md",
     "2024-09-24-failure.md~",
@@ -177,13 +194,11 @@
     "2024-09-10-fault-tolerance.md~",
     "2024-09-24-error.md~",
     "2024-09-24-error.md",
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-09-10-daftds_part1ch1.md",
     "2024-09-24-sil.md~",
     "2024-09-24-sil.md",
     "IEC-61508.png",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md~",
-    "Knowledge hub.md",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md~",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
@@ -197,7 +212,6 @@
     "Pasted image 20240923102605.png",
     "Pasted image 20240923102559.png",
     "Pasted image 20240923102539.png",
-    "README.md~",
     "2024-09-23-iot.md",
     "2024-09-10-business-communication.md",
     "2024-09-23-homework1.md",

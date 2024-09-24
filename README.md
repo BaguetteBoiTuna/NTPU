@@ -11,7 +11,7 @@ To properly view and navigate these notes, **Obsidian** is essential. Without it
 1. Clone or download the repository.
 2. Open **Obsidian**.
 3. Use Obsidian’s "Open folder as vault" feature to open this repository.
-4. Begin exploring by opening the `Knowledge Hub.md` file, which serves as the entry point to all the notes.
+4. Begin exploring by opening the `Knowledge Hub.md` file, which serves as the entry point to all the notes. To open the file without looking for it, you will find in the sidebar on the left a house shaped icon that says "Open homepage" when you hover over it. Click on it to open the `Knowledge Hub.md` file.
 
 ## Structure
 
