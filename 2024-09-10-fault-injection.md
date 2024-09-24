@@ -8,7 +8,7 @@ tags: []
 
 ## Definition
 
-- **Fault Injection**: A testing technique where faults are deliberately introduced into a system to evaluate its behavior and assess its fault tolerance and robustness.
+- **Fault Injection**: A testing technique where [faults](2024-09-24-fault.md) are deliberately introduced into a system to evaluate its behavior and assess its [fault tolerance](2024-09-10-fault-tolerance.md) and robustness.
 
 ## Purpose
 

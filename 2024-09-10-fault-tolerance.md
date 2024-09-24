@@ -8,13 +8,13 @@ tags: []
 
 ## Definition
 
-- **Fault Tolerance**: The ability of a system to continue operating properly in the event of the failure of some of its components.
+- **Fault Tolerance**: The ability of a system to continue operating properly in the event of the [failure](2024-09-24-failure.md) of some of its components.
 
 ## Key Concepts
 
-- **Fault**: A physical defect, imperfection, or flaw in hardware or software components.
-- **Error**: The manifestation of a fault during system operation.
-- **Failure**: Deviation of the system from its intended function due to errors.
+- **[Fault](2024-09-24-fault.md)**: A physical defect, imperfection, or flaw in hardware or software components.
+- **[Error](2024-09-24-error.md)**: The manifestation of a fault during system operation.
+- **[Failure](2024-09-24-failure.md)**: Deviation of the system from its intended function due to errors.
 
 ## Importance of Fault Tolerance
 
