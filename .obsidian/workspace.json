@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eaf7adaf17456a61",
+            "id": "25e63ed4da0fbf0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md",
+                "file": "Knowledge hub.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -164,12 +165,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "299be9ce85ce4a26",
+  "active": "25e63ed4da0fbf0f",
   "lastOpenFiles": [
+    "2024-09-24-daftds_part1ch1re.md",
     "2024-09-24-daftds_part1ch1re.md~",
     "2024-09-24-failure.md",
     "2024-09-24-failure.md~",
-    "2024-09-24-daftds_part1ch1re.md",
     "2024-09-24-fault.md",
     "2024-09-24-fault.md~",
     "2024-09-10-fault-injection.md~",
