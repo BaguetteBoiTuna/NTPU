@@ -52,4 +52,3 @@ Quantitative: ego vehicle hits the obstacle with the speed of 3.15m/s.
 ## V Model System Design
 
 ![[Pasted image 20240923104801.png]]
-

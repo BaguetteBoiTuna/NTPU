@@ -14,3 +14,4 @@ This course delves into the concepts of **fault tolerance** and **safety** in el
 ### courses
 
 - [DAFTDS_Part1Ch1](2024-09-10-daftds_part1ch1.md)
+- [DAFTDS_Part1Ch1RE](2024-09-24-daftds_part1ch1re.md)
