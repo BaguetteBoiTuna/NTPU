@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md",
+                "file": "2024-09-24-failure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md",
+                "file": "2024-09-24-failure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md",
+                "file": "2024-09-24-failure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-24-daftds_part1ch1re.md"
+                "file": "2024-09-24-failure.md"
               }
             }
           },
@@ -166,14 +166,14 @@
   },
   "active": "eaf7adaf17456a61",
   "lastOpenFiles": [
-    "2024-09-24-daftds_part1ch1re.md~",
-    "2024-09-24-fault.md",
+    "2024-09-24-failure.md~",
     "2024-09-24-daftds_part1ch1re.md",
+    "2024-09-24-fault.md",
+    "2024-09-24-daftds_part1ch1re.md~",
     "2024-09-24-fault.md~",
     "2024-09-10-fault-injection.md~",
     "2024-09-10-fault-tolerance.md~",
     "2024-09-24-error.md~",
-    "2024-09-24-failure.md~",
     "2024-09-24-failure.md",
     "2024-09-24-error.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",

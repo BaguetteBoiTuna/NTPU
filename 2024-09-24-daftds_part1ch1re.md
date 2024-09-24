@@ -21,3 +21,17 @@ If you want to know more about the concepts of [Faults](2024-09-24-fault.md), [E
 
 **[Fault](2024-09-24-fault.md)** -> **[Error](2024-09-24-error.md)** -> **[Failure](2024-09-24-failure.md)**
 
+## The domain of service failure
+
+In the domain of **service failure**, the following are key failure types that impact system reliability and functionality:
+
+1. **Content Failures**: These occur when the system provides incorrect or corrupt outputs. The service continues to operate, but the content it delivers is erroneous. An example would be a system returning incorrect data due to calculation errors.
+
+2. **Timing Failures**: These happen when a system fails to meet its required timing constraints, such as deadlines. Even if the correct data is generated, delivering it too late or too early can make the service unusable. Real-time systems, like control systems in aircraft, are particularly vulnerable to timing failures.
+
+3. **Halt Failures**: In this type of failure, the service stops functioning entirely. The system halts without providing further output or progress. This can be due to critical software errors or hardware malfunctions.
+
+4. **Erratic Failures**: These occur when the system behaves unpredictably or inconsistently, such as delivering random outputs or oscillating between functioning and failing states. This type of failure is particularly dangerous because it is hard to diagnose and resolve.
+
+These failure modes are critical in designing reliable, [fault-tolerant](2024-09-10-fault-tolerance.md) systems, especially in safety-critical environments.
+
