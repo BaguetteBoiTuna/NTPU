@@ -9,7 +9,7 @@ tags: []
 
 ## Course Description
 
-Ill add it soon :)
+This course introduces deep learning techniques for analyzing and interpreting images. Students will learn about image formats, digital processing, and key methods such as classification, object detection, and segmentation. Hands-on experience with supervised and unsupervised learning will be provided, focusing on real-world applications in fields like medicine, neuroscience, and computer vision.
 
 ### courses
 
