@@ -20,3 +20,4 @@ All classes are/will be recorded: here is the [link](https://www.youtube.com/pla
 Yes this is pretty much smurfing.
 
 - [Homework1](2024-09-23-homework1.md)
+- [CiB_W3_Homework_Dante](2024-09-26-cib_w3_homework_dante.md)

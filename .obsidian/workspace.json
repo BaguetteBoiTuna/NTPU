@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
-                "mode": "source",
+                "file": "2024-09-26-cib_w3_homework_dante.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-26-cib_w3_homework_dante.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-26-cib_w3_homework_dante.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-09-26-cib_w3_homework_dante.md"
               }
             }
           },
@@ -167,12 +167,14 @@
   },
   "active": "823bde354ec74632",
   "lastOpenFiles": [
+    "2024-09-10-business-communication.md",
+    "Knowledge hub.md",
+    "2024-09-26-cib_w3_homework_dante.md~",
+    "2024-09-26-cib_w3_homework_dante.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
-    "Knowledge hub.md",
     "2024-09-23-homework1.md",
     "2024-09-23-homework1.md~",
-    "2024-09-10-business-communication.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-09-24-daftds_part1ch1re.md",
     "2024-09-24-fault.md",
@@ -187,7 +189,6 @@
     "2024-09-24-error.md~",
     "2024-09-24-error.md",
     "2024-09-10-daftds_part1ch1.md",
-    "2024-09-24-sil.md~",
     "2024-09-24-sil.md",
     "IEC-61508.png",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
@@ -211,7 +212,6 @@
     "2024-09-09-can.md",
     "README.md",
     "2024-09-16.md",
-    "2024-09-09-flexray.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
