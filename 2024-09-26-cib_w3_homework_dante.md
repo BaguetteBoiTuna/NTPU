@@ -69,3 +69,8 @@ Each perspective require adapting the report to meet specific expectations, whet
 ## Share with us any international etiquette or country specific etiquette you have known or found
 
 ### French Etiquette
+
+I recall 3 key etiquette rules from my childhood in France:
+
+- **Greetings**: In France, it's common to greet each person individually either with a handshake or "la bise". "La bise" is a kiss on each cheek, starting with the left cheek. You are supposed to kiss the air near the cheek rather than actually making contact. When you leave you should say goodbye to everyone individually.
+- **Dining etiquette**: In France, it's considered polite to keep your hands on the table during the meal, rather than in your lap. Also, it's customary to keep your hands above the table, not below it. Avoid having your elbows on the table. It's also polite to wait until the host starts eating before you begin. Lastly I noticed that not every family does this but you are supposed to eat with your mouth closed and to not do any sound when eating.
