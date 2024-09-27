@@ -19,6 +19,11 @@ A good written report can be assessed differently depending on the perspective o
 - **Correctness and academic rigor**: Teachers often look for the accuracy of facts, good grammar and adherence to the guidelines of academic writing, including citation styles like APA or MLA.
 
   - **APA (American Psychological Association) style**: Used in Social sciences, psychology, sociology and education. There are two formats: in-text citations and references list.
+    - **In-text citations**: (Author, Year, page): (Smith, 2019, p. 23)
+    - **References list**: Smith, J. (2019). Title of the book. Publisher.
+  - **MLA (Modern Language Association) style**: Used in humanities, arts, philosophy and literature. There are two formats: in-text citations and works cited.
+    - **In-text citations**: (Author page): (Smith 23)
+    - **Works cited**: Smith, John. Title of the book. Publisher, 2019.
 
 - **Critical thinking**: They also value analysis and original thought. It's important to not just present information but to critically engage with it and show understanding of the material
 
