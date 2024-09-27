@@ -47,4 +47,12 @@ A good written report can be assessed differently depending on the perspective o
 
 ### From people who don't know the subjects you write about
 
+- **Simplicity**: For readers who are not experts in the subject matter, a good report should avoid jargon and explain concepts clearly. Including a glossary for technical terms can help.
+
+- **Engagement**: Use visuals and real-world examples to make complex ideas more relatable. The report should guide the reader through the content without overwhelming them with excessive detail.
+
+- **Sources**:
+  - [The Writing Center: Audience](https://writingcenter.unc.edu/tips-and-tools/audience/)
+  - [Grammarly: How to Write a Report](https://www.grammarly.com/blog/how-to-write-a-report/)
+
 ### Any differences or similarities between them?
