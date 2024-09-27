@@ -19,17 +19,19 @@ A good written report can be assessed differently depending on the perspective o
 - **Correctness and academic rigor**: Teachers often look for the accuracy of facts, good grammar and adherence to the guidelines of academic writing, including citation styles like APA or MLA.
 
   - **APA (American Psychological Association) style**: Used in Social sciences, psychology, sociology and education. There are two formats: in-text citations and references list.
-    - **In-text citations**: (Author, Year, page): (Smith, 2019, p. 23)
-    - **References list**: Smith, J. (2019). Title of the book. Publisher.
+    - **In-text citations**: (Author, Year, page)
+    - **References list**: Author's surname, initial(s). (Date Published). Title of source. Location of publisher: publisher. Retrieved from URL.
   - **MLA (Modern Language Association) style**: Used in humanities, arts, philosophy and literature. There are two formats: in-text citations and works cited.
-    - **In-text citations**: (Author page): (Smith 23)
-    - **Works cited**: Smith, John. Title of the book. Publisher, 2019.
+    - **In-text citations**: (Author page)
+    - **Works cited**: Author name(s). _"Title of source"_. _Title of container_, other contributors, version, numbers, publisher, publication date, location.
 
 - **Critical thinking**: They also value analysis and original thought. It's important to not just present information but to critically engage with it and show understanding of the material
 
 - Sources:
   - [Grammarly: How to Write a Report](https://www.grammarly.com/blog/how-to-write-a-report/)
   - [English at Home: 10 Tips for Perfect Report Writing](https://english-at-home.com/business/report-writing/)
+  - [APA Format Citation Guide](https://www.mendeley.com/guides/apa-citation-guide/)
+  - [MLA 8 Citation Guide](https://www.mendeley.com/guides/mla-citation-guide/)
 
 ### From your (future) employer's perspective
 
