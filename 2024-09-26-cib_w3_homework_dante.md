@@ -56,3 +56,8 @@ A good written report can be assessed differently depending on the perspective o
   - [Grammarly: How to Write a Report](https://www.grammarly.com/blog/how-to-write-a-report/)
 
 ### Any differences or similarities between them?
+
+- **Similarities**: All audiences value clarity, good organization, and a logical flow of ideas. Proper formatting and adherence to the purpose of the report are crucial for all readers.
+- **Differences**: Teachers focus on academic rigor and depth of understanding, bosses prioritize actionable insights and brevity, and non-expert audiences need clear explanations and simple language. The tone and detail level should vary depending on the audience.
+
+Each perspective require adapting the report to meet specific expectations, whether that's thorough analysis for teachers, concise problem-solving for bosses, or accessible explanations for a general audience.
