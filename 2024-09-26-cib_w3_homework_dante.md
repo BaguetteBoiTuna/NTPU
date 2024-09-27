@@ -18,6 +18,8 @@ A good written report can be assessed differently depending on the perspective o
 - \*\*Correctness and academic rigor: Teachers often look for the accuracy of facts, good grammar and adherence to the guidelines of academic writing, including citation styles like APA or MLA.
 - **Critical thinking**: They also value analysis and original thought. It's important to not just present information but to critically engage with it and show understanding of the material
 - Sources:
+  - [Grammarly: How to Write a Report](https://www.grammarly.com/blog/how-to-write-a-report/)
+  - [English at Home: 10 Tips for Perfect Report Writing](https://english-at-home.com/business/report-writing/)
 
 ### From your (future) employer's perspective
 
