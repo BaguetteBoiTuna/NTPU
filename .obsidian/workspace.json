@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1753a51161be936",
+        "id": "2796ec8c29f3b78a",
         "type": "tabs",
         "children": [
           {
-            "id": "4d54406eb24879ef",
+            "id": "d0a1806fdd18d92a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -164,12 +165,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4d54406eb24879ef",
+  "active": "d0a1806fdd18d92a",
   "lastOpenFiles": [
-    "2024-09-26-cib_w3_homework_dante.md~",
     "2024-09-10-business-communication.md",
     "Knowledge hub.md",
     "2024-09-26-cib_w3_homework_dante.md",
+    "2024-09-26-cib_w3_homework_dante.md~",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-09-23-homework1.md",
