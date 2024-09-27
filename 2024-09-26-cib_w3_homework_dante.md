@@ -27,7 +27,7 @@ A good written report can be assessed differently depending on the perspective o
 
 - **Critical thinking**: They also value analysis and original thought. It's important to not just present information but to critically engage with it and show understanding of the material
 
-- Sources:
+- **Sources**:
   - [Grammarly: How to Write a Report](https://www.grammarly.com/blog/how-to-write-a-report/)
   - [English at Home: 10 Tips for Perfect Report Writing](https://english-at-home.com/business/report-writing/)
   - [APA Format Citation Guide](https://www.mendeley.com/guides/apa-citation-guide/)
@@ -36,6 +36,14 @@ A good written report can be assessed differently depending on the perspective o
 ### From your (future) employer's perspective
 
 - **Conciseness and relevance**: In a business environment, clarity and brevity are highly valued. Your boss is likely to prefer reports that are direct, with key points highlighted early on ( such as in an executive summary). The report should focus on actionable insights or recommendations.
+
+- **Professional presentation**: A well-formatted report with attention to detail in design and layout is crucial. Charts, tables, and visuals may be used to support your findings.
+
+- **Problem-solving**: Bosses often expect reports to not only present data but also suggest solutions or strategies for improvement.
+
+- **Sources**:
+  - [Grammarly: How to Write a Report](https://www.grammarly.com/blog/how-to-write-a-report/)
+  - [English at Home: 10 Tips for Perfect Report Writing](https://english-at-home.com/business/report-writing/)
 
 ### From people who don't know the subjects you write about
 
