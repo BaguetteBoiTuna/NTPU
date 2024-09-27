@@ -75,6 +75,8 @@ Parallel structure ensures that elements in a sentence that are alike in functio
 
 Parallel structure helps maintain readability and professionalism in writing, making it easier for the reader to follow your ideas.
 
+Source: [Here Are 11 Little Known Grammar Rules You Need to Know](https://limelightlog.com/little-known-grammar-rules-you-need-to-know/)
+
 ## Share with us any international etiquette or country specific etiquette you have known or found
 
 ### French Etiquette
