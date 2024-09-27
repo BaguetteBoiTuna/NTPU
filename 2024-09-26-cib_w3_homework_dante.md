@@ -66,6 +66,15 @@ Each perspective require adapting the report to meet specific expectations, whet
 
 ## Share with us one rule (formal or informal both fine) or more in writing that you think others may not know
 
+### Parallel Structure
+
+Parallel structure ensures that elements in a sentence that are alike in function are presented in a consistent way. When listing items or ideas, it's important to maintain the same grammatical form for clarity and flow. For example, in a list verbs should all be in the same tense and format.
+
+- **Incorrect**: I like swimming, to run and reading books.
+- **Correct**: I like swimming, running and reading books.
+
+Parallel structure helps maintain readability and professionalism in writing, making it easier for the reader to follow your ideas.
+
 ## Share with us any international etiquette or country specific etiquette you have known or found
 
 ### French Etiquette
