@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "71d57e6f6c102618",
+        "id": "4cbdeebe8aac52b1",
         "type": "tabs",
         "children": [
           {
-            "id": "98ad37b27ee00838",
+            "id": "7f46f91f62700d57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-10-advanced-computer-architectures.md",
+                "file": "Knowledge hub.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-10-advanced-computer-architectures.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-10-advanced-computer-architectures.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-10-advanced-computer-architectures.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -165,8 +165,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "98ad37b27ee00838",
+  "active": "7f46f91f62700d57",
   "lastOpenFiles": [
+    "2024-09-10-advanced-computer-architectures.md",
     "Knowledge hub.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
     "2024-09-16-automotive-intelligent-electronic-systems---1.md",
