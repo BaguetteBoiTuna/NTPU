@@ -14,3 +14,9 @@ To override the effects of a faulty failed component we can add extra hardware/s
 - **Static Hardware Redundancy**: for immediate making of a failure, the redundant components are always active. For example using 3 processors that check the output to find if a single processor is faulty.
 - **Dynamic Hardware Redundancy**: the redundant components are activated only when a failure occurs. For example, a spare processor that is activated when the main processor fails.
 - **Hybrid Hardware Redundancy**: a combination of both static and dynamic redundancy.
+
+You can also have different types of hardware redundancy like:
+
+- TMR (Triple Modular Redundancy): 3 copies of the same hardware, the output is decided by majority voting.
+- NMR (N Modular Redundancy): N copies of the same hardware, the output is decided by majority voting.
+- Duplication with Comparison: 2 copies of the same hardware that are compared. It provides fault detection but not fault tolerance.
