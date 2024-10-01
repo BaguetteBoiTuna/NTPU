@@ -54,7 +54,9 @@ However, it can increase overhead and latency, making it a trade-off in systems 
 
 ---
 
-## Goals of Fault Tolerance - Reliability, Availability, Safety
+## Goals of Fault Tolerance
+
+### Reliability
 
 - **Assumption**: Faults are inevitable in complex systems. The system can be in one of two states: "up" and "down"
 - **Examples**:
