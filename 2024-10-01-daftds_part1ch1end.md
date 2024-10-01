@@ -20,3 +20,11 @@ You can also have different types of hardware redundancy like:
 - TMR (Triple Modular Redundancy): 3 copies of the same hardware, the output is decided by majority voting.
 - NMR (N Modular Redundancy): N copies of the same hardware, the output is decided by majority voting.
 - Duplication with Comparison: 2 copies of the same hardware that are compared. It provides fault detection but not fault tolerance.
+
+## Software Redundancy
+
+Another [fault tolerant](2024-09-10-fault-tolerance.md) technique. It involves writing multiple versions of the software that perform the same function. The outputs of these versions are compared to detect any discrepancies. If a discrepancy is found, the system can take corrective action. It is used in safety-critical systems like aircraft control systems.
+
+It can be cheaper than hardware redundancy if the hardware is expensive. However, it can be more complex to implement and may introduce additional overhead. You also have to hire multiple teams of developers to write the redundant software.
+
+It is also called N-version programming.
