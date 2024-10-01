@@ -7,50 +7,49 @@ tags: []
 
 # DAFTDS_Part1Ch1END
 
-## Hardware Redundancy
+## Hardware and Software Redundancy
 
-To override the effects of a faulty failed component we can add extra hardware/spare components, that is called hardware redundancy. It is a technique of [Fault Tolerance](2024-09-10-fault-tolerance.md).
+### Hardware Redundancy
 
-- **Static Hardware Redundancy**: for immediate making of a failure, the redundant components are always active. For example using 3 processors that check the output to find if a single processor is faulty.
-- **Dynamic Hardware Redundancy**: the redundant components are activated only when a failure occurs. For example, a spare processor that is activated when the main processor fails.
-- **Hybrid Hardware Redundancy**: a combination of both static and dynamic redundancy.
+Hardware redundancy involves adding extra or spare components to override the effects of a faulty or failed component, ensuring continued operation. It is a key technique in [Fault Tolerance](2024-09-10-fault-tolerance.md).
 
-You can also have different types of hardware redundancy like:
+#### Types of Hardware Redundancy
 
-- TMR (Triple Modular Redundancy): 3 copies of the same hardware, the output is decided by majority voting.
-- NMR (N Modular Redundancy): N copies of the same hardware, the output is decided by majority voting.
-- Duplication with Comparison: 2 copies of the same hardware that are compared. It provides fault detection but not fault tolerance.
+- **Static Hardware Redundancy**: Redundant components are always active and immediately take over in the event of a failure. Example: using three processors where their outputs are compared to detect a faulty processor.
+- **Dynamic Hardware Redundancy**: Redundant components are only activated upon failure. Example: a spare processor activated when the primary processor fails.
+- **Hybrid Hardware Redundancy**: A combination of both static and dynamic redundancy.
+
+#### Common Redundancy Configurations
+
+- **TMR (Triple Modular Redundancy)**: Uses three copies of the same hardware, with the output determined by majority voting.
+- **NMR (N Modular Redundancy)**: Extends TMR to N copies, using majority voting for output.
+- **Duplication with Comparison**: Involves two copies of the hardware for fault detection by comparing their outputs. This method only detects faults but does not tolerate them.
+
+### Software Redundancy
+
+Software redundancy is another [fault tolerance](2024-09-10-fault-tolerance.md) technique that involves writing multiple versions of software that perform the same function. The outputs of these versions are compared to detect discrepancies, allowing the system to take corrective action. This approach is used in safety-critical systems, such as aircraft control.
+
+#### Key Points
+
+- **N-version Programming**: Multiple teams develop different versions of software to increase fault tolerance.
+- **Cost Considerations**: Software redundancy can be less expensive than hardware redundancy when hardware is costly, but it is more complex to implement and requires multiple development teams.
+
+### Information Redundancy
+
+Information redundancy involves adding extra data to detect and correct errors, often used in error detection and correction codes. For example, a parity bit can be added to a byte of data. Information redundancy is commonly used in RAID systems to enhance fault tolerance, and it typically requires hardware redundancy to process additional check bits.
+
+### Time Redundancy
+
+Time redundancy involves processing the same data multiple times to detect and correct errors. For instance, a system might process the same data twice and compare the results to detect discrepancies. Time redundancy is often used alongside other redundancy techniques to enhance fault tolerance. It is especially useful in dealing with transient failures, where re-executing an operation can resolve the issue.
+
+However, it can increase overhead and latency, making it a trade-off in systems with time-sensitive operations.
+
+### Dependability and Security Attributes
+
+- **Availability**: Readiness for correct service.
+- **Reliability**: Continuity of correct service.
+- **Safety**: Absence of catastrophic consequences for users and the environment.
+- **Integrity**: Protection against improper system alterations.
+- **Maintainability**: The system's ability to undergo modifications and repairs.
 
 ---
-
-## Software Redundancy
-
-Another [fault tolerant](2024-09-10-fault-tolerance.md) technique. It involves writing multiple versions of the software that perform the same function. The outputs of these versions are compared to detect any discrepancies. If a discrepancy is found, the system can take corrective action. It is used in safety-critical systems like aircraft control systems.
-
-It can be cheaper than hardware redundancy if the hardware is expensive. However, it can be more complex to implement and may introduce additional overhead. You also have to hire multiple teams of developers to write the redundant software.
-
-It is also called N-version programming.
-
----
-
-## Information Redundancy
-
-Adding extra information to the data to detect and correct errors. It is used in error detection and correction codes. For example, adding a parity bit to a byte of data. Information redundancy is also used in RAID systems to provide fault tolerance. Information redundancy often requires hardware redundancy to process the additional check bits.
-
----
-
-## Time Redundancy
-
-Processing the same data multiple times to detect and correct errors. For example, a system can process the same data twice and compare the results. If the results are different, the system can take corrective action. Time redundancy can be used in conjunction with other redundancy techniques to improve fault tolerance. Most failures are transient and can be corrected by re-executing the operation.
-
-If enough slack time is available, the system can re-execute the operation multiple times to ensure the correct result. Time redundancy can be used to improve the reliability of critical operations. However, it can introduce additional overhead and latency.
-
----
-
-## Dependability and Security attributes
-
-- **Availability**: readiness for correct service.
-- **Reliability**: continuity of correct service.
-- **Safety**: absence of catastrophic consequences on the user(s) and the environment.
-- **Integrity**: absence of improper system alterations.
-- **Maintainability**: ability to undergo modifications and repairs.
