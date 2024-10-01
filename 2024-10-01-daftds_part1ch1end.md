@@ -53,3 +53,15 @@ However, it can increase overhead and latency, making it a trade-off in systems 
 - **Maintainability**: The system's ability to undergo modifications and repairs.
 
 ---
+
+## Goals of Fault Tolerance - Reliability, Availability, Safety
+
+- **Assumption**: Faults are inevitable in complex systems. The system can be in one of two states: "up" and "down"
+- **Examples**:
+
+  - A Light Bulb is either functional or burnt out.
+  - A Wire is either connected or broken.
+
+- **Reliability, R(t)**: The probability that the system is up during the whole interval [0, t], given it was up at time 0.
+
+- **Related measure - Mean Time To Failure (MTTF)**: Average time the system remains up before it goes dow and has to be repaired or replaced.
