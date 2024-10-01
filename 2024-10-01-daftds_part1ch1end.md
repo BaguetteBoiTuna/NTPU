@@ -66,12 +66,25 @@ However, it can increase overhead and latency, making it a trade-off in systems 
 
 - **Reliability, R(t)**: The probability that the system is up during the whole interval [0, t], given it was up at time 0.
 
-- **Related measure - Mean Time To Failure (MTTF)**: Average time the system remains up before it goes dow and has to be repaired or replaced.
+- **Related measure**:
+  - **Mean Time To Failure (MTTF)**: Average time the system remains up before it goes dow and has to be repaired or replaced.
 
 ### Availability
+
+Availability is used in systems with downtime.
 
 - **Availability, A(t)**: Fraction of time system is up during the interval [0, t].
 
 - **Availability Point, Ap(t)**: Probability that the system is up at time t, given it was up at time 0.
 
 - **Long-Term Availability, A**: ![[Pasted image 20241001115041.png]]
+
+- **Related measures**:
+  - **Mean Time To Repair (MTTR)**: Average time to repair a failed system.
+  - **Mean Time Between Failures (MTBF)**: Average time between failures. MTBF = MTTF + MTTR.
+    ![[Pasted image 20241001115319.png]]
+
+### Safety
+
+- **Safety, S(t)**: Probability that the system is either up or in a failure state but safe, i.e. the failure won't cause the hazard during the whole interval [0, t], given it was up at time 0.
+
