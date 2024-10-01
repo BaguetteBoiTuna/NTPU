@@ -28,3 +28,7 @@ Another [fault tolerant](2024-09-10-fault-tolerance.md) technique. It involves w
 It can be cheaper than hardware redundancy if the hardware is expensive. However, it can be more complex to implement and may introduce additional overhead. You also have to hire multiple teams of developers to write the redundant software.
 
 It is also called N-version programming.
+
+## Information Redundancy
+
+Adding extra information to the data to detect and correct errors. It is used in error detection and correction codes. For example, adding a parity bit to a byte of data. Information redundancy is also used in RAID systems to provide fault tolerance. Information redundancy often requires hardware redundancy to process the additional check bits.
