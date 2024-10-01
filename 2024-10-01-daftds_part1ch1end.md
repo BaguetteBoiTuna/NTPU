@@ -67,3 +67,11 @@ However, it can increase overhead and latency, making it a trade-off in systems 
 - **Reliability, R(t)**: The probability that the system is up during the whole interval [0, t], given it was up at time 0.
 
 - **Related measure - Mean Time To Failure (MTTF)**: Average time the system remains up before it goes dow and has to be repaired or replaced.
+
+### Availability
+
+- **Availability, A(t)**: Fraction of time system is up during the interval [0, t].
+
+- **Availability Point, Ap(t)**: Probability that the system is up at time t, given it was up at time 0.
+
+- **Long-Term Availability, A**: ![[Pasted image 20241001115041.png]]
