@@ -27,16 +27,17 @@ If i could go back in time I would have just not let this guy join the group pro
 
 Avoid excessive use of exclamation points. While trying to emphasize on excitement or urgency, using too any exclamation points can have the opposite effect making it overly dramatic or sound insincere.
 
-### French etiquette we forgot to mention
+### French Dining Etiquette: Table Setting Rules
 
-In France, since we eat with a fork, knife and spoon we have rules when it comes to setting up the table and placement of the cutlery. In fine dining there can also be duplicate cutlery for different courses and an extra plate and knife for the bread and butter.
+#### Correct Placement of Cutlery
 
-- **Forks**: The fork(s) is placed on the left side of the plate.
-- **Knives**: The knife(s) is placed on the right side of the plate.
-- **Spoon**: If soup is served the soup spoon is placed on the right of the knife.
-- **Dessert**: Dessert cutlery is generally brought out with the desert but if not it is placed above the plate.
+In France, table setting is an important aspect of dining, especially during formal meals. Each piece of cutlery has its place:
 
-When there is more then one set of cutlery, they are arranged in the order of use. Starting from the outside and moving inwards.
+- **Forks**: Left of the plate.
+- **Knives**: Right of the plate, with blades facing the plate.
+- **Spoon**: To the right of the knife if soup is being served.
+- **Dessert Cutlery**: Placed above the plate or brought with the dessert.
+
+When there is more than one set of cutlery, they are arranged in the order of use, starting from the outside and moving inward.
 
 ![[Pasted image 20241007095102.png]]
-
