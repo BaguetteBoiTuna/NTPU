@@ -24,3 +24,9 @@ If i could go back in time I would have just not let this guy join the group pro
 ### Writing rule
 
 Avoid excessive use of exclamation points. While trying to emphasize on excitement or urgency, using too any exclamation points can have the opposite effect making it overly dramatic or sound insincere.
+
+### French etiquette we forgot to mention
+
+In France, since we eat with a fork, knife and spoon we have rules when it comes to setting up the table and placement of the cutlery. There can also be duplicate cutlery for different courses.
+
+- **Forks**: The fork(s) is placed on the left side of the plate.
