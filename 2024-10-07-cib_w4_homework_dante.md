@@ -7,6 +7,10 @@ tags: []
 
 # CiB W4 Homework
 
-## 1. Active Listening
+## Active Listening
 
-Since I already move my head a lot when i am listening to someone, I tried to focus on questions and I noticed that conversations last longer and are more engaging.
+### Skills/Strategies used and how they helped
+
+Since I already move my head a lot when i am listening to someone, I tried to focus on questions and I noticed that conversations last longer and are more engaging. I also noticed that I am more focused on the conversation since i am trying to think of questions to ask next.
+
+## Worse group work experience and how it could have been improved
