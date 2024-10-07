@@ -14,3 +14,7 @@ tags: []
 Since I already move my head a lot when i am listening to someone, I tried to focus on questions and I noticed that conversations last longer and are more engaging. I also noticed that I am more focused on the conversation since i am trying to think of questions to ask next.
 
 ## Worse group work experience and how it could have been improved
+
+Last year I had a pretty big project where multiple people had to do their own part of the work. The issue was that there was this one guy in the group that did not do anything (we had 3 months to work on the project). Kept not responding and saying he was going to work on his part and proceeded to not do anything. I tried to get this guy kicked from the group but the schools administration did not bother doing anything. At the end of the project we learned that the guy was on vacation far from France and even with this information the school did nothing.
+
+If i could go back in time I would have just not let this guy join the group project because it was a lost case and a disaster trying to work with him.
