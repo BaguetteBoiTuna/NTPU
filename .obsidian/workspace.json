@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e6f3ae9693c431c8",
+        "id": "d4e3f48b27914d6b",
         "type": "tabs",
         "children": [
           {
-            "id": "09a532bc6d13125a",
+            "id": "8e3b67d9dfbe774c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-07-cib_w4_homework_dante.md",
-                "mode": "preview",
+                "file": "Knowledge hub.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-07-cib_w4_homework_dante.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-07-cib_w4_homework_dante.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-07-cib_w4_homework_dante.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -165,14 +165,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "09a532bc6d13125a",
+  "active": "8e3b67d9dfbe774c",
   "lastOpenFiles": [
+    "2024-10-07-cib_w4_homework_dante.md",
     "2024-10-07-cib_w4_homework_dante.md~",
     "Pasted image 20241007095102.png",
     "2024-09-10-business-communication.md",
     "Knowledge hub.md",
     "2024-09-10-business-communication.md~",
-    "2024-10-07-cib_w4_homework_dante.md",
     "2024-10-01-daftds_part1ch1end.md",
     "2024-10-01-daftds_part1ch1end.md~",
     "Pasted image 20241001115319.png",
