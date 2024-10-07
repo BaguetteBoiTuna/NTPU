@@ -9,11 +9,11 @@ tags: []
 
 ## Active Listening
 
-### Skills/Strategies used and how they helped
+### Skills/Strategies Used and Their Impact
 
-Since I already move my head a lot when i am listening to someone, I tried to focus on questions and I noticed that conversations last longer and are more engaging. I also noticed that I am more focused on the conversation since i am trying to think of questions to ask next.
+I noticed I already move my head a lot while listening, which helps show engagement. This week, I focused on asking more questions, which led to longer and more engaging conversations. By preparing questions to ask, I felt more focused and attentive during the conversation, which made it easier to connect with the other person.
 
-### Worse group work experience and how it could have been improved
+### My Worst Group Work Experience
 
 Last year I had a pretty big project where multiple people had to do their own part of the work. The issue was that there was this one guy in the group that did not do anything (we had 3 months to work on the project). Kept not responding and saying he was going to work on his part and proceeded to not do anything. I tried to get this guy kicked from the group but the schools administration did not bother doing anything. At the end of the project we learned that the guy was on vacation far from France and even with this information the school did nothing.
 
@@ -21,9 +21,9 @@ If i could go back in time I would have just not let this guy join the group pro
 
 ---
 
-## Writing rule and international etiquettes
+## Writing Rule and International Etiquettes
 
-### Writing rule
+### Writing Rule
 
 Avoid excessive use of exclamation points. While trying to emphasize on excitement or urgency, using too any exclamation points can have the opposite effect making it overly dramatic or sound insincere.
 
