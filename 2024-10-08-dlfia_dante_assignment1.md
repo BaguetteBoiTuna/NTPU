@@ -163,7 +163,7 @@ grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Display the image
 # cv2.imshow("Image", image)
-cs = cv2.imshow("Grayscale Image", grayscale_image)
+cv2.imshow("Grayscale Image", grayscale_image)
 
 # Wait for a key press then close the window
 cv2.waitKey(0)
@@ -174,3 +174,57 @@ cv2.destroyAllWindows()
 
 #### Blurring the Image
 
+```py
+import cv2
+
+# Read the image from the file
+image = cv2.imread("./colorful_bird_474x338.jpg")
+
+# Convert the image to grayscale
+# grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Apply GaussianBlur to the image
+gaussian_blur = cv2.GaussianBlur(image, (15, 15), 0)
+
+# Display the image
+# cv2.imshow("Image", image)
+# cv2.imshow("Grayscale Image", grayscale_image)
+cv2.imshow("Gaussian Blur", gaussian_blur)
+
+
+# Wait for a key press then close the window
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![[Pasted image 20241008115210.png]]
+
+#### Edge Detection Using Canny
+
+```py
+import cv2
+
+# Read the image from the file
+image = cv2.imread("./colorful_bird_474x338.jpg")
+
+# Convert the image to grayscale
+# grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Apply GaussianBlur to the image
+# gaussian_blur = cv2.GaussianBlur(image, (15, 15), 0)
+
+# Apply Canny edge detection to the image
+edges = cv2.Canny(image, 100, 200)
+
+# Display the image
+# cv2.imshow("Image", image)
+# cv2.imshow("Grayscale Image", grayscale_image)
+# cv2.imshow("Gaussian Blur", gaussian_blur)
+cv2.imshow("Edges", edges)
+
+# Wait for a key press then close the window
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![[Pasted image 20241008115519.png]]
