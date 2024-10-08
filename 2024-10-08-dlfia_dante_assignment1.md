@@ -133,3 +133,19 @@ I will be using this picture of a colorful bird for the demonstration:
 ![[colorful_bird_474x338.jpg]]
 
 #### Reading and Displaying an Image
+
+```py
+import cv2
+
+# Read the image from the file
+image = cv2.imread("./colorful_bird_474x338.jpg")
+
+# Display the image
+cv2.imshow("Image", image)
+
+# Wait for a key press then close the window
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![[Pasted image 20241008114427.png]]
