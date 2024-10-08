@@ -13,7 +13,7 @@ tags: []
 
 A Fault Behavior Diagram (FBD) is a graphical representation used to illustrate how faults impact a system. It helps visualize the flow from a fault occurring to how the system responds or fails.
 
-### Key Components of an FBD:
+### Key Components of an FBD
 
 - **Fault Sources**: Points where faults may originate, such as hardware failures, software errors, or external disturbances.
 - **Fault Propagation Paths**: Arrows or lines showing how a fault moves through the system, potentially affecting different components.
@@ -36,3 +36,11 @@ Imagine a **power supply failure** in a computer.
 - The **detection** unit recognizes the issue.
 - The system attempts to **switch** to an alternative power supply.
 - If successful, the system **recovers**. If not, it results in a **system shutdown** (failure state).
+
+### Causes of Fault
+
+- **Hardware Failures**: Physical components breaking down, such as disk failures or power supply issues.
+- **Software Bugs**: Errors in the code that lead to incorrect system behavior or crashes.
+- **Environmental Factors**: External events such as power surges, temperature extremes, or radiation.
+- **Human Errors**: Mistakes made during system configuration, maintenance, or operation.
+- **Wear and Tear**: Gradual degradation of components over time, leading to eventual failure.

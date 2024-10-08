@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
-                "mode": "source",
+                "file": "2024-10-08-daftds_part1ch2.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-08-daftds_part1ch2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-08-daftds_part1ch2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-10-08-daftds_part1ch2.md"
               }
             }
           },
@@ -167,10 +167,12 @@
   },
   "active": "1dbf706c1fa14011",
   "lastOpenFiles": [
+    "2024-10-08-daftds_part1ch2.md~",
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
+    "Knowledge hub.md",
     "2024-09-09-ecu.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
-    "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-10-07-cib_w4_homework_dante.md~",
     "Pasted image 20241007095102.png",
@@ -181,7 +183,6 @@
     "Pasted image 20241001115319.png",
     "Pasted image 20241001115041.png",
     "2024-09-10-fault-tolerance.md~",
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md~",
     "2024-09-24-daftds_part1ch1re.md",
     "2024-09-10-advanced-computer-architectures.md",
@@ -212,7 +213,6 @@
     "2024-09-18-image-analysis-introduction.md",
     "2024-09-14-adas.md",
     "2024-09-09-automotive-intelligent-electronic-systems---introduction.md",
-    "2024-09-16-automotive-ethernet-avb-systems.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
