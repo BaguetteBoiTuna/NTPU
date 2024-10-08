@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
-                "mode": "source",
+                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-08-dlfia_dante_assignment1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-08-dlfia_dante_assignment1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-10-08-dlfia_dante_assignment1.md"
               }
             }
           },
@@ -167,13 +166,18 @@
   },
   "active": "347fa3c3f0b835ca",
   "lastOpenFiles": [
-    "2024-10-08-dlfia_dante_assignment1.md",
+    "2024-10-08-dlfia_dante_assignment1.md~",
+    "Pasted image 20241008103848.png",
+    "Pasted image 20241008103824.png",
+    "Pasted image 20241008103808.png",
+    "Pasted image 20241008103648.png",
+    "Screenshot_2024-09-18-11-35-59_1920x1080.png",
     "487shots_so.png",
+    "2024-10-08-dlfia_dante_assignment1.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "Knowledge hub.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-10-08-daftds_part1ch2.md",
-    "2024-10-08-dlfia_dante_assignment1.md~",
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-10-08-daftds_part1ch2.md~",
     "2024-09-09-ecu.md",
@@ -205,11 +209,6 @@
     "2024-09-10-daftds_part1ch1.md",
     "2024-09-24-sil.md",
     "IEC-61508.png",
-    "Pasted image 20240923104801.png",
-    "Screenshot_2024-09-18-11-35-59_1920x1080.png",
-    "Pasted image 20240923103025.png",
-    "Pasted image 20240923103020.png",
-    "Pasted image 20240923103015.png",
     "2024-09-23-iot.md",
     "2024-09-18-image-analysis-introduction.md",
     "Untitled.canvas",

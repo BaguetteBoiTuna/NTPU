@@ -13,3 +13,22 @@ tags: []
 
 #### Install Required Libraries
 
+![[Pasted image 20241008103648.png]]
+
+#### Import the Libraries
+
+![[Pasted image 20241008103808.png]]
+
+#### Verify Installation
+
+![[Pasted image 20241008103824.png]]
+
+#### GPU Configuration
+
+![[Pasted image 20241008103848.png]]
+
+---
+
+## Question 2
+
+### What are the primary differences among deep learning frameworks: Keras, TensorFlow and PyTorch?
