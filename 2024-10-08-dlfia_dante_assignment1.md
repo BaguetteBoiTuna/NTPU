@@ -149,3 +149,28 @@ cv2.destroyAllWindows()
 ```
 
 ![[Pasted image 20241008114427.png]]
+
+#### Converting to GrayScale
+
+```py
+import cv2
+
+# Read the image from the file
+image = cv2.imread("./colorful_bird_474x338.jpg")
+
+# Convert the image to grayscale
+grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Display the image
+# cv2.imshow("Image", image)
+cs = cv2.imshow("Grayscale Image", grayscale_image)
+
+# Wait for a key press then close the window
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![[Pasted image 20241008114810.png]]
+
+#### Blurring the Image
+
