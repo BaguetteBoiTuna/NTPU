@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "24b6099cf0cb86ae",
+        "id": "d4d3f2fcb30bf0f0",
         "type": "tabs",
         "children": [
           {
-            "id": "9e4b7445d8ab4f6b",
+            "id": "e0ac530850dbb35c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "file": "2024-10-07-cib_w4_homework_dante.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "file": "2024-10-07-cib_w4_homework_dante.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "file": "2024-10-07-cib_w4_homework_dante.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md"
+                "file": "2024-10-07-cib_w4_homework_dante.md"
               }
             }
           },
@@ -164,8 +164,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9e4b7445d8ab4f6b",
+  "active": "e0ac530850dbb35c",
   "lastOpenFiles": [
+    "2024-09-10-business-communication.md",
     "Knowledge hub.md",
     "2024-10-08-dlfia_dante_assignment1.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
@@ -189,7 +190,6 @@
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-10-07-cib_w4_homework_dante.md~",
-    "2024-09-10-business-communication.md",
     "2024-09-10-business-communication.md~",
     "2024-10-01-daftds_part1ch1end.md",
     "2024-10-01-daftds_part1ch1end.md~",
