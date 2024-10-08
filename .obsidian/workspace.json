@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68f3ef6b3ee54675",
+        "id": "d9b4432c5eb76844",
         "type": "tabs",
         "children": [
           {
-            "id": "347fa3c3f0b835ca",
+            "id": "f7b8b102344d9508",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "file": "Knowledge hub.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-08-dlfia_dante_assignment1.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -164,8 +164,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "347fa3c3f0b835ca",
+  "active": "f7b8b102344d9508",
   "lastOpenFiles": [
+    "2024-10-08-dlfia_dante_assignment1.md",
     "2024-10-08-dlfia_dante_assignment1.md~",
     "Pasted image 20241008115849.png",
     "Pasted image 20241008115519.png",
@@ -177,7 +178,6 @@
     "Pasted image 20241008103848.png",
     "Pasted image 20241008103824.png",
     "Pasted image 20241008103808.png",
-    "2024-10-08-dlfia_dante_assignment1.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "Knowledge hub.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
