@@ -228,3 +228,38 @@ cv2.destroyAllWindows()
 ```
 
 ![[Pasted image 20241008115519.png]]
+
+#### Resizing the Image
+
+```py
+import cv2
+
+# Read the image from the file
+image = cv2.imread("./colorful_bird_474x338.jpg")
+
+# Convert the image to grayscale
+# grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Apply GaussianBlur to the image
+# gaussian_blur = cv2.GaussianBlur(image, (15, 15), 0)
+
+# Apply Canny edge detection to the image
+# edges = cv2.Canny(image, 100, 200)
+
+# Resize the image to half of its original size
+resized_image = cv2.resize(image, (0, 0), fx=0.5, fy=0.5)
+
+# Display the image
+# cv2.imshow("Image", image)
+# cv2.imshow("Grayscale Image", grayscale_image)
+# cv2.imshow("Gaussian Blur", gaussian_blur)
+# cv2.imshow("Edges", edges)
+cv2.imshow("Resized Image", resized_image)
+
+# Wait for a key press then close the window
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![[Pasted image 20241008115849.png]]
+
