@@ -124,3 +124,5 @@ PyTorch breaks down the steps into more detail, which can be beneficial for begi
 ## Question 3
 
 ### What is digital image processing and demonstrate common digital image processing at least five functions in Python using the OpenCV library?
+
+For this question, I will use my laptop instead of Google Colab since i have already everything setup (and I rather code on my own machine using NeoVim, also its easier for testing since i have a debugger).
