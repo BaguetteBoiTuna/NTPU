@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6f6c890037da2162",
+        "id": "68f3ef6b3ee54675",
         "type": "tabs",
         "children": [
           {
-            "id": "1dbf706c1fa14011",
+            "id": "347fa3c3f0b835ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-08-daftds_part1ch2.md",
-                "mode": "preview",
+                "file": "Knowledge hub.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-08-daftds_part1ch2.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-08-daftds_part1ch2.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-08-daftds_part1ch2.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -165,14 +165,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "299be9ce85ce4a26",
+  "active": "347fa3c3f0b835ca",
   "lastOpenFiles": [
+    "2024-10-08-dlfia_dante_assignment1.md",
+    "487shots_so.png",
+    "2024-09-18-deep-learning-for-image-analysis.md",
+    "Knowledge hub.md",
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
+    "2024-10-08-daftds_part1ch2.md",
     "2024-10-08-dlfia_dante_assignment1.md~",
     "2024-09-18-deep-learning-for-image-analysis.md~",
-    "2024-10-08-dlfia_dante_assignment1.md",
     "2024-10-08-daftds_part1ch2.md~",
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
-    "Knowledge hub.md",
     "2024-09-09-ecu.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
@@ -193,12 +196,10 @@
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
     "2024-09-26-cib_w3_homework_dante.md",
     "2024-09-26-cib_w3_homework_dante.md~",
-    "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-09-23-homework1.md",
     "2024-09-23-homework1.md~",
     "2024-09-24-fault.md",
     "2024-09-10-fault-tolerance.md",
-    "README.md~",
     "2024-09-24-failure.md",
     "2024-09-24-error.md",
     "2024-09-10-daftds_part1ch1.md",
@@ -209,10 +210,8 @@
     "Pasted image 20240923103025.png",
     "Pasted image 20240923103020.png",
     "Pasted image 20240923103015.png",
-    "Pasted image 20240923102612.png",
     "2024-09-23-iot.md",
     "2024-09-18-image-analysis-introduction.md",
-    "2024-09-14-adas.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
