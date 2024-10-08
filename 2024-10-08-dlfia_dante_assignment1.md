@@ -117,4 +117,8 @@ print(f"Final loss: {loss}")
 
 While looking at the two different code snippets you can clearly see that TensorFlow has a shorter and "easier" approach compared to PyTorch, but too much abstraction you're trying to understand the basics of deep learning is not always good.
 
-PyTorch breaks down the steps into more detail, which can be beneficial for beginners to understand the underlying concepts better. However, it might be a bit more verbose compared to TensorFlow.
+PyTorch breaks down the steps into more detail, which can be beneficial for beginners to understand the underlying concepts better. It might be a bit more verbose compared to TensorFlow but for someone like me that is just getting started it is a good thing and feels more intuitive.
+
+## Question 3
+
+### What is digital image processing and demonstrate common digital image processing at least five functions in Python using the OpenCV library?
