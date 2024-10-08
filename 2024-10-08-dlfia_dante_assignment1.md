@@ -57,3 +57,60 @@ tags: []
 ### Which framework do you prefer and why? Explain with an example
 
 At this stage, I don’t really have a strong preference for any framework since I haven’t used any of them extensively. However, based on what I've heard, PyTorch seems to be more beginner-friendly compared to TensorFlow. PyTorch is often praised for its simpler syntax and dynamic computation graph, which makes it easier to learn and experiment with, especially when starting with deep learning.
+
+Here is an example of a basic linear regression model I found on internet for both PyTorch and TensorFlow:
+
+#### PyTorch Example
+
+```py
+import torch
+
+# Define a simple linear regression model in PyTorch
+model = torch.nn.Linear(1, 1)
+
+# Input and output tensors
+x = torch.tensor([[1.0], [2.0], [3.0], [4.0]])
+y = torch.tensor([[2.0], [4.0], [6.0], [8.0]])
+
+# Loss function and optimizer
+loss_fn = torch.nn.MSELoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+
+# Training loop
+for epoch in range(100):
+    # Forward pass
+    y_pred = model(x)
+    loss = loss_fn(y_pred, y)
+
+    # Backward pass and optimization
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+
+print(f"Final loss: {loss.item()}")
+```
+
+#### TensorFlow Example
+
+```py
+import tensorflow as tf
+
+# Define a simple linear regression model in TensorFlow
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(1, input_shape=(1,))
+])
+
+# Compile the model
+model.compile(optimizer='sgd', loss='mse')
+
+# Input and output tensors
+x = [[1.0], [2.0], [3.0], [4.0]]
+y = [[2.0], [4.0], [6.0], [8.0]]
+
+# Train the model
+model.fit(x, y, epochs=100, verbose=0)
+
+# Print the final loss
+loss = model.evaluate(x, y)
+print(f"Final loss: {loss}")
+```
