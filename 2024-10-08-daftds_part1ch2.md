@@ -83,3 +83,35 @@ Fault models help in:
 - **Designing Fault Tolerant Systems**: By understanding possible fault scenarios, engineers can create systems capable of detecting, isolating, and recovering from faults.
 - **Testing and Validation**: Fault models provide a structured way to test system behavior under different fault conditions, ensuring robust system performance.
 - **Risk Assessment**: Identifying the most likely types of faults helps prioritize where to focus mitigation strategies to enhance system reliability.
+
+---
+
+## Testing Issues
+
+Testing is an essential part of ensuring system reliability and fault tolerance. It can be divided into two primary categories: functionality testing and manufacturing testing.
+
+### Functionality Testing
+
+Functionality testing is focused on verifying that the system performs as intended under normal and faulty conditions.
+
+- **Objective**: Ensure the system meets its specified requirements and correctly handles faults when they occur.
+- **Types of Functionality Testing**:
+  - **Unit Testing**: Testing individual components to verify that each part works as expected.
+  - **Integration Testing**: Testing how different modules work together, including how they respond to faults.
+  - **Fault Injection Testing**: Introducing faults intentionally to evaluate the system's fault detection, isolation, and recovery capabilities.
+- **Challenges**:
+  - **Complexity**: Large systems with multiple components make it difficult to cover all potential fault scenarios.
+  - **Coverage**: Ensuring all possible fault conditions are tested can be time-consuming and may not always be feasible.
+
+### Manufacturing Testing
+
+Manufacturing testing is focused on detecting faults that arise during the manufacturing process.
+
+- **Objective**: Identify and fix faults before the system or product reaches the end user.
+- **Types of Manufacturing Testing**:
+  - **Burn-In Testing**: Running components at elevated stress levels (e.g., higher temperatures or voltages) to detect early-life failures.
+  - **Functional Testing**: Ensuring that each manufactured unit functions as intended without any defects.
+  - **In-Circuit Testing (ICT)**: Testing individual components on a circuit board to verify proper assembly and functioning.
+- **Challenges**:
+  - **Cost**: Manufacturing tests can add significant costs, particularly for high-reliability systems.
+  - **Time Constraints**: Time pressure in production environments may limit the extent of testing, increasing the risk of undetected faults reaching users.
