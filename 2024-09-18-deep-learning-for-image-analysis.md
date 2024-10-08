@@ -14,3 +14,7 @@ This course introduces deep learning techniques for analyzing and interpreting i
 ### courses
 
 - [image analysis introduction](2024-09-18-image-analysis-introduction.md)
+
+### assignments
+
+- [DLfIA_Dante_Assignment1](2024-10-08-dlfia_dante_assignment1.md)
