@@ -125,5 +125,11 @@ PyTorch breaks down the steps into more detail, which can be beneficial for begi
 
 ### What is digital image processing and demonstrate common digital image processing at least five functions in Python using the OpenCV library?
 
+Digital Image Processing involves the manipulation and analysis of digital images using computer algorithms to enhance the image or extract useful information from it.
+
 For this question, I will use my laptop instead of Google Colab since i have already everything setup (and I rather code on my own machine using NeoVim, also its easier for testing since i have a debugger).
 ![[Pasted image 20241008113231.png]]
+I will be using this picture of a colorful bird for the demonstration:
+![[colorful_bird_474x338.jpg]]
+
+#### Reading and Displaying an Image
