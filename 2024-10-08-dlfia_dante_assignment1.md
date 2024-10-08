@@ -56,4 +56,4 @@ tags: []
 
 ### Which framework do you prefer and why? Explain with an example
 
-At this stage, I don’t really have a strong preference for any framework since I haven’t used any of them extensively. However, based on what I’ve heard, PyTorch seems to be more beginner-friendly compared to TensorFlow. PyTorch is often praised for its simpler syntax and dynamic computation graph, which makes it easier to learn and experiment with, especially when starting with deep learning.
+At this stage, I don’t really have a strong preference for any framework since I haven’t used any of them extensively. However, based on what I've heard, PyTorch seems to be more beginner-friendly compared to TensorFlow. PyTorch is often praised for its simpler syntax and dynamic computation graph, which makes it easier to learn and experiment with, especially when starting with deep learning.
