@@ -114,3 +114,7 @@ model.fit(x, y, epochs=100, verbose=0)
 loss = model.evaluate(x, y)
 print(f"Final loss: {loss}")
 ```
+
+While looking at the two different code snippets you can clearly see that TensorFlow has a shorter and "easier" approach compared to PyTorch, but too much abstraction you're trying to understand the basics of deep learning is not always good.
+
+PyTorch breaks down the steps into more detail, which can be beneficial for beginners to understand the underlying concepts better. However, it might be a bit more verbose compared to TensorFlow.
