@@ -121,6 +121,8 @@ While looking at the two different code snippets you can clearly see that Tensor
 
 PyTorch breaks down the steps into more detail, which can be beneficial for beginners to understand the underlying concepts better. It might be a bit more verbose compared to TensorFlow but for someone like me that is just getting started it is a good thing and feels more intuitive.
 
+---
+
 ## Question 3
 
 ### What is digital image processing and demonstrate common digital image processing at least five functions in Python using the OpenCV library?
