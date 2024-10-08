@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4e3f48b27914d6b",
+        "id": "6f6c890037da2162",
         "type": "tabs",
         "children": [
           {
-            "id": "8e3b67d9dfbe774c",
+            "id": "1dbf706c1fa14011",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,13 +165,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8e3b67d9dfbe774c",
+  "active": "1dbf706c1fa14011",
   "lastOpenFiles": [
+    "2024-09-09-ecu.md",
+    "2024-09-09-introduction_to_intelligent_electronics.md",
+    "2024-09-09-design_and_application_of_intelligent_electronics.md",
+    "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-10-07-cib_w4_homework_dante.md~",
     "Pasted image 20241007095102.png",
     "2024-09-10-business-communication.md",
-    "Knowledge hub.md",
     "2024-09-10-business-communication.md~",
     "2024-10-01-daftds_part1ch1end.md",
     "2024-10-01-daftds_part1ch1end.md~",
@@ -182,10 +185,8 @@
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md~",
     "2024-09-24-daftds_part1ch1re.md",
     "2024-09-10-advanced-computer-architectures.md",
-    "2024-09-09-design_and_application_of_intelligent_electronics.md",
     "2024-09-16-automotive-intelligent-electronic-systems---1.md",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
-    "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-26-cib_w3_homework_dante.md",
     "2024-09-26-cib_w3_homework_dante.md~",
     "2024-09-18-deep-learning-for-image-analysis.md",
