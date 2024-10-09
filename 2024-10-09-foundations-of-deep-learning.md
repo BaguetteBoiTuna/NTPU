@@ -7,6 +7,8 @@ tags: []
 
 # Foundations of Deep Learning
 
+# Foundations of Deep Learning
+
 ## What is Deep Learning?
 
 Deep learning is a subset of machine learning that utilizes neural networks with multiple layers to model complex data patterns. It draws inspiration from the human brain's structure and function, using layers of interconnected nodes (neurons) to learn representations of data.
@@ -36,3 +38,39 @@ The history of artificial intelligence (AI) dates back to the mid-20th century. 
 - **2010s-Present**: The advent of deep learning, driven by the availability of large datasets and powerful GPUs, has transformed AI. Breakthroughs in image and speech recognition, autonomous vehicles, natural language processing, and virtual assistants like ChatGPT have made AI a part of everyday life, with technologies like Siri, Alexa, and self-driving cars becoming mainstream.
 
 AI has evolved from early theoretical concepts to practical applications that impact various industries, and its rapid growth continues to shape the future of technology.
+
+---
+
+## Areas of AI and Some Dependencies
+
+Artificial intelligence is a broad field with various specialized areas, each with its own dependencies and tools. Here are some of the key areas and their dependencies:
+
+### 1. **Machine Learning**
+
+- **Dependencies**: Python libraries like Scikit-learn, Pandas, and NumPy are essential for data preprocessing, modeling, and analysis.
+
+### 2. **Deep Learning**
+
+- **Dependencies**: Deep learning relies heavily on frameworks such as TensorFlow and PyTorch, along with GPUs for accelerated computation.
+
+### 3. **Natural Language Processing (NLP)**
+
+- **Dependencies**: Libraries like NLTK, SpaCy, and Hugging Face Transformers are commonly used for text processing and language model training.
+
+### 4. **Computer Vision**
+
+- **Dependencies**: OpenCV is a key tool for image processing tasks, while TensorFlow and PyTorch are used for model training in computer vision.
+
+### 5. **Robotics**
+
+- **Dependencies**: Robot Operating System (ROS) is a common framework for developing and controlling robotic systems, with Python and C++ as core programming languages.
+
+### 6. **Reinforcement Learning**
+
+- **Dependencies**: Environments like OpenAI Gym are used to train reinforcement learning models, alongside frameworks like TensorFlow and PyTorch.
+
+### 7. **Expert Systems**
+
+- **Dependencies**: Prolog and Lisp have traditionally been used for expert system development, focusing on knowledge representation and logical reasoning.
+
+AI encompasses a wide range of specialized areas, each with its own set of tools, libraries, and dependencies that enable researchers and developers to create intelligent systems.
