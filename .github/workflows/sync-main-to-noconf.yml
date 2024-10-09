@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual trigger from the Actions tab
 
 jobs:
   sync:
@@ -14,31 +14,34 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Fetch all history so branches can be worked with
 
       - name: Set up Git user for the action
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-      - name: Fetch and switch to noconf
+      - name: Fetch branches
         run: |
-          # Fetch the latest changes from both main and noconf
           git fetch origin
 
-          # Checkout the main branch
-          git checkout main
-          git pull origin main
-
-          # Switch to noconf branch
-          git checkout noconf
-          git pull origin noconf
-
-      - name: Merge main into noconf with "ours" strategy to resolve conflicts
+      - name: Checkout noconf branch
         run: |
-          # Merge main into noconf, keeping the changes in noconf for conflicts
-          git merge -X ours main || true # The "|| true" ensures the step doesn't fail even if there's a merge conflict
+          git checkout noconf
+
+      - name: Reset noconf to match main
+        run: |
+          git reset --hard origin/main  # Reset noconf to match main's state
+
+      - name: Remove the .obsidian directory from noconf
+        run: |
+          rm -rf .obsidian  # Remove the .obsidian directory
+
+      - name: Commit the deletion of .obsidian
+        run: |
+          git add .
+          git commit -m "Remove .obsidian directory from noconf" || echo "No changes to commit"
 
       - name: Push the updated noconf branch
         run: |
-          git push origin noconf
+          git push --force origin noconf
