@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -167,6 +166,7 @@
   },
   "active": "6796a763f1aa657a",
   "lastOpenFiles": [
+    "4913",
     "2024-10-09-foundations-of-deep-learning.md~",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-image-analysis-techniques.md",
