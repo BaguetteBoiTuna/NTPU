@@ -40,7 +40,7 @@ jobs:
       - name: Commit the deletion of .obsidian
         run: |
           git add .
-          git commit -m "Remove .obsidian directory from noconf" || echo "No changes to commit"
+          git commit -m "Sync noconf with main" || echo "No changes to commit"
 
       - name: Push the updated noconf branch
         run: |
