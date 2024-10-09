@@ -7,9 +7,11 @@ tags: []
 
 # Foundations of Deep Learning
 
+## What is Deep Learning?
+
 Deep learning is a subset of machine learning that utilizes neural networks with multiple layers to model complex data patterns. It draws inspiration from the human brain's structure and function, using layers of interconnected nodes (neurons) to learn representations of data.
 
-### Key Points:
+### Key Points
 
 - **Neural Networks**: Deep learning uses neural networks composed of multiple layers to model and learn from data.
 - **Brain-Inspired**: The structure is inspired by how neurons in the brain interact.

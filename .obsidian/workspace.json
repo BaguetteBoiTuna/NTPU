@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-18-deep-learning-for-image-analysis.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-18-deep-learning-for-image-analysis.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-18-deep-learning-for-image-analysis.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-18-deep-learning-for-image-analysis.md"
+                "file": "2024-10-09-foundations-of-deep-learning.md"
               }
             }
           },
@@ -167,12 +167,12 @@
   },
   "active": "6796a763f1aa657a",
   "lastOpenFiles": [
-    "2024-10-09-image-analysis-techniques.md",
     "2024-10-09-foundations-of-deep-learning.md~",
+    "2024-09-18-deep-learning-for-image-analysis.md",
+    "2024-10-09-image-analysis-techniques.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-09-image-analysis-techniques.md~",
-    "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-09-18-image-analysis-introduction.md",
     "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
