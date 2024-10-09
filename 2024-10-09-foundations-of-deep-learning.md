@@ -75,6 +75,32 @@ AI encompasses a wide range of specialized areas, each with its own set of tools
 
 ---
 
+## Artificial Neural Networks (ANN)
+
+Artificial Neural Networks (ANNs) are the foundation of deep learning, inspired by the way biological neural networks in the human brain function. ANNs consist of layers of interconnected nodes (neurons), where each connection has an associated weight. These networks are capable of learning complex relationships in data by adjusting the weights based on the error of their predictions.
+
+### Key Components
+
+- **Input Layer**: Receives the raw data as input, where each node represents a feature of the data.
+- **Hidden Layers**: Layers between the input and output layers where computations occur. These layers extract and learn features from the input data through non-linear transformations.
+- **Output Layer**: Produces the final output, which could be a prediction, classification, or other form of result depending on the task.
+
+### Learning Process
+
+- **Forward Propagation**: The input data is passed through the network layer by layer to generate an output.
+- **Backpropagation**: The network adjusts the weights of the connections to minimize the error between the predicted output and the actual output. This is done by propagating the error backward through the network and updating weights using optimization techniques such as gradient descent.
+
+### Types of Neural Networks
+
+- **Feedforward Neural Networks (FNN)**: The simplest type of ANN, where information moves in one direction—from the input layer to the output layer. There are no cycles or loops.
+- **Convolutional Neural Networks (CNN)**: Primarily used for image processing tasks. CNNs apply convolutional layers to automatically detect spatial hierarchies in images.
+- **Recurrent Neural Networks (RNN)**: Designed to handle sequential data, such as time-series or text. RNNs have connections that form directed cycles, allowing information to persist.
+- **Generative Adversarial Networks (GANs)**: Consist of two neural networks (a generator and a discriminator) that compete against each other, often used for generating realistic data, such as images.
+
+Artificial Neural Networks form the basis of modern deep learning approaches, enabling machines to learn and make decisions from vast amounts of data in an automated and intelligent manner.
+
+---
+
 ## Types of Machine Learning
 
 Machine learning can be broadly categorized into three types: supervised learning, unsupervised learning, and reinforcement learning. Each type serves a different purpose and uses distinct approaches for training models.
