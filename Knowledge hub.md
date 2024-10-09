@@ -1,4 +1,4 @@
-434---
+---
 id: knowledge_hub
 aliases:
   - Knowledge Hub

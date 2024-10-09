@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "521e33d2a0fe5ede",
+        "id": "eeaed94b5c501b25",
         "type": "tabs",
         "children": [
           {
-            "id": "6796a763f1aa657a",
+            "id": "2573180681ed0c98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md",
+                "file": "Knowledge hub.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -164,15 +165,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "299be9ce85ce4a26",
+  "active": "2573180681ed0c98",
   "lastOpenFiles": [
+    "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-09-image-analysis-techniques.md~",
     "2024-10-09-foundations-of-deep-learning.md~",
     "4913",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-image-analysis-techniques.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
-    "2024-10-09-foundations-of-deep-learning.md",
     "2024-09-18-image-analysis-introduction.md",
     "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
@@ -200,7 +201,6 @@
     "2024-10-01-daftds_part1ch1end.md",
     "2024-10-01-daftds_part1ch1end.md~",
     "2024-09-10-fault-tolerance.md~",
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md~",
     "2024-09-24-daftds_part1ch1re.md",
     "2024-09-10-advanced-computer-architectures.md",
     "2024-09-16-automotive-intelligent-electronic-systems---1.md",
