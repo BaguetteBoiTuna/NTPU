@@ -5,16 +5,16 @@ aliases:
 tags: []
 ---
 
-# image analysis techniques
+# Image Analysis Techniques
 
 ## Colorscales/Colormaps
 
-Colorscales or colormaps are used in image analysis to visualize data effectively. Here are some common colormaps:
+Colorscales, or colormaps, are used in image analysis to visualize data effectively. Here are some common colormaps:
 
 - **Grayscale**: Represents pixel intensity as shades of gray, from black to white. Useful for intensity-based images.
 - **Jet**: A rainbow colormap (blue to red). Highlights differences but can be misleading.
-- **Viridis**: Perceptually uniform, colorblind-friendly, transitioning from blue to yellow.
-- **Plasma**: Similar to Viridis, with colors from purple to yellow.
+- **Viridis**: Perceptually uniform and colorblind-friendly, transitioning from blue to yellow.
+- **Plasma**: Similar to Viridis, with colors ranging from purple to yellow.
 - **Magma**: Dark purple to yellow, good for emphasizing bright spots.
 - **Hot**: Black to white through red, orange, and yellow. Useful for heat maps.
 - **Coolwarm**: Blue for low values, red for high values. Good for divergent data.
@@ -23,7 +23,7 @@ Colorscales or colormaps are used in image analysis to visualize data effectivel
 
 ## Cropping Techniques
 
-Cropping is a fundamental operation in image analysis to focus on regions of interest. One of the most common ways to crop an image is by using array indexing:
+Cropping is a fundamental operation in image analysis used to focus on regions of interest. One of the most common ways to crop an image is by using array indexing:
 
 - **Array Indexing**: Images are represented as arrays, and specific regions can be selected by specifying index ranges. For example, to crop an image `img` to only include rows 50 to 150 and columns 30 to 120, use:
 
