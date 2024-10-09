@@ -1,0 +1,35 @@
+name: Sync main to noconf
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  
+
+      - name: Set up Git user for the action
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Sync main to noconf
+        run: |
+          # Fetch the latest changes from both main and noconf
+          git checkout main
+          git pull origin main
+
+          # Checkout the noconf branch and merge main into it
+          git checkout noconf
+          git pull origin noconf
+          git merge --no-edit main
+
+          # Push the noconf branch with the updated changes
+          git push origin noconf
