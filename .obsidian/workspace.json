@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-10-09-foundations-of-deep-learning.md"
               }
             }
           },
@@ -167,15 +167,15 @@
   },
   "active": "2573180681ed0c98",
   "lastOpenFiles": [
+    "2024-09-18-deep-learning-for-image-analysis.md",
+    "Knowledge hub.md",
     "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-09-image-analysis-techniques.md~",
     "2024-10-09-foundations-of-deep-learning.md~",
     "4913",
-    "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-image-analysis-techniques.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-09-18-image-analysis-introduction.md",
-    "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-09-10-business-communication.md",
     "2024-10-08-dlfia_dante_assignment1.md",
