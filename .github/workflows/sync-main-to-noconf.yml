@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -13,23 +14,31 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  
+          fetch-depth: 0
 
       - name: Set up Git user for the action
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-      - name: Sync main to noconf
+      - name: Fetch and switch to noconf
         run: |
           # Fetch the latest changes from both main and noconf
+          git fetch origin
+
+          # Checkout the main branch
           git checkout main
           git pull origin main
 
-          # Checkout the noconf branch and merge main into it
+          # Switch to noconf branch
           git checkout noconf
           git pull origin noconf
-          git merge --no-edit main
 
-          # Push the noconf branch with the updated changes
+      - name: Merge main into noconf with "ours" strategy to resolve conflicts
+        run: |
+          # Merge main into noconf, keeping the changes in noconf for conflicts
+          git merge -X ours main || true # The "|| true" ensures the step doesn't fail even if there's a merge conflict
+
+      - name: Push the updated noconf branch
+        run: |
           git push origin noconf
