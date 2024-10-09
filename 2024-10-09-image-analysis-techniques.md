@@ -19,6 +19,8 @@ Colorscales or colormaps are used in image analysis to visualize data effectivel
 - **Hot**: Black to white through red, orange, and yellow. Useful for heat maps.
 - **Coolwarm**: Blue for low values, red for high values. Good for divergent data.
 
+---
+
 ## Cropping Techniques
 
 Cropping is a fundamental operation in image analysis to focus on regions of interest. One of the most common ways to crop an image is by using array indexing:
@@ -32,3 +34,27 @@ Cropping is a fundamental operation in image analysis to focus on regions of int
   This technique allows precise control over the portion of the image you want to retain.
 
 Array indexing is a powerful tool for selecting specific areas of an image, enabling targeted analysis and manipulation.
+
+---
+
+## Visualizing Pixel Intensity Distribution
+
+Visualizing pixel intensity distribution helps in understanding the contrast and overall brightness of an image. One common way to do this is by using a histogram:
+
+- **Histogram**: A histogram shows the frequency of each intensity value in the image. For grayscale images, this provides an overview of how pixel intensities are distributed, helping to identify whether the image is underexposed or overexposed. To create a histogram, the image is typically flattened using a technique called **flattening**.
+
+- **Flattening**: Flattening involves converting a multi-dimensional image array into a one-dimensional array. This is done using functions like `ravel()` to ensure all pixel values are considered together. For example:
+
+  ```python
+  import matplotlib.pyplot as plt
+
+  plt.hist(img.ravel(), bins=256, range=(0, 256))
+  plt.xlabel('Pixel Intensity')
+  plt.ylabel('Frequency')
+  plt.title('Pixel Intensity Distribution')
+  plt.show()
+  ```
+
+  Flattening helps in creating a single representation of all pixel intensities, which is useful for visualizing the overall distribution.
+
+This visualization helps in adjusting image contrast and brightness effectively.

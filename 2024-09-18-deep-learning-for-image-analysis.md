@@ -15,6 +15,7 @@ This course introduces deep learning techniques for analyzing and interpreting i
 
 - [image analysis introduction](2024-09-18-image-analysis-introduction.md)
 - [image analysis techniques](2024-10-09-image-analysis-techniques.md)
+- [Foundations of Deep Learning](2024-10-09-foundations-of-deep-learning.md)
 
 ### assignments
 
