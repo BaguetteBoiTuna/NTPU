@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aa59c77bb349393f",
+        "id": "983722c49f96e827",
         "type": "tabs",
         "children": [
           {
-            "id": "39f30f7b9856ffec",
+            "id": "daebd7c36ea5a70f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Knowledge hub.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -165,12 +165,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39f30f7b9856ffec",
+  "active": "daebd7c36ea5a70f",
   "lastOpenFiles": [
     "2024-10-15-daftds_part1ch3.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
-    "2024-10-08-daftds_part1ch2.md",
     "Knowledge hub.md",
+    "2024-10-08-daftds_part1ch2.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-09-10-business-communication.md",
     "2024-10-09-foundations-of-deep-learning.md",
