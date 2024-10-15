@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
-                "mode": "source",
+                "file": "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md"
               }
             }
           },
@@ -167,6 +167,8 @@
   },
   "active": "8061d5a93679ffae",
   "lastOpenFiles": [
+    "2024-10-08-daftds_part1ch2.md",
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-09-10-business-communication.md",
@@ -190,8 +192,6 @@
     "Pasted image 20241008103848.png",
     "Pasted image 20241008103824.png",
     "Pasted image 20241008103808.png",
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
-    "2024-10-08-daftds_part1ch2.md",
     "2024-10-08-daftds_part1ch2.md~",
     "2024-09-09-ecu.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
