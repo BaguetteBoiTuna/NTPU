@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ef7260325415aecd",
+        "id": "d044870370279afb",
         "type": "tabs",
         "children": [
           {
-            "id": "8061d5a93679ffae",
+            "id": "339c9e8022157bab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-15-daftds_part1ch3.md",
+                "file": "Knowledge hub.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-15-daftds_part1ch3.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-15-daftds_part1ch3.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-15-daftds_part1ch3.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -165,10 +165,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8061d5a93679ffae",
+  "active": "339c9e8022157bab",
   "lastOpenFiles": [
-    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-10-15-daftds_part1ch3.md",
+    "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-10-08-daftds_part1ch2.md",
     "Knowledge hub.md",
     "2024-10-07-cib_w4_homework_dante.md",
