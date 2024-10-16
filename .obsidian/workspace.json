@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5b216eeb639236b6",
+        "id": "354ea621a463b19f",
         "type": "tabs",
         "children": [
           {
-            "id": "f62a1d26596cd040",
+            "id": "e905f9c988741fff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -165,11 +164,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f62a1d26596cd040",
+  "active": "e905f9c988741fff",
   "lastOpenFiles": [
+    "4dora.md",
+    "Knowledge hub.md",
     "2024-10-08-daftds_part1ch2.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
-    "Knowledge hub.md",
     "2024-10-15-daftds_part1ch3.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-09-10-business-communication.md",
@@ -212,7 +212,6 @@
     "2024-09-10-fault-tolerance.md",
     "2024-09-24-failure.md",
     "2024-09-24-error.md",
-    "2024-09-10-daftds_part1ch1.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
