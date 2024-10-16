@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "354ea621a463b19f",
+        "id": "06d694293bb4506c",
         "type": "tabs",
         "children": [
           {
-            "id": "e905f9c988741fff",
+            "id": "e76dfe357b03bbd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md",
-                "mode": "preview",
+                "file": "Knowledge hub.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md",
+                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md",
+                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-09-foundations-of-deep-learning.md"
+                "file": "Knowledge hub.md"
               }
             }
           },
@@ -166,8 +166,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "299be9ce85ce4a26",
+  "active": "e76dfe357b03bbd9",
   "lastOpenFiles": [
+    "2024-10-09-foundations-of-deep-learning.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "Knowledge hub.md",
     "4dora.md",
@@ -176,7 +177,6 @@
     "2024-10-15-daftds_part1ch3.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-09-10-business-communication.md",
-    "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-09-foundations-of-deep-learning.md~",
     "2024-10-09-image-analysis-techniques.md~",
     "4913",

@@ -190,3 +190,36 @@ Artificial Superintelligence (ASI) goes beyond AGI, representing a form of intel
 - **ASI**: A level of intelligence that surpasses the collective intelligence of the smartest humans, capable of unprecedented innovations.
 
 The progression from Narrow AI to AGI and potentially to ASI represents a transformative shift in the development of intelligent systems, with profound implications for society, ethics, and the future of technology.
+
+## Feedforward Networks
+
+#### What is a Feedforward Network?
+
+A Feedforward Neural Network (FNN) is the simplest type of artificial neural network, where information flows in one direction—from the input layer, through hidden layers, to the output layer. There are no cycles or loops in the network, which makes it ideal for straightforward prediction tasks such as classification and regression.
+
+#### Key Points
+
+- **Single Direction Flow**: In feedforward networks, data moves only forward through the layers.
+- **No Loops**: Unlike recurrent neural networks, FNNs do not have connections that cycle back, meaning there is no memory of prior inputs.
+- **Applications**: Feedforward networks are used in tasks like:
+  - **Image Classification**: Assigning a label to an image.
+  - **Regression Analysis**: Predicting a continuous value based on input data.
+
+Feedforward networks form the foundation for many machine learning tasks, offering a clear and simple path from input to output.
+
+---
+
+## Back propagation networks
+
+### What is Backpropagation?
+
+Backpropagation is a learning algorithm used to train feedforward neural networks by minimizing the difference between the predicted output and the actual output. It works by propagating the error backward through the network and adjusting the weights to reduce the overall error.
+
+#### Learning Process
+
+1. **Forward Propagation**: The network takes in the input and processes it layer by layer to produce an output.
+2. **Loss Calculation**: The difference between the predicted output and the actual output is calculated using a loss function, such as Mean Squared Error (MSE) or Cross-Entropy Loss.
+3. **Backward Propagation**: The error is then propagated backward through the network. The weights are updated using an optimization technique, typically **gradient descent**, to minimize the error.
+4. **Gradient Descent**: Backpropagation uses gradients of the loss function with respect to each weight in the network to update the weights, aiming to reduce the loss in each iteration.
+
+Backpropagation is a crucial algorithm that allows neural networks to learn from data by adjusting their weights iteratively, ultimately improving the model's performance.
