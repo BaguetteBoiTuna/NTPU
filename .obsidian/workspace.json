@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
-                "mode": "source",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39fb48bace4d885c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-09-foundations-of-deep-learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge hub.md"
+                "file": "2024-10-09-foundations-of-deep-learning.md"
               }
             }
           },
@@ -150,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,10 +166,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e905f9c988741fff",
+  "active": "299be9ce85ce4a26",
   "lastOpenFiles": [
-    "4dora.md",
+    "2024-09-18-deep-learning-for-image-analysis.md",
     "Knowledge hub.md",
+    "4dora.md",
     "2024-10-08-daftds_part1ch2.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-10-15-daftds_part1ch3.md",
@@ -175,7 +178,6 @@
     "2024-09-10-business-communication.md",
     "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-09-foundations-of-deep-learning.md~",
-    "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-image-analysis-techniques.md~",
     "4913",
     "2024-10-09-image-analysis-techniques.md",
