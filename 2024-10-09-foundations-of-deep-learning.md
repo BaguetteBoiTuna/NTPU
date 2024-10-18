@@ -193,7 +193,7 @@ The progression from Narrow AI to AGI and potentially to ASI represents a transf
 
 ## Feedforward Networks
 
-#### What is a Feedforward Network?
+### What is a Feedforward Network?
 
 A Feedforward Neural Network (FNN) is the simplest type of artificial neural network, where information flows in one direction—from the input layer, through hidden layers, to the output layer. There are no cycles or loops in the network, which makes it ideal for straightforward prediction tasks such as classification and regression.
 

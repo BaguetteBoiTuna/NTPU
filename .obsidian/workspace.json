@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "06d694293bb4506c",
+        "id": "a6c61f726df732e3",
         "type": "tabs",
         "children": [
           {
-            "id": "e76dfe357b03bbd9",
+            "id": "04223d6c0ac47278",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,7 +166,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e76dfe357b03bbd9",
+  "active": "04223d6c0ac47278",
   "lastOpenFiles": [
     "2024-10-09-foundations-of-deep-learning.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
