@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge hub.md",
+                "file": "2024-10-15-daftds_part1ch3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Knowledge hub"
-            }
-          },
-          {
-            "id": "4dfb1900cbbe4fc8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "2024-10-15-daftds_part1ch3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-10-15-daftds_part1ch3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2024-10-15-daftds_part1ch3"
             }
           },
           {
@@ -125,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-10-15-daftds_part1ch3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2024-10-15-daftds_part1ch3"
             }
           },
           {
@@ -150,9 +139,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "2024-10-15-daftds_part1ch3.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2024-10-15-daftds_part1ch3"
             }
           },
           {
@@ -195,10 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dfb1900cbbe4fc8",
+  "active": "04223d6c0ac47278",
   "lastOpenFiles": [
-    "Knowledge hub.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
+    "Knowledge hub.md",
     "2024-10-15-daftds_part1ch3.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-foundations-of-deep-learning.md",
