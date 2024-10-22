@@ -22,3 +22,5 @@ Yes this is pretty much smurfing.
 - [Homework1](2024-09-23-homework1.md)
 - [CiB_W3_Homework_Dante](2024-09-26-cib_w3_homework_dante.md)
 - [CiB_W4_Homework_Dante](2024-10-07-cib_w4_homework_dante.md)
+
+- [Midterm Report Outline](2024-10-22-midterm-report-outline.md)

@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2024-10-15-daftds_part1ch3"
             }
+          },
+          {
+            "id": "1a0a4fbea69bab83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge hub.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge hub"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,11 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04223d6c0ac47278",
+  "active": "1a0a4fbea69bab83",
   "lastOpenFiles": [
+    "2024-10-15-daftds_part1ch3.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "Knowledge hub.md",
-    "2024-10-15-daftds_part1ch3.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-08-dlfia_dante_assignment1.md",
