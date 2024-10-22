@@ -14,12 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "Knowledge hub.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge hub"
+            }
+          },
+          {
+            "id": "4dfb1900cbbe4fc8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -86,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -103,10 +125,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -117,7 +140,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,9 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Knowledge hub.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -135,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -143,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -166,15 +195,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04223d6c0ac47278",
+  "active": "4dfb1900cbbe4fc8",
   "lastOpenFiles": [
-    "2024-10-09-foundations-of-deep-learning.md",
-    "2024-09-18-deep-learning-for-image-analysis.md",
     "Knowledge hub.md",
-    "4dora.md",
-    "2024-10-08-daftds_part1ch2.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "2024-10-15-daftds_part1ch3.md",
+    "2024-09-18-deep-learning-for-image-analysis.md",
+    "2024-10-09-foundations-of-deep-learning.md",
+    "2024-10-08-dlfia_dante_assignment1.md",
+    "2024-09-10-advanced-computer-architectures.md",
+    "2024-09-10-introduction---fundamentals-of-concurrent-computer-system-design---ai-enabled-computer-architectures.md",
+    "4dora.md",
+    "2024-10-08-daftds_part1ch2.md",
     "2024-10-07-cib_w4_homework_dante.md",
     "2024-09-10-business-communication.md",
     "2024-10-09-foundations-of-deep-learning.md~",
@@ -183,7 +215,6 @@
     "2024-10-09-image-analysis-techniques.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-09-18-image-analysis-introduction.md",
-    "2024-10-08-dlfia_dante_assignment1.md",
     "2024-10-08-dlfia_dante_assignment1.md~",
     "Pasted image 20241008115849.png",
     "Pasted image 20241008115519.png",
@@ -205,7 +236,6 @@
     "2024-10-01-daftds_part1ch1end.md~",
     "2024-09-10-fault-tolerance.md~",
     "2024-09-24-daftds_part1ch1re.md",
-    "2024-09-10-advanced-computer-architectures.md",
     "2024-09-16-automotive-intelligent-electronic-systems---1.md",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
     "2024-09-26-cib_w3_homework_dante.md",
@@ -213,7 +243,6 @@
     "2024-09-24-fault.md",
     "2024-09-10-fault-tolerance.md",
     "2024-09-24-failure.md",
-    "2024-09-24-error.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
