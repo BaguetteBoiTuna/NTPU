@@ -130,3 +130,9 @@ One of the earliest CNN architectures, **LeNet-5** was designed for digit recogn
 ## Summary
 
 Convolutional Neural Networks are the backbone of many state-of-the-art applications in computer vision and beyond. Their ability to automatically extract meaningful features from visual data makes them incredibly powerful tools for a wide variety of tasks, from image classification to medical diagnosis. Despite their computational demands, the benefits of using CNNs have made them an essential part of modern AI research and application.
+
+---
+
+## Additional Notes
+
+In neural networks, “fundus images” refer to retinal images taken by a fundus camera that capture the back of the eye (the retina). These images are commonly used in medical contexts, particularly for diagnosing conditions like diabetic retinopathy, glaucoma, and macular degeneration. Convolutional Neural Networks (CNNs) are often employed to analyze fundus images for automated diagnosis and classification of eye diseases. This process helps improve early detection and treatment by recognizing patterns in the retinal structure.
