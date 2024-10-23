@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "1a0a4fbea69bab83",
+            "id": "3132b4b7e576e186",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-22-midterm-report-outline.md",
+                "file": "Knowledge hub.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-10-22-midterm-report-outline"
+              "title": "Knowledge hub"
             }
           }
         ],
@@ -201,14 +201,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a0a4fbea69bab83",
+  "active": "3132b4b7e576e186",
   "lastOpenFiles": [
+    "2024-10-23-convolutional-neural-network.md",
+    "2024-10-15-daftds_part1ch3.md",
+    "2024-10-22-midterm-report-outline.md",
     "2024-09-10-daftds_part1ch1.md",
     "2024-09-10-design-and-analysis-of-fault-tolerant-digital-systems.md",
     "Knowledge hub.md",
-    "2024-10-22-midterm-report-outline.md",
     "2024-09-10-business-communication.md",
-    "2024-10-15-daftds_part1ch3.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "2024-10-09-foundations-of-deep-learning.md",
     "2024-10-08-dlfia_dante_assignment1.md",
@@ -248,7 +249,6 @@
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
     "2024-09-26-cib_w3_homework_dante.md",
     "2024-09-23-homework1.md",
-    "2024-09-24-fault.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
