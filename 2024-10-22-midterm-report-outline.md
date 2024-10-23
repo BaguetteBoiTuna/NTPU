@@ -10,7 +10,7 @@ tags: []
 **1. Introduction**
 
 - Definition of Adaptive Music -> What the topic is about
-- Importance of Music in Video Games -> why i would like to discuss it
+- Importance of Music in Video Games -> Why i would like to discuss it
 
 **2. Evolution of Music in Video Games**
 
@@ -36,7 +36,12 @@ tags: []
 - Challenges in Implementing Adaptive Music
 - How Adaptive Music Works (Technology and Techniques)
 
-**6. Benefits and Limitations**
+**6. Benefits and Limitations** -> Conclusion/Summary
 
 - Pros: Enhanced Immersion, Emotional Resonance
 - Cons: Technical Constraints, Development Costs
+
+Will probably change it to:
+
+- Summary of Benefits/Results/Advantages/Outcomes
+- What you would like the readers to do.
