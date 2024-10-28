@@ -421,3 +421,31 @@ For Optimal Fit Training loss decreases smoothly and validation loss stabilizes 
 
 And Lastly, for Overfitting Training loss continues to decrease but the validation loss starts increasing after a certain number of epochs.
 
+---
+
+## Student Feedback for every class session
+
+1. What aspects of the class session did you find most valuable, and what could be improved?
+
+- Valuable
+
+2. Were there any parts of the handout that were unclear or confusing?
+
+- Completely clear
+
+3. Was the difficulty level of the content and instructions appropriate for you?
+
+- Easy (Im in my 4th year of Computer Science)
+
+4. How did you find the pacing of the session?
+
+- Sometime slow sometimes fast
+
+5. Was the content covered relevant to your learning goals and expectations?
+
+- Relevant (I like doing more practical stuff than theoretical thats why i did not put higher)
+
+6. What suggestions do you have to improve the future sessions?
+
+- My hearing is not the best sometimes i have trouble hearing the teacher.
+
