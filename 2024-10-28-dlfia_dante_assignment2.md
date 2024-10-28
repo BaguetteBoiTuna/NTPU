@@ -413,3 +413,11 @@ plot_results(histories, "accuracy")
 
 ### What indicators in the loss and accuracy plots suggest underfitting, the best fit, and overfitting? Please visualize these indicators and explain their significance
 
+I will be using the same plots as in question 1 to explain the indicators for underfitting, best fit, and overfitting.
+
+For Underfitting the indicators are high training and validation losses that do not decrease significantly over epochs.
+
+For Optimal Fit Training loss decreases smoothly and validation loss stabilizes at a low level after a few epochs.
+
+And Lastly, for Overfitting Training loss continues to decrease but the validation loss starts increasing after a certain number of epochs.
+
