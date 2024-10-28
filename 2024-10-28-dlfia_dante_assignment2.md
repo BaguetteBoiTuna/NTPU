@@ -181,3 +181,10 @@ plot_history(
 
 ### What are the fundamental differences between the Sigmoid, Tanh, ReLU, and Leaky ReLU activation functions? Additionally, illustrate how these different activation functions impact the overall performance of neural networks in digit recognition tasks using the MNIST dataset
 
+Here are the differences between them:
+
+1. **Sigmoid**: Good for probabilities (outputs between 0 and 1), but can slow down training due to small gradients. Not zero-centered, which affects convergence.
+2. **Tanh**: Outputs between -1 and 1, which helps in training speed. Still suffers from small gradients at extreme values.
+3. **ReLU**: Fast and avoids small gradients, but can lead to “dead neurons” where some neurons stop learning.
+4. **Leaky ReLU**: Similar to ReLU but fixes the “dead neuron” issue by allowing a small gradient for negative inputs.
+
