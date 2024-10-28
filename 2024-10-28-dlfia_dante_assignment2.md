@@ -296,3 +296,17 @@ plot_results(histories, "accuracy")
 
 ### Why might ReLU and Leaky ReLU perform better than Sigmoid and Tanh in deep networks? Please provide results to support your explanation
 
+Using the same [source](https://learnopencv.com/understanding-activation-functions-in-deep-learning/) than the previous question:
+
+1. Gradiant Saturation
+
+   - Sigmoid and Tanh can cause the gradients to become very small. Vanishing gradients in deeper layers, can slow down the learning.
+   - ReLU and Leaky ReLU do not have this issue.
+
+2. Computation Efficiency
+
+   - ReLU and Leaky ReLU are computationally simpler so more efficient than Sigmoid and Tanh.
+
+3. Sparse Activation
+   - ReLU has only a subset of neurons activated at a time. It reduces dependencies and enhances model interpretability and computational efficiency.
+
