@@ -55,3 +55,6 @@ overfit_history = compile_and_train(overfit_model)
 ```
 
 I had issues Where the Overfitting Model would strangely be very close to the optimal model while having 2 more layers. This is the reason why i went a bit overkill. I also used a smaller subset to get the model to overfit.
+Here are the results i got from testing the models:
+![[answer1.png]]![[answer1_2.png]]![[me struggling.png]]![[finally overfitting.png]]
+
