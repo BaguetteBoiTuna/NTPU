@@ -310,3 +310,106 @@ Using the same [source](https://learnopencv.com/understanding-activation-functio
 3. Sparse Activation
    - ReLU has only a subset of neurons activated at a time. It reduces dependencies and enhances model interpretability and computational efficiency.
 
+Tried showing this visually but its quite hard to notice:
+
+![[question3.png]]
+
+here is the source code used for this question:
+
+```python
+import tensorflow as tf
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten, Input
+from tensorflow.keras.optimizers import Adam
+import matplotlib.pyplot as plt
+
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+x_train, x_test = x_train / 255.0, x_test / 255.0
+
+
+# Define a function to create and compile the model with a given activation function
+def create_deep_model(activation):
+    model = Sequential(
+        [
+            Input(shape=(28, 28)),
+            Flatten(),
+            Dense(512, activation=activation),
+            Dense(256, activation=activation),
+            Dense(128, activation=activation),
+            Dense(10, activation="softmax"),
+        ]
+    )
+    model.compile(
+        optimizer=Adam(), loss="sparse_categorical_crossentropy", metrics=["accuracy"]
+    )
+    return model
+
+
+# Function to train and return history
+def train_model(model, epochs=10):
+    history = model.fit(
+        x_train, y_train, validation_data=(x_test, y_test), epochs=epochs, verbose=2
+    )
+    return history
+
+
+activations = ["sigmoid", "tanh", "relu", "leaky_relu"]
+histories = {}
+
+for activation in activations:
+    if activation == "leaky_relu":
+        model = create_deep_model(tf.keras.layers.LeakyReLU(alpha=0.1))
+    else:
+        model = create_deep_model(activation)
+    histories[activation] = train_model(model)
+
+
+# Plot the results for loss and accuracy
+def plot_results(histories, metric="loss"):
+    plt.figure(figsize=(12, 6))
+    colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"]
+    markers = ["o", "s", "^", "D"]
+    for idx, (activation, history) in enumerate(histories.items()):
+        # Plot validation metric with solid line and marker
+        plt.plot(
+            history.history[f"val_{metric}"],
+            label=f"{activation.capitalize()} Validation {metric.capitalize()}",
+            color=colors[idx % len(colors)],
+            linestyle="-",
+            marker=markers[idx % len(markers)],
+            markersize=6,
+        )
+        # Plot training metric with dashed line
+        plt.plot(
+            history.history[metric],
+            label=f"{activation.capitalize()} Training {metric.capitalize()}",
+            color=colors[idx % len(colors)],
+            linestyle="--",
+            marker=markers[idx % len(markers)],
+            markersize=4,
+            alpha=0.7,
+        )
+
+    plt.title(
+        f"Model {metric.title()} with Different Activation Functions", fontsize=16
+    )
+    plt.xlabel("Epochs", fontsize=12)
+    plt.ylabel(metric.title(), fontsize=12)
+    plt.legend(loc="upper right", fontsize=10, frameon=True, shadow=True)
+    plt.grid(True, linestyle="--", alpha=0.6)
+    plt.tight_layout()
+    plt.show()
+
+
+# Plot Loss and Accuracy
+plot_results(histories, "loss")
+plot_results(histories, "accuracy")
+```
+
+---
+
+## Question 4
+
+### What indicators in the loss and accuracy plots suggest underfitting, the best fit, and overfitting? Please visualize these indicators and explain their significance
+
