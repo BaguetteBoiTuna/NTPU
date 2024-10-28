@@ -190,3 +190,5 @@ Here are the differences between them:
 
 _source_: [OpenCV Activation Functions](https://learnopencv.com/understanding-activation-functions-in-deep-learning/)
 
+Did 2 clean little Plots to visually show the differences between them:
+
