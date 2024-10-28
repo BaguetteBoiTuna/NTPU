@@ -188,3 +188,5 @@ Here are the differences between them:
 3. **ReLU**: Fast and avoids small gradients, but can lead to “dead neurons” where some neurons stop learning.
 4. **Leaky ReLU**: Similar to ReLU but fixes the “dead neuron” issue by allowing a small gradient for negative inputs.
 
+_source_: [OpenCV Activation Functions](https://learnopencv.com/understanding-activation-functions-in-deep-learning/)
+
