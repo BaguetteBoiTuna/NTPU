@@ -58,3 +58,5 @@ I had issues Where the Overfitting Model would strangely be very close to the op
 Here are the results i got from testing the models:
 ![[answer1.png]]![[answer1_2.png]]![[me struggling.png]]![[finally overfitting.png]]
 
+We can see on the last image that the Underfit Model (Blue) needs alot of training and the validation loss does not improve much. The Optimal Model (Orange) has a good balance between training, validation loss and is stable. The Overfit Model (Green) has a higher validation loss than the other models and a lower training loss. This is a sign of overfitting.
+
