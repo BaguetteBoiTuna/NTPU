@@ -23,3 +23,4 @@ Research indicates that music in video games significantly influences player imm
 A study published in _The journal of Sound and Music in Games_ found that adaptive music enhances the gaming experience by aligning musical cues with gameplay events, thereby increasing player engagement and emotional resonance.
 
 Moreover, adaptive music serves as a narrative device, guiding players through the game's story and reinforcing the emotional tone of various scenes.
+For example, in the game _The Legend of Zelda: Breath of the wild_, _The Legend of Zelda: Tears of the Kingdom_ or _Skyrim_, the music dynamically shifts to reflect the player's actions and the environment, creating a cohesive and immersive experience.
