@@ -35,3 +35,6 @@ The progression of music in video games has been instrumental in shaping the imm
 
 In the early days of gaming, music was often a simple, unchanging loop due to hardware limitations.
 For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased i tempo as enemies approached, adding tension despite the simplicity.
+This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
+
+As technology advanced, game designers/composers began creating more complex and dynamic soundtracks. Most games now feature adaptive music that changes based on player actions, environmental factors, and narrative progression.
