@@ -49,3 +49,11 @@ As technology advanced, game designers/composers began creating more complex and
 - **2010s and Beyond**: Advances in audio technology and game design have enabled even more sophisticated adaptive music systems. Games like _The Witcher 3: Wild Hunt_ and _Red Dead Redemption 2_ feature dynamic soundtracks that enhance immersion and emotional impact depending on the players choices.
 
 As technology continues to advance, the potential for even more dynamic and responsive game music grows, promising richer experiences for players.
+
+## What is Adaptive Music?
+
+### Explanation of Adaptive Music
+
+Adaptive music, also known as dynamic or interactive music, refers to soundtracks that change in real-time in response to player actions or in game events.
+Unlike traditional static music, which remains constant regardless of what's going on, adaptive music evolves to reflect the game's current state, enhancing immersion and emotional engagement.
+This approach allows the music to change in intensity, instrumentation and even composition based on gameplay elements, enhancing the emotional experience and immersion of the user.
