@@ -11,4 +11,5 @@ tags: []
 
 ### Definition of Adaptive Music
 
-Adaptive music in video games refers to soundtracks that actively change in response to gameplay.
+Adaptive music in video games is music that changes based on what's happening in the game.
+Unlike traditional soundtracks (Music in video games are called soundtracks), it adjusts to events or actions, creating a closer connection between the player and the game.
