@@ -38,3 +38,10 @@ For example, the 1978 game Space Invaders featured a repetitive four-note loop t
 This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
 
 As technology advanced, game designers/composers began creating more complex and dynamic soundtracks. Most games now feature adaptive music that changes based on player actions, environmental factors, and narrative progression.
+
+### Key Milestones in Game Music Evolution
+
+- **1980s**: The use of programmable sound generators in consoles like the Nintendo Entertainment System (NES) allowed for more varied and complex compositions. Games like _Super Mario Bros_ featured memorable melodies that became iconic.
+- **1990s**: The advent of CD-ROM technology enabled the use of recorded audio, leading to richer and more immersive soundtracks. Games like _Final Fantasy VII_ utilized orchestral scores to enhance storytelling.
+- **2000s**: The implementation of adaptive music systems became more prevalent. For example, _Halo 2_ Featured a dynamic soundtrack that responded to in game events, intensifying the player's experience.
+- **2010s and Beyond**: Advances in audio technology and game design have enabled even more sophisticated adaptive music systems. Games like _The Last of Us_ and _Red Dead Redemption 2_ feature dynamic soundtracks that enhance immersion and emotional impact depending on the players choices.
