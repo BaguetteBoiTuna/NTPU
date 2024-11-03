@@ -27,6 +27,8 @@ For example, in the game _The Legend of Zelda: Breath of the wild_, _The Legend 
 Incorporating adaptive music into video games not only enhances immersion but also creates a more engaging and emotionally resonant experience for players.
 Players often say that very immersive games are like movies, and the music is a big part of that.
 
+---
+
 ## Evolution of Music in Video Games
 
 The progression of music in video games has been instrumental in shaping the immersive experiences players enjoy today. Initially, game music was static and limited by technological constraints, but it has evolved into complex, adaptive soundscapes that respond dynamically to gameplay.
@@ -44,4 +46,6 @@ As technology advanced, game designers/composers began creating more complex and
 - **1980s**: The use of programmable sound generators in consoles like the Nintendo Entertainment System (NES) allowed for more varied and complex compositions. Games like _Super Mario Bros_ featured memorable melodies that became iconic.
 - **1990s**: The advent of CD-ROM technology enabled the use of recorded audio, leading to richer and more immersive soundtracks. Games like _Final Fantasy VII_ utilized orchestral scores to enhance storytelling.
 - **2000s**: The implementation of adaptive music systems became more prevalent. For example, _Halo 2_ Featured a dynamic soundtrack that responded to in game events, intensifying the player's experience.
-- **2010s and Beyond**: Advances in audio technology and game design have enabled even more sophisticated adaptive music systems. Games like _The Last of Us_ and _Red Dead Redemption 2_ feature dynamic soundtracks that enhance immersion and emotional impact depending on the players choices.
+- **2010s and Beyond**: Advances in audio technology and game design have enabled even more sophisticated adaptive music systems. Games like _The Witcher 3: Wild Hunt_ and _Red Dead Redemption 2_ feature dynamic soundtracks that enhance immersion and emotional impact depending on the players choices.
+
+As technology continues to advance, the potential for even more dynamic and responsive game music grows, promising richer experiences for players.
