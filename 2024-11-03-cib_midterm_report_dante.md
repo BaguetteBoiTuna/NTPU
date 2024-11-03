@@ -19,4 +19,7 @@ Unlike traditional soundtracks (Music in video games are called soundtracks), it
 This subject is intriguing to me because it shows how even small details, like music, are crucial to building an immersive experience.
 Just as a movie's music shapes emotions and heightens engagement adaptive music in games makes the experience feel more real and impactful, illustrating the importance of sound in creating memorable and dynamic worlds.
 
-Research indicates that music in video games significantly influences player immersion and emotional responses. A study published in _The journal of Sound and Music in Games_
+Research indicates that music in video games significantly influences player immersion and emotional responses.
+A study published in _The journal of Sound and Music in Games_ found that adaptive music enhances the gaming experience by aligning musical cues with gameplay events, thereby increasing player engagement and emotional resonance.
+
+Moreover, adaptive music serves as a narrative device, guiding players through the game's story and reinforcing the emotional tone of various scenes.
