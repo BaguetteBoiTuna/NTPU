@@ -6,3 +6,9 @@ tags: []
 ---
 
 # Communication in Business Midterm Report: Adaptive Music in Video Games
+
+## Introduction
+
+### Definition of Adaptive Music
+
+Adaptive music in video games refers to soundtracks that actively change in response to gameplay.
