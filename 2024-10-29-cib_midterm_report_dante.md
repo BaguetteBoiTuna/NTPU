@@ -1,7 +1,6 @@
 ---
-id: 2024-11-03-cib_midterm_report_dante
-aliases:
-  - CiB_Midterm_Report_Dante
+id: 2024-10-29-cib_midterm_report_dante
+aliases: []
 tags: []
 ---
 
@@ -12,7 +11,7 @@ tags: []
 ### Definition of Adaptive Music
 
 Adaptive music in video games is music that changes based on what's happening in the game.
-Unlike traditional soundtracks (Music in video games are called soundtracks), it adjusts to events or actions, creating a closer connection between the player and the game.
+Unlike traditional soundtracks, it adjusts to events or actions, creating a closer connection between the player and the game.
 
 ### Importance of Music in Video Games
 
@@ -31,3 +30,8 @@ Players often say that very immersive games are like movies, and the music is a 
 ## Evolution of Music in Video Games
 
 The progression of music in video games has been instrumental in shaping the immersive experiences players enjoy today. Initially, game music was static and limited by technological constraints, but it has evolved into complex, adaptive soundscapes that respond dynamically to gameplay.
+
+### Early Static Music vs. Adaptive Music
+
+In the early days of gaming, music was often a simple, unchanging loop due to hardware limitations.
+For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased i tempo as enemies approached, adding tension despite the simplicity.

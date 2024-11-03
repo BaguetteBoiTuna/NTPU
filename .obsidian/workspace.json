@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-11-03-cib_midterm_report_dante.md",
+                "file": "2024-10-29-cib_midterm_report_dante.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-11-03-cib_midterm_report_dante"
+              "title": "2024-10-29-cib_midterm_report_dante"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,12 +201,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f0828ecda9b428b",
+  "active": "dae8a19ae45b3009",
   "lastOpenFiles": [
-    "2024-11-03-cib_midterm_report_dante.md",
+    "2024-10-22-midterm-report-outline.md",
+    "2024-10-29-cib_midterm_report_dante.md",
     "2024-09-10-business-communication.md",
     "Knowledge hub.md",
-    "2024-10-22-midterm-report-outline.md",
     "2024-11-03-cib_midterm_report_dante.md~",
     "2024-10-08-dlfia_dante_assignment1.md",
     "2024-10-28-dlfia_dante_assignment2.md",
