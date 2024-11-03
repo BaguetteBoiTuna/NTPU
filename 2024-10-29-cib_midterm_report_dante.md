@@ -50,6 +50,8 @@ As technology advanced, game designers/composers began creating more complex and
 
 As technology continues to advance, the potential for even more dynamic and responsive game music grows, promising richer experiences for players.
 
+---
+
 ## What is Adaptive Music?
 
 ### Explanation of Adaptive Music
@@ -64,15 +66,21 @@ This approach allows the music to change in intensity, instrumentation and even 
 
 These are compositions that adjust their intensity, tempo or instrumentation based on the game's action.
 For example, during combat, the music may become more intense, while in exploration phases, it might be more subdued.
-This adaptability not only helps in setting the mood but also reacts to gameplay, making it crucial part of modern video game design and evolution.
 
 #### Contextual Music Changes
 
 This type involves altering the music to match specific in game contexts or environments.
 For instance, entering a peaceful village might trigger a calm melody, whereas venturing into a dangerous area could cue ominous tones.
-This enhances emotional engagement and the overall narrative of the experience.
 
 #### Branching Music Structures
 
 In this approach, the music follows different paths or branches depending on player choices or game outcomes, creating a personalized auditory experience.
-This adaptability not only helps in setting the mood but also reacts to gameplay, making it a crucial part of modern video game design and evolution.
+
+#### Layered Music
+
+This technique involves stacking multiple musical layers that can be added or removed based on gameplay.
+For example, a base layer might play continuously, with additional layers introduced during heightened action or tension.
+This approach allows the music to change in intensity, instrumentation and even composition based on gameplay elements.
+
+Implementing adaptive music requires careful composition and technical integration to ensure seamless transitions and maintain the desired emotional impact.
+When executed effectively, it significantly enhances the player's connection to the game world.
