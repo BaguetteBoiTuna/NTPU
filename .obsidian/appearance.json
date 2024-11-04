@@ -1,4 +1,5 @@
 {
   "accentColor": "",
-  "cssTheme": "Monokai"
+  "cssTheme": "Monokai",
+  "baseFontSize": 16
 }
