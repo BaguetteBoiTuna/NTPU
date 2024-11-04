@@ -84,3 +84,8 @@ This approach allows the music to change in intensity, instrumentation and even 
 
 Implementing adaptive music requires careful composition and technical integration to ensure seamless transitions and maintain the desired emotional impact.
 When executed effectively, it significantly enhances the player's connection to the game world.
+
+## Impact on Player Experience
+
+We already know that the goal of Adaptive music is to enhance the player's immersion significantly.
+But how does it achieve this? And what are the feedbacks from the players and developers?
