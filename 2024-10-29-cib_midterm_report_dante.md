@@ -4,7 +4,9 @@ aliases: []
 tags: []
 ---
 
-# Communication in Business Midterm Report: Adaptive Music in Video Games
+# Adaptive Music in Video Games
+
+GUILLEMAIN Dante 711382799
 
 ## Introduction
 
@@ -32,8 +34,7 @@ The progression of music in video games has been instrumental in shaping the imm
 
 ### Early Static Music vs. Adaptive Music
 
-In the early days of gaming, music was often a simple, unchanging loop due to hardware limitations.
-For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased in tempo as enemies approached, adding tension despite the simplicity. This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
+Early video game music, limited by hardware constraints, relied on simple, repetitive loops. In _Space Invaders (1978)_, a four-note loop increased in tempo as enemies approached, adding tension despite its simplicity a precursor to adaptive music.
 
 As technology advanced, game designers/composers began creating more complex and dynamic soundtracks. Most games now feature adaptive music that changes based on player actions, environmental factors, and narrative progression.
 
