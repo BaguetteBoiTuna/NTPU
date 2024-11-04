@@ -76,6 +76,8 @@ This technique involves stacking multiple musical layers that can be added or re
 
 Implementing adaptive music requires careful composition and technical integration to ensure seamless transitions and maintain the desired emotional impact. When executed effectively, it significantly enhances the player's connection to the game world.
 
+---
+
 ## Impact on Player Experience
 
 We already know that the goal of Adaptive music is to enhance the player's immersion significantly. But how does it achieve this? And what are the feedbacks from the players and developers?
@@ -144,3 +146,17 @@ Adaptive music significantly enhances the gaming experience by providing immersi
 
 As media consumers, exploring the principles of adaptive music can offer valuable insights into how sound and music shape immersive experiences beyond gaming. Think about how these dynamic soundscapes could apply to educational technology or storytelling, where real time responsiveness can deepen engagement.
 Consider how adaptive audio could influence future approaches to interactive learning, making lessons more engaging and emotionally resonant for students. I saw on twitter that a teacher uses a specific playlist for tests, and it seems to work well with the students.
+
+---
+
+## References
+
+- **Splice**. (n.d.). The history of adaptive music in video games. Retrieved from <https://splice.com/blog/adaptive-music-video-games/>
+
+- **Gamespot**. (n.d.). A history of video game music. Retrieved from <https://www.gamespot.com/articles/a-history-of-video-game-music/1100-6092391/>
+
+- **Gamedeveloper**. (n.d.). Defining adaptive music. Retrieved from <https://www.gamedeveloper.com/audio/defining-adaptive-music>
+
+- **Journal of Sound and Music in Games**. (n.d.). Ludomusicology: Normalizing the study of video game music. Retrieved from <https://online.ucpress.edu/jsmg/article/2/4/13/118800/LudomusicologyNormalizing-the-Study-of-Video-Game>
+
+- **Telegraph**. (n.d.). How the shifting soundtrack of Red Dead Redemption 2 was built. Retrieved from <https://www.telegraph.co.uk/gaming/features/red-dead-redemption-2-shifting-soundtrack-built/>
