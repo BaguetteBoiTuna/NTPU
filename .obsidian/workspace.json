@@ -35,7 +35,8 @@
               "title": "2024-10-29-cib_midterm_report_dante"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,11 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f0828ecda9b428b",
+  "active": "dae8a19ae45b3009",
   "lastOpenFiles": [
+    "2024-10-22-midterm-report-outline.md",
     "2024-10-29-cib_midterm_report_dante.md~",
     "2024-10-29-cib_midterm_report_dante.md",
-    "2024-10-22-midterm-report-outline.md",
     "2024-09-10-business-communication.md",
     "Knowledge hub.md",
     "2024-11-03-cib_midterm_report_dante.md~",
@@ -244,7 +245,6 @@
     "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
     "2024-10-07-cib_w4_homework_dante.md~",
-    "2024-09-10-business-communication.md~",
     "2024-10-01-daftds_part1ch1end.md",
     "2024-09-24-daftds_part1ch1re.md",
     "2024-09-16-automotive-intelligent-electronic-systems---1.md",

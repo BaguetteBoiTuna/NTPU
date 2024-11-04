@@ -33,7 +33,7 @@ The progression of music in video games has been instrumental in shaping the imm
 ### Early Static Music vs. Adaptive Music
 
 In the early days of gaming, music was often a simple, unchanging loop due to hardware limitations.
-For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased i tempo as enemies approached, adding tension despite the simplicity. This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
+For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased in tempo as enemies approached, adding tension despite the simplicity. This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
 
 As technology advanced, game designers/composers began creating more complex and dynamic soundtracks. Most games now feature adaptive music that changes based on player actions, environmental factors, and narrative progression.
 
@@ -142,4 +142,5 @@ By addressing these challenges and employing advanced technologies, developers c
 
 Adaptive music significantly enhances the gaming experience by providing immersive and emotionally resonant soundscapes. However, developers must carefully consider the technical challenges and potential costs associated with its implementation.
 
-As media consumers, exploring the principles of adaptive music can offer valuable insights into how sound and music shape immersive experiences beyond gaming. Think about how these dynamic soundscapes could apply to educational technology or storytelling, where real time responsiveness can deepen engagement. Consider how adaptive audio could influence future approaches to interactive learning, making lessons more engaging and emotionally resonant for students. I saw on twitter that a teacher uses a specific playlist for tests, and it seems to work well with the students.
+As media consumers, exploring the principles of adaptive music can offer valuable insights into how sound and music shape immersive experiences beyond gaming. Think about how these dynamic soundscapes could apply to educational technology or storytelling, where real time responsiveness can deepen engagement.
+Consider how adaptive audio could influence future approaches to interactive learning, making lessons more engaging and emotionally resonant for students. I saw on twitter that a teacher uses a specific playlist for tests, and it seems to work well with the students.
