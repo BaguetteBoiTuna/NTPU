@@ -10,7 +10,7 @@ tags: []
 
 ### Definition of Adaptive Music
 
-Adaptive music in video games is music that changes based on what's happening in the game.
+Adaptive music also called dynamic music in video games is music that changes based on what's happening in the game.
 Unlike traditional soundtracks, it adjusts to events or actions, creating a closer connection between the player and the game.
 
 ### Importance of Music in Video Games
@@ -121,3 +121,19 @@ Implementing adaptive music in video games presents several challenges:
 - **Resource Constraints**: Adaptive music systems can be resource intensive, potentially impacting game performance. Developers must balance audio quality with system performance to maintain a smooth gaming experience.
 
 By addressing these challenges and employing advanced technologies, developers can achieve immersive and responsive musical experiences for the pleasure of the players.
+
+---
+
+## Benefits and Limitations
+
+### Benefits
+
+- **Enhanced Immersion**: Adaptive music deepens player engagement by aligning the soundtrack with in game events, creating a more immersive experience.
+
+- **Emotional Resonance**: Dynamic music enhances the emotional impact of storytelling, reinforcing narrative themes and character arcs.
+
+### Limitations
+
+- **Technical Constraints**: Implementing adaptive music requires sophisticated systems and can be resource intensive, potentially impacting game performance.
+
+- **Development Cost**:The complexity of composing and integrating adaptive music can lead to increased development time and expenses.
