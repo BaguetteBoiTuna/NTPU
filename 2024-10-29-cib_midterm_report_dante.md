@@ -89,3 +89,11 @@ When executed effectively, it significantly enhances the player's connection to 
 
 We already know that the goal of Adaptive music is to enhance the player's immersion significantly.
 But how does it achieve this? And what are the feedbacks from the players and developers?
+
+### Immersion and Emotional Response
+
+Let's use _Red Dead Redemption 2_ (RDR2) as an example.
+RDR2 is an open world action adventure game set in the American Wild West, where players navigate a vast landscape, interacting with characters and environments that reflect the challenges and atmosphere of the 1899 frontier.
+The game's adaptive music, composed by [Woody Jackson](https://en.wikipedia.org/wiki/Woody_Jackson), dynamically shifts to achieve a cinematic experience.
+
+#### Dynamic Musical Adaptation
