@@ -104,6 +104,8 @@ The seamless music transition in RDR2 are achieved through sophisticated audio t
 
 The exceptional quality of RDR2's music has been recognized with several awards. At The Game Awards 2018, the game won [Best Score/Music](https://www.youtube.com/watch?v=BWEIklwCX_Q), highlighting the impact of its adaptive soundtrack.
 
-## Feedback from Players and Developers
+### Feedback from Players and Developers
 
 Players often report that adaptive music enhances their connection to the game world, making their experiences more memorable and engaging. Developers also recognize its value. For example, the developers of _Balatro_ a poker game, stated tht adaptive music plays a key role in shaping the player's emotional experience, responding to gameplay events to heighten tension and excitement.
+
+---
