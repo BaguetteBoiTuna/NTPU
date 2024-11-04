@@ -109,3 +109,15 @@ The exceptional quality of RDR2's music has been recognized with several awards.
 Players often report that adaptive music enhances their connection to the game world, making their experiences more memorable and engaging. Developers also recognize its value. For example, the developers of _Balatro_ a poker game, stated tht adaptive music plays a key role in shaping the player's emotional experience, responding to gameplay events to heighten tension and excitement.
 
 ---
+
+## Challenges in Implementing Adaptive Music
+
+Implementing adaptive music in video games presents several challenges:
+
+- **Complexity of Composition**: Composers must create music that can seamlessly transition between various game states, requiring intricate planning and composition. This complexity ensures that the music adapts fluidly to different gameplay scenarios.
+
+- **Technical Integration**: Integrating adaptive music systems with game engines demands close collaboration between composers and developers. This process involves ensuring that the music responds accurately to in game events and player actions.
+
+- **Resource Constraints**: Adaptive music systems can be resource intensive, potentially impacting game performance. Developers must balance audio quality with system performance to maintain a smooth gaming experience.
+
+By addressing these challenges and employing advanced technologies, developers can achieve immersive and responsive musical experiences for the pleasure of the players.
