@@ -15,17 +15,14 @@ Unlike traditional soundtracks, it adjusts to events or actions, creating a clos
 
 ### Importance of Music in Video Games
 
-This subject is intriguing to me because it shows how even small details, like music, are crucial to building an immersive experience.
-Just as a movie's music shapes emotions and heightens engagement adaptive music in games makes the experience feel more real and impactful, illustrating the importance of sound in creating memorable and dynamic worlds.
+This subject is intriguing to me because it shows how even small details, like music, are crucial to building an immersive experience. Just as a movie's music shapes emotions and heightens engagement adaptive music in games makes the experience feel more real and impactful, illustrating the importance of sound in creating memorable and dynamic worlds.
 
 Research indicates that music in video games significantly influences player immersion and emotional responses.
 A study published in [_The journal of Sound and Music in Games_](https://online.ucpress.edu/jsmg/article/2/4/13/118800/LudomusicologyNormalizing-the-Study-of-Video-Game) found that adaptive music enhances the gaming experience by aligning musical cues with gameplay events, thereby increasing player engagement and emotional resonance.
 
-Moreover, adaptive music serves as a narrative device, guiding players through the game's story and reinforcing the emotional tone of various scenes.
-For example, in the game _The Legend of Zelda: Breath of the wild_, _The Legend of Zelda: Tears of the Kingdom_ or _Skyrim_, the music dynamically shifts to reflect the player's actions and the environment, creating a cohesive and immersive experience.
+Moreover, adaptive music serves as a narrative device, guiding players through the game's story and reinforcing the emotional tone of various scenes. For example, in the game _The Legend of Zelda: Breath of the wild_, _The Legend of Zelda: Tears of the Kingdom_ or _Skyrim_, the music dynamically shifts to reflect the player's actions and the environment, creating a cohesive and immersive experience.
 
-Incorporating adaptive music into video games not only enhances immersion but also creates a more engaging and emotionally resonant experience for players.
-Players often say that very immersive games are like movies, and the music is a big part of that.
+Incorporating adaptive music into video games not only enhances immersion but also creates a more engaging and emotionally resonant experience for players. Players often say that very immersive games are like movies, and the music is a big part of that.
 
 ---
 
@@ -36,8 +33,7 @@ The progression of music in video games has been instrumental in shaping the imm
 ### Early Static Music vs. Adaptive Music
 
 In the early days of gaming, music was often a simple, unchanging loop due to hardware limitations.
-For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased i tempo as enemies approached, adding tension despite the simplicity.
-This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
+For example, the 1978 game Space Invaders featured a repetitive four-note loop that increased i tempo as enemies approached, adding tension despite the simplicity. This can be considered an early form of adaptive music, as the soundtrack responded to in-game events.
 
 As technology advanced, game designers/composers began creating more complex and dynamic soundtracks. Most games now feature adaptive music that changes based on player actions, environmental factors, and narrative progression.
 
@@ -56,9 +52,7 @@ As technology continues to advance, the potential for even more dynamic and resp
 
 ### Explanation of Adaptive Music
 
-Adaptive music, also known as dynamic or interactive music, refers to soundtracks that change in real-time in response to player actions or in game events.
-Unlike traditional static music, which remains constant regardless of what's going on, adaptive music evolves to reflect the game's current state, enhancing immersion and emotional engagement.
-This approach allows the music to change in intensity, instrumentation and even composition based on gameplay elements, enhancing the emotional experience and immersion of the user.
+Adaptive music, also known as dynamic or interactive music, refers to soundtracks that change in real-time in response to player actions or in game events. Unlike traditional static music, which remains constant regardless of what's going on, adaptive music evolves to reflect the game's current state, enhancing immersion and emotional engagement. This approach allows the music to change in intensity, instrumentation and even composition based on gameplay elements, enhancing the emotional experience and immersion of the user.
 
 ### Types of Adaptive Music in Games
 
@@ -78,22 +72,22 @@ In this approach, the music follows different paths or branches depending on pla
 
 #### Layered Music
 
-This technique involves stacking multiple musical layers that can be added or removed based on gameplay.
-For example, a base layer might play continuously, with additional layers introduced during heightened action or tension.
-This approach allows the music to change in intensity, instrumentation and even composition based on gameplay elements.
+This technique involves stacking multiple musical layers that can be added or removed based on gameplay. For example, a base layer might play continuously, with additional layers introduced during heightened action or tension. This approach allows the music to change in intensity, instrumentation and even composition based on gameplay elements.
 
-Implementing adaptive music requires careful composition and technical integration to ensure seamless transitions and maintain the desired emotional impact.
-When executed effectively, it significantly enhances the player's connection to the game world.
+Implementing adaptive music requires careful composition and technical integration to ensure seamless transitions and maintain the desired emotional impact. When executed effectively, it significantly enhances the player's connection to the game world.
 
 ## Impact on Player Experience
 
-We already know that the goal of Adaptive music is to enhance the player's immersion significantly.
-But how does it achieve this? And what are the feedbacks from the players and developers?
+We already know that the goal of Adaptive music is to enhance the player's immersion significantly. But how does it achieve this? And what are the feedbacks from the players and developers?
 
 ### Immersion and Emotional Response
 
 Let's use _Red Dead Redemption 2_ (RDR2) as an example.
+
 RDR2 is an open world action adventure game set in the American Wild West, where players navigate a vast landscape, interacting with characters and environments that reflect the challenges and atmosphere of the 1899 frontier.
 The game's adaptive music, composed by [Woody Jackson](https://en.wikipedia.org/wiki/Woody_Jackson), dynamically shifts to achieve a cinematic experience.
 
 #### Dynamic Musical Adaptation
+
+As said before the music in RDR2 changes based on the player's location and actions.
+For example, as players explore the open fields or mountains, ambient and subdued music sets a peaceful tone, enhancing the feeling of solitude in the wilderness. When players enter gunfights or intense chases, the music seamlessly transitions to a faster more intense rhythm, aligning with the adrenaline and urgency of the moment. This adaptation helps make the game world feel more responsive and alive, drawing players deeper into the experience.
