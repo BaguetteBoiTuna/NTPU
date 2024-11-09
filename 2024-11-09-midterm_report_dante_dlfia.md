@@ -39,3 +39,5 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits 0 to
 - **Inter-Class Similarity**: Certain digits, such as 1 and 7 or 3 and 8, can appear similar, making it challenging for models to distinguish between them.
 - **Noise and Artifacts**: Despite being relatively clean, some images contain noise or artifacts that can affect model performance.
 - **Limited Resolution**: The 28x28 pixel size may not capture fine details, potentially reducing the model's ability to discern subtle differences between digits.
+
+### Pre-processing Steps
