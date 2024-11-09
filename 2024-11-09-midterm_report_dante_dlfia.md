@@ -22,3 +22,7 @@ For the MNIST dataset, while it is relatively clean and standardized, 28x28 gray
 While MNIST is well prepared, pre-processing still enhances the model's robustness and generalization, leading to measurable imrovements in performance and efficiency even for an "easy" dataset like MNIST.
 
 ##### Sources
+
+- **LeCun**, Y. (n.d.). The MNIST Database of Handwritten Digits. Retrieved from <https://yann.lecun.com/exdb/mnist/>
+
+- **GeeksforGeeks**. (n.d.). MNIST Dataset. Retrieved from <https://www.geeksforgeeks.org/mnist-dataset/>
