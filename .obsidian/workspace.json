@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2024-10-28-dlfia_dante_assignment2"
             }
+          },
+          {
+            "id": "7b02b320ad2d82eb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,8 +198,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0607a4193990a91d",
+  "active": "7b02b320ad2d82eb",
   "lastOpenFiles": [
+    "2024-10-28-dlfia_dante_assignment2.md",
     "2024-11-09-midterm_report_dante_dlfia.md",
     "2024-09-18-deep-learning-for-image-analysis.md",
     "Knowledge hub.md",
@@ -196,7 +210,6 @@
     "2024-09-10-business-communication.md",
     "2024-11-03-cib_midterm_report_dante.md~",
     "2024-10-08-dlfia_dante_assignment1.md",
-    "2024-10-28-dlfia_dante_assignment2.md",
     "2024-10-28-dlfia_dante_assignment2.md~",
     "question3.png",
     "ModelLoss.png",
