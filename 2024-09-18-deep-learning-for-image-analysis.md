@@ -22,3 +22,4 @@ This course introduces deep learning techniques for analyzing and interpreting i
 
 - [DLfIA_Dante_Assignment1](2024-10-08-dlfia_dante_assignment1.md)
 - [DLfIA_Dante_Assignment2](2024-10-28-dlfia_dante_assignment2.md)
+- [Midterm_Report_Dante_DLfIA](2024-11-09-midterm_report_dante_dlfia.md)
