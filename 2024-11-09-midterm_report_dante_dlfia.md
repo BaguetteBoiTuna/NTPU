@@ -24,3 +24,8 @@ In this report, we address the challenge of wildlife species classification usin
 By applying these pre-processing techniques, we ensure the input images are consistent in quality, which enhances the model's ability to classify various species accurately.
 
 ##### Sources
+
+- **Inside Machine Learning**. _Why and How to Normalize Data for Computer Vision (with PyTorch)_. <https://inside-machinelearning.com/en/why-and-how-to-normalize-data-object-detection-on-image-in-pytorch-part-1/>
+- **IEEE Xplore**. _Image De-Noising With Machine Learning: A Review_. <https://ieeexplore.ieee.org/document/9464965>
+- **OpenCV Documentation**. _Histogram Equalization in OpenCV_. <https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html>
+- **World Wildlife Fund**. _Employing AI to Evaluate Wildlife Populations on a Global Scale_. <https://www.worldwildlife.org/magazine/issues/winter-2020/articles/employing-ai-to-evaluate-wildlife-populations-on-a-global-scale>
