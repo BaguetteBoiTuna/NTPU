@@ -18,5 +18,4 @@ In this report, we address the challenge of wildlife species classification usin
 ### Importance of Pre-processing
 
 1. **Normalization**:
-
-- **Benefit**: Wildlife images can vary widely in lighting conditions, leading to different pixel intensity scales across images. Normalization ensures that pixel values are standardized across all images, creating a uniform range, typically between 0 and 1.
+   - **Benefit**: Wildlife images can vary widely in lighting conditions, leading to different pixel intensity scales across images. Normalization ensures that pixel values are standardized across all images, creating a uniform range, typically between 0 and 1. This consistency helps the model learn faster and reduces sensitivity to intensity fluctuations, providing more stable training results.
