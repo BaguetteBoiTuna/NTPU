@@ -29,3 +29,11 @@ By applying these pre-processing techniques, we ensure the input images are cons
 - **IEEE Xplore**. _Image De-Noising With Machine Learning: A Review_. <https://ieeexplore.ieee.org/document/9464965>
 - **OpenCV Documentation**. _Histogram Equalization in OpenCV_. <https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html>
 - **World Wildlife Fund**. _Employing AI to Evaluate Wildlife Populations on a Global Scale_. <https://www.worldwildlife.org/magazine/issues/winter-2020/articles/employing-ai-to-evaluate-wildlife-populations-on-a-global-scale>
+
+## Dataset Exploration and Pre-processing
+
+### Dataset Exploration
+
+The [Animals-10](https://www.kaggle.com/datasets/alessiocorrado99/animals10?resource=download) dataset includes approximately 28,000 images of 10 animal categories, sourced from various online environments, which introduces challenges:
+
+1. **Image Quality**: The dataset contains "medium quality" images, meaning they vary in resolution, lighting and clarity, which could impact classification accuracy.
