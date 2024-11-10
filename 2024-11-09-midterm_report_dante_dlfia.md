@@ -149,3 +149,12 @@ To tailor EfficientNet-B3 to this classification problem, a few modifications an
 1. **Number of Output Classes**: The model's final fully connected layer is adapted to match the number of classes in the dataset, corresponding to the different animal types. This customization enables EfficientNet-B3 to classify each image into one of the specific animal categories in the dataset.
 2. **Data Augmentation**: To improve model generalization, data augmentation techniques such as random horizontal flipping and rotation were added during training. These augmentations simulate variations in the dataset, helping the model adapt to diverse poses, orientations and backgrounds.
 3. **Training on Apple's M3 Pro Chip**: Since the training will be conducted on an Apple MacBook Pro with an M3 Pro chip, TensorFlow's Metal Performance Shaders (MPS) backend will be used. This backend optimizes model training for Apple Silicon, enabling faster and more efficient computation. Mixed precision training will also be enabled to further optimize memory usage and training speed.
+
+### Model Variants: Model A and Model B
+
+To assess the impact of image pre-processing on model performance, two versions of the model will be trained:
+
+- **Model A**: This model will be trained on pre-processed images, where images are resized, normalized and contrast enhanced using Contrast Limited Adaptive Histogram Equalization (CLAHE). The pre-processing aims to improve image clarity and highlight key features, potentially aiding the model in learning distinguishing characteristics of each animal.
+- **Model B**: This model will be trained on the original images. Training on raw images allows for a baseline comparison to determine whether the pre-processing steps improve or hinder model accuracy.
+
+Both models will be trained under identical conditions, including the same batch size, learning rate and number of epochs. The results from Model A and Model B will be compared to assess the effectiveness of the pre-processing steps on classification accuracy and training efficiency.
