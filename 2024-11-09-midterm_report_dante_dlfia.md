@@ -52,6 +52,28 @@ The following pre-processing steps were applied to standardize the dataset and e
 - Images are resized to a fixed dimension (224x224) while preserving the aspect ratio. Padding is added to fill any extra space, ensuring a consistent input size without distortion.
 - **Purpose**: Standardizing input dimensions across images allows the model to handle consistent sized inputs, improving model convergence and performance.
 
+```python
+from PIL import Image, ImageOps
+
+def resize_with_padding(image, target_size=(224, 224)):
+    # Resize the image with aspect ratio preserved
+    image.thumbnail(target_size, Image.LANCZOS)
+    delta_w = target_size[0] - image.size[0]
+    delta_h = target_size[1] - image.size[1]
+    padding = (
+        delta_w // 2,
+        delta_h // 2,
+        delta_w - delta_w // 2,
+        delta_h - delta_h // 2,
+    )
+    return ImageOps.expand(image, padding, fill="black")
+```
+
+#### 2. Normalization
+
+- The pixel values are scaled to a 0-1 range by dividing by 255.
+- **Purpose**: Normalization helps in stabilizing and accelerating the training process by maintaining the pixel values within a controlled range, which aids in smoother gradient descent.
+
 ## 3. Model Selection and Implementation
 
 ### Model Architecture Selection
