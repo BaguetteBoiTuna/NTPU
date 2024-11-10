@@ -290,6 +290,8 @@ No gradiants available.
 Grad-CAM failed: Unable to obtain gradients.
 ```
 
+Which meant that my code was unable to obtain gradients and heatmaps from the models.
+
 This issue may stem from the specific architecture used (EfficientNet-B3), the fact I used a MacBook Pro with an M3 Pro chip or the way gradients are handled in the current setup. Consequently, I was unable to provide activation maps or Grad-CAM visualization interpretability.
 
 ### Relevant Code Snippets
@@ -314,5 +316,48 @@ inference_time_a, memory_usage_a = measure_inference_time_and_memory(
 inference_time_b, memory_usage_b = measure_inference_time_and_memory(
     model_b, train_gen_b
 )
+```
+
+```python
+# Grad-CAM Visualization using base_model
+def get_grad_cam(model, img_array, base_model_layer_name="top_conv"):
+    img_tensor = tf.convert_to_tensor(img_array)
+    base_model = model.get_layer("efficientnetb3")
+    grad_model = tf.keras.models.Model(
+        [model.inputs],
+        [base_model.get_layer(base_model_layer_name).output, model.output],
+    )
+    with tf.GradientTape() as tape:
+        tape.watch(img_tensor)
+        conv_outputs, predictions = grad_model(img_tensor)
+        loss = predictions[:, tf.argmax(predictions[0])]
+    grads = tape.gradient(loss, conv_outputs)
+    if grads is None:
+        print("No gradients available.")
+        return None
+    pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
+    conv_outputs = conv_outputs[0]
+    heatmap = tf.reduce_sum(tf.multiply(pooled_grads, conv_outputs), axis=-1)
+    heatmap = np.maximum(heatmap, 0) / np.max(heatmap)
+    return heatmap
+
+
+def plot_grad_cam(model, img_path, base_model_layer_name="top_conv"):
+    img = tf.keras.preprocessing.image.load_img(img_path, target_size=img_size)
+    img_array = tf.keras.preprocessing.image.img_to_array(img)
+    img_array = np.expand_dims(img_array, axis=0) / 255.0
+    heatmap = get_grad_cam(model, img_array, base_model_layer_name)
+    if heatmap is None:
+        print("Grad-CAM failed: Unable to obtain gradients.")
+        return
+    heatmap = cv2.resize(heatmap.numpy(), (img.size[0], img.size[1]))
+    plt.imshow(img)
+    plt.imshow(heatmap, cmap="jet", alpha=0.4)
+    plt.axis("off")
+    plt.show()
+
+img_path = "/Users/dante/Sandboxes/MLIA/datasets/raw-img/gatto/81.jpeg"
+plot_grad_cam(model_a, img_path)
+plot_grad_cam(model_b, img_path)
 ```
 
