@@ -107,6 +107,11 @@ def apply_clahe_to_color(image_array):
     return enhanced_image / 255.0
 ```
 
+### Demonstration of Pre-processing
+![[Screenshot 2024-11-10 at 21.44.30.png]]
+![[Screenshot 2024-11-10 at 21.45.11.png]]
+![[Screenshot 2024-11-10 at 21.45.37.png]]
+
 ## 3. Model Selection and Implementation
 
 ### Model Architecture Selection
