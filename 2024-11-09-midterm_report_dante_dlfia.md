@@ -45,95 +45,6 @@ These challenges make pre-processing essential for improving the clarity and con
 
 ### Pre-processing Steps
 
-All the code snippets shown in this section are for demonstration purposes only and will be changed according to the actual implementation requirements.
-
-#### 1. Resizing with Aspect Ratio Preservation and Padding
-
-To resize images to a uniform size without distorting their aspect ratios, we can add padding after resizing. This method maintains the original aspect ratio and fills the remaining space with a solid color.
-
-Here's how to implement this using [Pillow](https://pillow.readthedocs.io/en/stable/):
-
-```python
-from PIL import Image, ImageOps
-
-def resize_with_padding(image_path, target_size=(128, 128), padding_color=(0, 0, 0)):
-    image = Image.open(image_path)
-
-    # Calculate the aspect ratio
-    aspect_ratio = image.width / image.height
-
-    # Determine new dimensions to fit within the target size
-    if aspect_ratio > 1:  # Wider than tall
-        new_width = target_size[0]
-        new_height = int(new_width / aspect_ratio)
-    else:  # Taller than wide
-        new_height = target_size[1]
-        new_width = int(new_height * aspect_ratio)
-
-    # Resize the image while maintaining aspect ratio
-    resized_image = image.resize((new_width, new_height), Image.ANTIALIAS)
-
-    # Create a new image with the target size and padding color
-    new_image = Image.new("RGB", target_size, padding_color)
-
-    # Paste the resized image onto the center of the new image
-    paste_position = ((target_size[0] - new_width) // 2, (target_size[1] - new_height) // 2)
-    new_image.paste(resized_image, paste_position)
-
-    return new_image
-```
-
-#### 2. Normalization
-
-Normalization scales pixel values to a range of 0 to 1, which helps stabilize and speed up the training process.
-
-```python
-import numpy as np
-
-def normalize_image(image):
-    image_array = np.array(image)
-    normalized_array = image_array / 255.0
-    return normalized_array
-```
-
-#### 3. Noise Reduction
-
-Applying a Gaussian blur can help reduce minor noise in the images.
-
-```python
-from PIL import ImageFilter
-
-def reduce_noise(image):
-    blurred_image = image.filter(ImageFilter.GaussianBlur(radius=1))
-    return blurred_image
-```
-
-#### 4. Contrast Adjustment
-
-Enhancing contrast can make features more distinguishable. Using Contrast Limited Adaptive Histogram Equalization (CLAHE) is effective for this purpose.
-
-```python
-import cv2
-import numpy as np
-
-def enhance_contrast(image):
-    image_array = np.array(image)
-    # Convert to LAB color space
-    lab = cv2.cvtColor(image_array, cv2.COLOR_RGB2LAB)
-    l, a, b = cv2.split(lab)
-    # Apply CLAHE to the L-channel
-    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
-    cl = clahe.apply(l)
-    # Merge channels and convert back to RGB
-    merged_lab = cv2.merge((cl, a, b))
-    enhanced_image = cv2.cvtColor(merged_lab, cv2.COLOR_LAB2RGB)
-    # Convert back to PIL image
-    enhanced_image_pil = Image.fromarray(enhanced_image)
-    return enhanced_image_pil
-```
-
-DIFFERENCE BETWEEN ORIGINAL AND PRE-PROCESSED IMAGES WILL GO HERE
-
 ## 3. Model Selection and Implementation
 
 ### Model Architecture Selection
@@ -528,8 +439,5 @@ By pursuing these directions, future research can continue to optimize model per
 ##### Sources
 
 - **Machine Learning Mastery**. _Best Practices for Preparing and Augmenting Image Data for Convolutional Neural Networks_. <https://machinelearningmastery.com/best-practices-for-preparing-and-augmenting-image-data-for-convolutional-neural-networks/>
-- **IEEE Xplore**. _Exploring Transformer-Based Models for Image Classification_. <https://ieeexplore.ieee.org/document/10420413>
-- **Analytics Vidhya**. _Learn Image Classification with CNN – Convolutional Neural Networks_. <https://www.analyticsvidhya.com/blog/2020/02/learn-image-classification-cnn-convolutional-neural-networks-3-datasets/>
-- **IEEE Xplore**. _Grad-CAM++ and LRP for Model Interpretability in Deep Learning_. <https://ieeexplore.ieee.org/document/10664065>
-- **MDPI**. _Evaluating Model Performance for Remote Sensing Applications_. <https://www.mdpi.com/2072-4292/13/22/4712>
+- **IEEE Xplore**. _Advancements in CNN Architectures for Computer Vision: A Comprehensive Review_. <https://ieeexplore.ieee.org/document/10420413>
 
