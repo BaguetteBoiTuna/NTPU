@@ -141,3 +141,11 @@ DIFFERENCE BETWEEN ORIGINAL AND PRE-PROCESSED IMAGES WILL GO HERE
 For this image classification task, I selected EfficientNet-B3 as the deep learning model architecture. EfficienNet is known for its accuracy and efficiency. It utiilizes a compound scaling method that balances the depth, width and resolution of the network, which allows it to achieve state of the art performance with fewer parameters and lower computational requirements compared to other models. EfficientNet-B3, specifically, offers improved accuracy over EfficientNet-B0, making it suitable for the complexity of my dataset, which includes images of animals with varied backgrounds.
 
 EfficientNet-B3 was chosen over other models such as ResNet and Vision Transformer due to its balance of accuracy and computational efficiency. The M# Pro chip on my MacBook Pro provides moderate computational power, and EfficientNet-B3 can leverage this effecively, providing accurate results without overwhelming system resources.
+
+### Modifications and Customizations
+
+To tailor EfficientNet-B3 to this classification problem, a few modifications and customizations were applied:
+
+1. **Number of Output Classes**: The model's final fully connected layer is adapted to match the number of classes in the dataset, corresponding to the different animal types. This customization enables EfficientNet-B3 to classify each image into one of the specific animal categories in the dataset.
+2. **Data Augmentation**: To improve model generalization, data augmentation techniques such as random horizontal flipping and rotation were added during training. These augmentations simulate variations in the dataset, helping the model adapt to diverse poses, orientations and backgrounds.
+3. **Training on Apple's M3 Pro Chip**: Since the training will be conducted on an Apple MacBook Pro with an M3 Pro chip, TensorFlow's Metal Performance Shaders (MPS) backend will be used. This backend optimizes model training for Apple Silicon, enabling faster and more efficient computation. Mixed precision training will also be enabled to further optimize memory usage and training speed.
