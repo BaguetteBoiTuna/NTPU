@@ -158,3 +158,23 @@ To assess the impact of image pre-processing on model performance, two versions 
 - **Model B**: This model will be trained on the original images. Training on raw images allows for a baseline comparison to determine whether the pre-processing steps improve or hinder model accuracy.
 
 Both models will be trained under identical conditions, including the same batch size, learning rate and number of epochs. The results from Model A and Model B will be compared to assess the effectiveness of the pre-processing steps on classification accuracy and training efficiency.
+
+### Relevant Code Snippets
+
+```python
+# Define paths and parameters
+preprocessed_dir = "./datasets/preprocessed"
+original_dir = "./datasets/raw-img"
+batch_size = 32
+img_size = (224, 224)
+num_classes = len(os.listdir(preprocessed_dir))
+fraction = 0.05 # I only used 5% of the dataset for demonstration purposes
+# Also did not want my laptop to overheat
+```
+
+```python
+# Set up data generators
+datagen = ImageDataGenerator(
+    horizontal_flip=True, rotation_range=10, rescale=1.0 / 255.0
+)
+```
