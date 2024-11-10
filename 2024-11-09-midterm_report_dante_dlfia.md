@@ -401,4 +401,12 @@ To evaluate the models trained with and without pre-processing, I collected key 
 #### Model Accuracy and Robustness
 
 - **Accuracy**: Model A, which was trained on pre-processed images, achieved a higher accuracy of 18.98% compared to 10.55% for Model B which was trained on raw images. This indicates that the pre-processing techniques contributed positively to the model's ability to generalize, resulting in better overall performance.
-![[Accuracy_Comparison.png]]
+  ![[Accuracy_Comparison.png]]
+
+- **Loss**: The loss value for Model A (10.48) was significantly lower than that for Model B (41.22). A lower loss suggests that Model A experienced less error during training and potentially exhibits better convergence properties. The high loss in Model B indicate issues with stability and convergence due to the lack of pre-processing.
+  ![[Loss_Comparison.png]]
+
+#### Computational Efficiency and Training Requirements
+
+- **Training Time**: Model A’s training was completed in approximately 251.32 seconds, while Model B took slightly longer at 279.85 seconds. This faster training time for Model A may be attributed to the pre-processed images, which likely simplified feature extraction and pattern recognition, allowing the model to learn more effectively with fewer resources.
+
