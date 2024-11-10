@@ -74,6 +74,37 @@ def resize_with_padding(image, target_size=(224, 224)):
 - The pixel values are scaled to a 0-1 range by dividing by 255.
 - **Purpose**: Normalization helps in stabilizing and accelerating the training process by maintaining the pixel values within a controlled range, which aids in smoother gradient descent.
 
+```python
+import numpy as np
+
+def normalize_image(image):
+    return np.array(image) / 255.0
+```
+
+#### 3. Contrast Enhancement (CLAHE)
+
+- The [Contrast Limited Adaptive Histogram Equalization (CLAHE)](https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html) method is applied to the images, focusing on the lightness channel in LAB color space to enhance contrast without oversaturating.
+- **Purpose**: CLAHE enhances fine details in the images, making features more prominent and easier for the model to recognize, especially in low-light or low-contrast areas.
+
+```python
+def apply_clahe_to_color(image_array):
+    # Convert RGB to LAB color space
+    lab = cv2.cvtColor((image_array * 255).astype(np.uint8), cv2.COLOR_RGB2LAB)
+    l, a, b = cv2.split(lab)
+
+    # Apply CLAHE to the L channel with a lower clip limit for softer contrast
+    clahe = cv2.createCLAHE(clipLimit=1.5, tileGridSize=(8, 8))
+    cl = clahe.apply(l)
+
+    # Merge back the L channel with the original A and B channels
+    enhanced_lab = cv2.merge((cl, a, b))
+
+    # Convert back to RGB color space
+    enhanced_image = cv2.cvtColor(enhanced_lab, cv2.COLOR_LAB2RGB)
+
+    return enhanced_image / 255.0
+```
+
 ## 3. Model Selection and Implementation
 
 ### Model Architecture Selection
