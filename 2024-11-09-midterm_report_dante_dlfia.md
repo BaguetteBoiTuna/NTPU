@@ -506,5 +506,11 @@ for i, metric in enumerate(metrics):
 
 ### Summary of Findings
 
-In this project, I explored the impact of image pre-processing on the performance of a deep learning model for animal image classification. Using EfficientNet-B3 as our model architecture, I trained two versions of the model: one on pre-processed images (Model A) and the other on raw images (Model B). Our analysis across various metrics revealed several key insights:
+In this project, I explored the impact of image pre-processing on the performance of a deep learning model for animal image classification. Using EfficientNet-B3 as my model architecture, I trained two versions of the model: one on pre-processed images (Model A) and the other on raw images (Model B). My analysis across various metrics revealed several key insights:
+
+- **Improved Performance with Pre-Processing**: Model A, trained on pre-processed images, achieved higher accuracy and a lower loss compared to Model B. This indicates that pre-processing steps such as normalization and contrast adjustment enhanced the model’s ability to generalize and learn effectively from the dataset.
+- **Enhanced Computational Efficiency**: Model A demonstrated slight improvements in computational efficiency, with reduced training time and memory usage. This suggests that pre-processing helped streamline the dataset, enabling more efficient feature extraction and reducing computational load.
+- **Feature Capture and Interpretability**: Although direct Grad-CAM visualizations were not feasible, theoretical expectations suggest that pre-processing helped improve clarity in capturing relevant features. Enhanced contrast and reduced noise in pre-processed images likely made critical features like edges and shapes more distinguishable, potentially aiding the model’s interpretability and robustness.
+
+Overall, my findings confirm that pre-processing was beneficial in improving both model performance and computational efficiency, highlighting the value of these techniques in deep learning applications involving complex datasets.
 
