@@ -107,3 +107,27 @@ def reduce_noise(image):
     blurred_image = image.filter(ImageFilter.GaussianBlur(radius=1))
     return blurred_image
 ```
+
+#### 4. Contrast Adjustment
+
+Enhancing contrast can make features more distinguishable. Using Contrast Limited Adaptive Histogram Equalization (CLAHE) is effective for this purpose.
+
+```python
+import cv2
+import numpy as np
+
+def enhance_contrast(image):
+    image_array = np.array(image)
+    # Convert to LAB color space
+    lab = cv2.cvtColor(image_array, cv2.COLOR_RGB2LAB)
+    l, a, b = cv2.split(lab)
+    # Apply CLAHE to the L-channel
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    cl = clahe.apply(l)
+    # Merge channels and convert back to RGB
+    merged_lab = cv2.merge((cl, a, b))
+    enhanced_image = cv2.cvtColor(merged_lab, cv2.COLOR_LAB2RGB)
+    # Convert back to PIL image
+    enhanced_image_pil = Image.fromarray(enhanced_image)
+    return enhanced_image_pil
+```
