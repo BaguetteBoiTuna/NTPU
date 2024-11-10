@@ -13,7 +13,7 @@ GUILLEMAIN Dante 711382799
 
 ### Problem Overview
 
-In this report, we address the challenge of wildlife species classification using the Animals-10 dataset, which comprises approximately 28,000 images across ten categories: dog, cat, horse, spider, butterfly, chicken, sheep, cow, squirrel and elephant. Accurate classification of animal species from images is crucial in various fields, including ecology, wildlife conservation and biodiversity monitoring. Automating this process through machine learning models can significantly enhance the efficiency of data analysis and decision-making in these domains.
+In this report, I address the challenge of wildlife species classification using the Animals-10 dataset, which comprises approximately 28,000 images across ten categories: dog, cat, horse, spider, butterfly, chicken, sheep, cow, squirrel and elephant. Accurate classification of animal species from images is crucial in various fields, including ecology, wildlife conservation and biodiversity monitoring. Automating this process through machine learning models can significantly enhance the efficiency of data analysis and decision-making in these domains.
 
 ### Importance of Pre-processing
 
@@ -21,7 +21,7 @@ In this report, we address the challenge of wildlife species classification usin
 2. **Noise Reduction**: Wildlife images frequently contain visual noise, such as foliage, shadows or background animals, which can obscure the primary subject. Noise reduction techniques, like Gaussian filtering, help reduce these distractions, enabling the model to focus more on relevant features. This step is especially important for species that are naturally camouflaged within their environments, improving classification accuracy.
 3. **Contrast Adjustment**: In natural habitats, animals may blend into their surroundings, obscuring important features. Contrast adjustment using CLAHE (Contrast Limited Adaptive Histogram Equalization) locally enhances contrast, making subtle details more visible and distinct. This technique improves the model's ability to identify edges, textures and other distinguishing features, which are essential for differentiating similar looking species.
 
-By applying these pre-processing techniques, we ensure the input images are consistent in quality, which enhances the model's ability to classify various species accurately.
+By applying these pre-processing techniques, I ensured the input images are consistent in quality, which enhances the model's ability to classify various species accurately.
 
 ##### Sources
 
@@ -254,7 +254,7 @@ results_b = evaluate_model(model_b, train_gen_b, steps_b)
 
 ### Metrics: Accuracy and Loss Comparison
 
-Using accuracy and loss as evaluation metrics, we observed the following from the training of Model A (preprocessed images) and Model B (original images):
+Using accuracy and loss as evaluation metrics, I observed the following from the training of Model A (preprocessed images) and Model B (original images):
 
 - **Accuracy**: Model B achieved a slightly higher peak accuracy in certain epochs but showed fluctuations, indicating inconsistent learning. In contrast, Model A showed more stable accuracy improvements, likely due to the feature-enhancing effects of pre-processing.
 - **Loss**: Model A had a more stable and consistently lower loss than Model B, suggesting that pre-processing helped the model learn more effectively by focusing on relevant features.
@@ -288,5 +288,31 @@ I attempted to perform interpretability analysis using Grad-CAM to visualize how
 ```
 No gradiants available.
 Grad-CAM failed: Unable to obtain gradients.
+```
+
+This issue may stem from the specific architecture used (EfficientNet-B3), the fact I used a MacBook Pro with an M3 Pro chip or the way gradients are handled in the current setup. Consequently, I was unable to provide activation maps or Grad-CAM visualization interpretability.
+
+### Relevant Code Snippets
+
+```python
+# Measure inference time and memory usage
+def measure_inference_time_and_memory(model, data_generator):
+    batch = next(data_generator)
+    start_time = time.time()
+    process = psutil.Process(os.getpid())
+    mem_before = process.memory_info().rss / (1024 * 1024)
+    model.predict(batch[0])
+    inference_time = time.time() - start_time
+    mem_after = process.memory_info().rss / (1024 * 1024)
+    memory_usage = mem_after - mem_before
+    return inference_time, memory_usage
+
+
+inference_time_a, memory_usage_a = measure_inference_time_and_memory(
+    model_a, train_gen_a
+)
+inference_time_b, memory_usage_b = measure_inference_time_and_memory(
+    model_b, train_gen_b
+)
 ```
 
