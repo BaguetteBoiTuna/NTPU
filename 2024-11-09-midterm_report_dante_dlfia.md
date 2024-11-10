@@ -268,26 +268,9 @@ They don't look very good but it is very straining on my laptop to train for lon
 
 The following metrics were evaluated to compare computational efficiency between the two models:
 
-Metric Model A (Preprocessed) Model B (Original)
-Training Time (s) 251.32 279.85
-Inference Time (s) 3.65 4.17
-Memory Usage (MB) 90.36 123.80
-
-    • Training Time: Model A trained faster than Model B, likely due to the reduced complexity in preprocessed images, making it easier for the model to extract meaningful features.
-    • Inference Time: Model A also had a slightly faster inference time, which suggests that the pre-processed images allowed for more efficient computation during prediction.
-    • Memory Usage: Model A required less memory compared to Model B, which aligns with the idea that pre-processed images might help streamline feature extraction and reduce memory overhead.
-
-In summary, Model A showed better computational efficiency, making it potentially more suitable for applications with resource constraints.
-
-c. Interpretability Analysis: Grad-CAM Visualization
-
-We attempted to perform interpretability analysis using Grad-CAM to visualize how each model makes decisions and highlight important regions in the images. Unfortunately, the Grad-CAM implementation failed with the message:
-
-    “No gradients available. Grad-CAM failed: Unable to obtain gradients.”
-
-This issue may stem from the specific architecture used (EfficientNet-B3) or the way gradients are handled in the current setup. Consequently, we were unable to provide activation maps or Grad-CAM visualizations for interpretability.
-
-To address this in future analyses, alternative interpretability techniques could be explored, or the Grad-CAM implementation could be re-evaluated to identify a layer suitable for gradient extraction.
-
-This completes the performance evaluation section based on your provided results and charts. If you’d like, I can also suggest alternative methods for interpretability or further refinement of computational efficiency testing. Let me know if there’s anything specific you’d like to adjust or add.
+| Metric | Model A (Preprocessed) | Model B (Original) |
+|------------------------|------------------------|---------------------|
+| **Training Time (s)** | 251.32 | 279.85 |
+| **Inference Time (s)** | 3.65 | 4.17 |
+| **Memory Usage (MB)** | 90.36 | 123.80 |
 
