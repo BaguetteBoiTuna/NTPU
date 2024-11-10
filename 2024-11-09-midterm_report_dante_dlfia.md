@@ -45,6 +45,8 @@ These challenges make pre-processing essential for improving the clarity and con
 
 ### Pre-processing Steps
 
+All the code snippets shown in this section are for demonstration purposes only and will be changed according to the actual implementation requirements.
+
 #### 1. Resizing with Aspect Ratio Preservation and Padding
 
 To resize images to a uniform size without distorting their aspect ratios, we can add padding after resizing. This method maintains the original aspect ratio and fills the remaining space with a solid color.
@@ -79,4 +81,29 @@ def resize_with_padding(image_path, target_size=(128, 128), padding_color=(0, 0,
     new_image.paste(resized_image, paste_position)
 
     return new_image
+```
+
+#### 2. Normalization
+
+Normalization scales pixel values to a range of 0 to 1, which helps stabilize and speed up the training process.
+
+```python
+import numpy as np
+
+def normalize_image(image):
+    image_array = np.array(image)
+    normalized_array = image_array / 255.0
+    return normalized_array
+```
+
+#### 3. Noise Reduction
+
+Applying a Gaussian blur can help reduce minor noise in the images.
+
+```python
+from PIL import ImageFilter
+
+def reduce_noise(image):
+    blurred_image = image.filter(ImageFilter.GaussianBlur(radius=1))
+    return blurred_image
 ```
