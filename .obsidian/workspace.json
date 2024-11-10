@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2024-11-09-midterm_report_dante_dlfia.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -187,8 +187,10 @@
   },
   "active": "37e6098798906fce",
   "lastOpenFiles": [
-    "Training_Time_(s)_Comparison.png",
+    "Memory_Usage_(MB)_Comparison.png",
+    "Training_Inference_Time_Comparison.png",
     "2024-11-09-midterm_report_dante_dlfia.md~",
+    "Training_Time_(s)_Comparison.png",
     "Loss_Comparison.png",
     "Accuracy_Comparison.png",
     "Figure_2.png",
@@ -208,8 +210,6 @@
     "ModelLoss.png",
     "ModelAccuracy.png",
     "finally overfitting.png",
-    "me struggling.png",
-    "answer1_2.png",
     "2024-10-23-convolutional-neural-network.md",
     "2024-09-10-advanced-computer-architectures.md",
     "2024-10-15-daftds_part1ch3.md",

@@ -409,4 +409,10 @@ To evaluate the models trained with and without pre-processing, I collected key 
 #### Computational Efficiency and Training Requirements
 
 - **Training Time**: Model A’s training was completed in approximately 251.32 seconds, while Model B took slightly longer at 279.85 seconds. This faster training time for Model A may be attributed to the pre-processed images, which likely simplified feature extraction and pattern recognition, allowing the model to learn more effectively with fewer resources.
-![[Training_Time_(s)_Comparison.png]]
+  ![[Training_Time_(s)_Comparison.png]]
+
+- **Inference Time**: Both models demonstrated similar inference times, but Model A was marginally faster (3.65 seconds compared to 4.17 seconds for Model B). This small difference in inference time highlights a slight edge in efficiency, favoring the model trained on pre-processed data. Faster inference can be advantageous in real time or large scale applications.
+  ![[Training_Inference_Time_Comparison.png]]
+
+- **Memory Usage**: Model A also showed a lower memory usage of 90.36 MB compared to Model B’s 123.80 MB. The lower memory consumption in Model A implies that pre-processing might have streamlined the dataset’s information, allowing the model to operate with reduced memory demands.
+![[Memory_Usage_(MB)_Comparison.png]]
