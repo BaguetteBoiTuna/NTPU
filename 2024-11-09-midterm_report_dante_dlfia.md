@@ -9,7 +9,7 @@ tags: []
 
 GUILLEMAIN Dante 711382799
 
-## Introduction
+## 1. Introduction
 
 ### Problem Overview
 
@@ -30,7 +30,7 @@ By applying these pre-processing techniques, we ensure the input images are cons
 - **OpenCV Documentation**. _Histogram Equalization in OpenCV_. <https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html>
 - **World Wildlife Fund**. _Employing AI to Evaluate Wildlife Populations on a Global Scale_. <https://www.worldwildlife.org/magazine/issues/winter-2020/articles/employing-ai-to-evaluate-wildlife-populations-on-a-global-scale>
 
-## Dataset Exploration and Pre-processing
+## 2. Dataset Exploration and Pre-processing
 
 ### Dataset Exploration
 
@@ -134,7 +134,7 @@ def enhance_contrast(image):
 
 DIFFERENCE BETWEEN ORIGINAL AND PRE-PROCESSED IMAGES WILL GO HERE
 
-## Model Selection and Implementation
+## 3. Model Selection and Implementation
 
 ### Model Architecture Selection
 
