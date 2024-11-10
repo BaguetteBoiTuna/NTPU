@@ -131,3 +131,7 @@ def enhance_contrast(image):
     enhanced_image_pil = Image.fromarray(enhanced_image)
     return enhanced_image_pil
 ```
+
+DIFFERENCE BETWEEN ORIGINAL AND PRE-PROCESSED IMAGES WILL GO HERE
+
+## Model Selection and Implementation
