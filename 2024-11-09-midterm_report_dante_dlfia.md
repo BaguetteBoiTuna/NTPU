@@ -386,6 +386,8 @@ plot_metrics(history_b, "Model B (Original)")
 
 ## 5. Results Summary
 
+To evaluate the models trained with and without pre-processing, I collected key performance metrics across both models. The table below summarizes the metrics used for comparison:
+
 | Metric             | Model A    | Model B    |
 | ------------------ | ---------- | ---------- |
 | Training Time (s)  | 251.315995 | 279.854320 |
@@ -393,3 +395,10 @@ plot_metrics(history_b, "Model B (Original)")
 | Memory Usage (MB)  | 90.359375  | 123.796875 |
 | Loss               | 10.476001  | 41.222492  |
 | Accuracy           | 0.189844   | 0.105469   |
+
+### Comparison and Analysis
+
+#### Model Accuracy and Robustness
+
+- **Accuracy**: Model A, which was trained on pre-processed images, achieved a higher accuracy of 18.98% compared to 10.55% for Model B which was trained on raw images. This indicates that the pre-processing techniques contributed positively to the model's ability to generalize, resulting in better overall performance.
+![[Accuracy_Comparison.png]]
