@@ -135,3 +135,9 @@ def enhance_contrast(image):
 DIFFERENCE BETWEEN ORIGINAL AND PRE-PROCESSED IMAGES WILL GO HERE
 
 ## Model Selection and Implementation
+
+### Model Architecture Selection
+
+For this image classification task, I selected EfficientNet-B3 as the deep learning model architecture. EfficienNet is known for its accuracy and efficiency. It utiilizes a compound scaling method that balances the depth, width and resolution of the network, which allows it to achieve state of the art performance with fewer parameters and lower computational requirements compared to other models. EfficientNet-B3, specifically, offers improved accuracy over EfficientNet-B0, making it suitable for the complexity of my dataset, which includes images of animals with varied backgrounds.
+
+EfficientNet-B3 was chosen over other models such as ResNet and Vision Transformer due to its balance of accuracy and computational efficiency. The M# Pro chip on my MacBook Pro provides moderate computational power, and EfficientNet-B3 can leverage this effecively, providing accurate results without overwhelming system resources.
