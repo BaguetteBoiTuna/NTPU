@@ -49,7 +49,7 @@ These challenges make pre-processing essential for improving the clarity and con
 
 To resize images to a uniform size without distorting their aspect ratios, we can add padding after resizing. This method maintains the original aspect ratio and fills the remaining space with a solid color.
 
-Here's how to implement this using Pillow:
+Here's how to implement this using [Pillow](https://pillow.readthedocs.io/en/stable/):
 
 ```python
 from PIL import Image, ImageOps
