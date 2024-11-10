@@ -87,6 +87,8 @@ def normalize_image(image):
 - **Purpose**: CLAHE enhances fine details in the images, making features more prominent and easier for the model to recognize, especially in low-light or low-contrast areas.
 
 ```python
+import cv2
+
 def apply_clahe_to_color(image_array):
     # Convert RGB to LAB color space
     lab = cv2.cvtColor((image_array * 255).astype(np.uint8), cv2.COLOR_RGB2LAB)
