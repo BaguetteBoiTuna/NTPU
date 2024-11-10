@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2024-11-09-midterm_report_dante_dlfia.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -187,6 +187,7 @@
   },
   "active": "37e6098798906fce",
   "lastOpenFiles": [
+    "Training_Time_(s)_Comparison.png",
     "2024-11-09-midterm_report_dante_dlfia.md~",
     "Loss_Comparison.png",
     "Accuracy_Comparison.png",

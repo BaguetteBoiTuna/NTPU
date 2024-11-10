@@ -409,4 +409,4 @@ To evaluate the models trained with and without pre-processing, I collected key 
 #### Computational Efficiency and Training Requirements
 
 - **Training Time**: Model A’s training was completed in approximately 251.32 seconds, while Model B took slightly longer at 279.85 seconds. This faster training time for Model A may be attributed to the pre-processed images, which likely simplified feature extraction and pattern recognition, allowing the model to learn more effectively with fewer resources.
-
+![[Training_Time_(s)_Comparison.png]]
