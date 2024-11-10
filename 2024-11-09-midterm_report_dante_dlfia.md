@@ -415,4 +415,45 @@ To evaluate the models trained with and without pre-processing, I collected key 
   ![[Training_Inference_Time_Comparison.png]]
 
 - **Memory Usage**: Model A also showed a lower memory usage of 90.36 MB compared to Model B’s 123.80 MB. The lower memory consumption in Model A implies that pre-processing might have streamlined the dataset’s information, allowing the model to operate with reduced memory demands.
-![[Memory_Usage_(MB)_Comparison.png]]
+  ![[Memory_Usage_(MB)_Comparison.png]]
+
+### Clarity in Captured Features
+
+- **Feature Capture and Interpretability**: Although I attempted to analyze feature capture and interpretability using Grad-CAM, technical limitations prevented me from obtaining Grad-CAM visualizations. Theoretically, pre-processing techniques like normalization and contrast adjustment should help the model capture relevant features more effectively, such as edges and fine details, by enhancing contrast and reducing noise. This suggests that Model A would likely perform better in identifying essential features, especially in complex backgrounds.
+
+### Summary
+
+In conclusion, Model A outperformed Model B in terms of accuracy, loss, and computational efficiency. Pre-processing steps provided a modest but notable improvement in model performance, leading to better generalization with reduced computational requirements. The results indicate that pre-processing contributed to both the efficiency and effectiveness of the model, making it a valuable step in optimizing performance for this image classification task.
+
+### Relevant Code Snippets
+
+```python
+# Summary Table
+summary_data = {
+    "Metric": [
+        "Training Time (s)",
+        "Inference Time (s)",
+        "Memory Usage (MB)",
+        "Loss",
+        "Accuracy",
+    ],
+    "Model A": [
+        train_time_a,
+        inference_time_a,
+        memory_usage_a,
+        results_a[0],
+        results_a[1],
+    ],
+    "Model B": [
+        train_time_b,
+        inference_time_b,
+        memory_usage_b,
+        results_b[0],
+        results_b[1],
+    ],
+}
+summary_df = pd.DataFrame(summary_data)
+print("\nPerformance Summary")
+print(summary_df)
+```
+
