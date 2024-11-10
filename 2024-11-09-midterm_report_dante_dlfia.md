@@ -45,6 +45,13 @@ These challenges make pre-processing essential for improving the clarity and con
 
 ### Pre-processing Steps
 
+The following pre-processing steps were applied to standardize the dataset and enhance image quality, improving the model's training and generalization:
+
+#### 1. Resizing with Padding
+
+- Images are resized to a fixed dimension (224x224) while preserving the aspect ratio. Padding is added to fill any extra space, ensuring a consistent input size without distortion.
+- **Purpose**: Standardizing input dimensions across images allows the model to handle consistent sized inputs, improving model convergence and performance.
+
 ## 3. Model Selection and Implementation
 
 ### Model Architecture Selection
