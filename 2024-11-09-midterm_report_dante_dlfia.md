@@ -457,3 +457,54 @@ print("\nPerformance Summary")
 print(summary_df)
 ```
 
+```python
+# This is from another file where I plotted the bar charts
+# Using the values from the Summary Table
+# Data for plotting
+metrics = [
+    "Training Time (s)",
+    "Inference Time (s)",
+    "Memory Usage (MB)",
+    "Loss",
+    "Accuracy",
+]
+model_a_values = [251.315995, 3.647679, 90.359375, 10.476001, 0.189844]
+model_b_values = [279.854320, 4.169815, 123.796875, 41.222492, 0.105469]
+
+# Creating individual plots for each metric
+for i, metric in enumerate(metrics):
+    plt.figure(figsize=(6, 4))
+    plt.bar(
+        [metric],
+        [model_a_values[i]],
+        label="Model A",
+        color="#1f77b4",
+        width=0.4,
+        align="center",
+    )
+    plt.bar(
+        [metric],
+        [model_b_values[i]],
+        label="Model B",
+        color="#ff7f0e",
+        width=0.4,
+        align="edge",
+    )
+    plt.title(f"Model A vs Model B: {metric}", fontsize=14)
+    plt.ylabel(
+        "Value"
+        if metric not in ["Training Time (s)", "Inference Time (s)"]
+        else "Seconds"
+    )
+    plt.legend(title="Models")
+    plt.tight_layout()
+    plt.savefig(f"{metric.replace(' ', '_')}_Comparison.png")
+    plt.show()
+```
+
+## 6. Conclusion and Future Directions
+
+### Summary of Findings
+
+In this project, I explored the impact of image pre-processing on the performance of a deep learning model for animal image classification. Using EfficientNet-B3 as our model architecture, I trained two versions of the model: one on pre-processed images (Model A) and the other on raw images (Model B). Our analysis across various metrics revealed several key insights:
+
