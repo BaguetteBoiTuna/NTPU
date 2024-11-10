@@ -521,5 +521,15 @@ To further enhance model performance and interpretability, the following avenues
 - **Exploration of Additional Pre-Processing Techniques**: Incorporating data augmentation methods such as random rotations, flips, and scaling can increase dataset variability, potentially improving model robustness. Techniques like histogram equalization may also enhance feature clarity by adjusting image contrast.
 - **Adoption of Advanced Model Architectures**: Implementing more sophisticated architectures, such as EfficientNet-B5 or transformer-based models, could lead to improved accuracy and robustness, particularly for complex datasets. These models can capture intricate patterns and dependencies, enhancing performance.
 - **Utilization of Transfer Learning**: Leveraging pre-trained models on large datasets can expedite training and improve accuracy. Transfer learning allows models to benefit from previously learned features, which is especially useful when dealing with limited data.
-- **Implementation of Enhanced Interpretability Methods**: Employing advanced interpretability techniques, such as Grad-CAM++ or layer-wise relevance propagation (LRP), can provide deeper insights into the model’s decision-making processes, facilitating better understanding and trust in model predictions.
+- **Implementation of Enhanced Interpretability Methods**: Employing advanced interpretability techniques, such as Grad-CAM++ or layer wise relevance propagation (LRP), can provide deeper insights into the model’s decision-making processes, facilitating better understanding and trust in model predictions.
+
+By pursuing these directions, future research can continue to optimize model performance, computational efficiency and interpretability, advancing the application of deep learning in image analysis.
+
+##### Sources
+
+- **Machine Learning Mastery**. _Best Practices for Preparing and Augmenting Image Data for Convolutional Neural Networks_. <https://machinelearningmastery.com/best-practices-for-preparing-and-augmenting-image-data-for-convolutional-neural-networks/>
+- **IEEE Xplore**. _Exploring Transformer-Based Models for Image Classification_. <https://ieeexplore.ieee.org/document/10420413>
+- **Analytics Vidhya**. _Learn Image Classification with CNN – Convolutional Neural Networks_. <https://www.analyticsvidhya.com/blog/2020/02/learn-image-classification-cnn-convolutional-neural-networks-3-datasets/>
+- **IEEE Xplore**. _Grad-CAM++ and LRP for Model Interpretability in Deep Learning_. <https://ieeexplore.ieee.org/document/10664065>
+- **MDPI**. _Evaluating Model Performance for Remote Sensing Applications_. <https://www.mdpi.com/2072-4292/13/22/4712>
 
