@@ -178,3 +178,74 @@ datagen = ImageDataGenerator(
     horizontal_flip=True, rotation_range=10, rescale=1.0 / 255.0
 )
 ```
+
+```python
+# Function to load a subset of the dataset and set steps_per_epoch so I dont wait forever
+def load_data_subset(generator, directory, target_size, batch_size, fraction):
+    flow = generator.flow_from_directory(
+        directory,
+        target_size=target_size,
+        batch_size=batch_size,
+        class_mode="sparse",
+        shuffle=True,
+    )
+    subset_size = int(fraction * flow.samples)
+    steps_per_epoch = subset_size // batch_size
+    return flow, steps_per_epoch
+
+
+# Load data subsets for Model A and Model B
+train_gen_a, steps_a = load_data_subset(
+    datagen, preprocessed_dir, img_size, batch_size, fraction
+)
+train_gen_b, steps_b = load_data_subset(
+    datagen, original_dir, img_size, batch_size, fraction
+)
+```
+
+```python
+# Define and compile EfficientNet-B3 model using Functional API
+def create_efficientnet_b3_model():
+    inputs = layers.Input(shape=(224, 224, 3), name="input_layer")
+    base_model = EfficientNetB3(
+        include_top=False, input_tensor=inputs, weights="imagenet"
+    )
+    base_model.trainable = True
+    x = base_model(inputs, training=True)
+    x = layers.GlobalAveragePooling2D()(x)
+    x = layers.Dropout(0.2)(x)
+    outputs = layers.Dense(num_classes, activation="softmax", dtype="float32")(x)
+    model = models.Model(inputs, outputs)
+    model.compile(
+        optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+        loss="sparse_categorical_crossentropy",
+        metrics=["accuracy"],
+    )
+return model
+```
+
+```python
+# Initialize Model A and Model B
+model_a = create_efficientnet_b3_model()
+model_b = create_efficientnet_b3_model()
+
+# Train Model A and Model B, tracking training time
+start_time_a = time.time()
+history_a = model_a.fit(train_gen_a, epochs=5, steps_per_epoch=steps_a)
+train_time_a = time.time() - start_time_a
+
+start_time_b = time.time()
+history_b = model_b.fit(train_gen_b, epochs=5, steps_per_epoch=steps_b)
+train_time_b = time.time() - start_time_b
+```
+
+```python
+# Evaluate Model A and Model B
+def evaluate_model(model, data_generator, steps):
+    eval_results = model.evaluate(data_generator, steps=steps, verbose=1)
+    return eval_results
+
+
+results_a = evaluate_model(model_a, train_gen_a, steps_a)
+results_b = evaluate_model(model_b, train_gen_b, steps_b)
+```
