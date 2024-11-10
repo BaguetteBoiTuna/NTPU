@@ -279,3 +279,14 @@ The following metrics were evaluated to compare computational efficiency between
 - **Memory Usage**: Model A required less memory compared to Model B, which aligns with the idea that pre-processed images might help streamline feature extraction and reduce memory overhead.
 - **Temperature**: I have a temperature widget on my laptop because I am paranoid about overheating. I noticed that during the training of Model A, the temperature would be around 75°C and 80°C (which is normal for a MacBook Pro under load). However, during the training of Model B, the temperature would reach 85°C and 90°C, which is a bit too high for my liking and my laptop stayed hot to the touch for a long time after.
 
+In summary, Model A showed better computational efficiency, making it potentially more suitable for applications with resource constraints.
+
+### Interpretability Analysis: Grad-CAM Visualization
+
+I attempted to perform interpretability analysis using Grad-CAM to visualize how each model makes decisions and highlight important regions in the images. Unfortunately, the Grad-CAM implementation failed with the message:
+
+```
+No gradiants available.
+Grad-CAM failed: Unable to obtain gradients.
+```
+
