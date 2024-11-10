@@ -249,3 +249,11 @@ def evaluate_model(model, data_generator, steps):
 results_a = evaluate_model(model_a, train_gen_a, steps_a)
 results_b = evaluate_model(model_b, train_gen_b, steps_b)
 ```
+
+## 4. Performance Evaluation
+
+### Metrics: Accuracy and Loss Comparison
+
+Using accuracy and loss as evaluation metrics, we observed the following from the training of Model A (preprocessed images) and Model B (original images):
+
+- **Accuracy**: Model B achieved a slightly higher peak accuracy in certain epochs but showed fluctuations, indicating inconsistent learning. In contrast, Model A showed more stable accuracy improvements, likely due to the feature-enhancing effects of pre-processing.
