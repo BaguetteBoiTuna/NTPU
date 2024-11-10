@@ -385,3 +385,11 @@ plot_metrics(history_b, "Model B (Original)")
 ```
 
 ## 5. Results Summary
+
+| Metric             | Model A    | Model B    |
+| ------------------ | ---------- | ---------- |
+| Training Time (s)  | 251.315995 | 279.854320 |
+| Inference Time (s) | 3.647679   | 4.169815   |
+| Memory Usage (MB)  | 90.359375  | 123.796875 |
+| Loss               | 10.476001  | 41.222492  |
+| Accuracy           | 0.189844   | 0.105469   |
