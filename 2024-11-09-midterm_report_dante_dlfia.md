@@ -361,3 +361,27 @@ plot_grad_cam(model_a, img_path)
 plot_grad_cam(model_b, img_path)
 ```
 
+```python
+# Plot Accuracy and Loss Curves
+def plot_metrics(history, model_name):
+    plt.figure(figsize=(12, 4))
+    plt.subplot(1, 2, 1)
+    plt.plot(history.history["accuracy"], label="accuracy")
+    plt.title(f"{model_name} Accuracy")
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
+    plt.legend()
+    plt.subplot(1, 2, 2)
+    plt.plot(history.history["loss"], label="loss")
+    plt.title(f"{model_name} Loss")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
+    plt.legend()
+    plt.show()
+
+
+plot_metrics(history_a, "Model A (Preprocessed)")
+plot_metrics(history_b, "Model B (Original)")
+```
+
+## 5. Results Summary
