@@ -58,60 +58,65 @@ The spatial axes, \( x \) (horizontal) and \( y \) (vertical), mark the position
 
 ---
 
-## Representing Digital Images in a Matrix
+## Representing digital images in a matrix
 
-In digital image processing, images are commonly represented as matrices, where each element in the matrix corresponds to a pixel in the image. This matrix structure allows for efficient storage and manipulation of images using mathematical operations.
+In digital image processing, images are often represented as matrices, where each element in the matrix corresponds to a pixel in the image. This matrix structure allows for efficient storage and manipulation of images using mathematical operations.
 
 ### 1. Grayscale Image Matrix
 
-- For a grayscale image, each pixel has a single intensity value, representing shades from black to white.
-- The image is represented as a 2D matrix, where each element \( M\_{i,j} \) corresponds to the intensity at position \( (i, j) \) in the image.
-- Example:
-  \[
-  \begin{bmatrix}
-  0 & 50 & 100 \\
-  150 & 200 & 255 \\
-  \end{bmatrix}
-  \]
-  - Here, the values range from 0 (black) to 255 (white) for an 8-bit grayscale image.
+For a grayscale image, each pixel has a single intensity value, representing shades from black to white. The image is represented as a 2D matrix, where each element \( M\_{i,j} \) corresponds to the intensity at position \( (i, j) \) in the image.
+
+For example, a grayscale matrix could look like this:
+
+$$
+\begin{bmatrix}
+0 & 50 & 100 \\
+150 & 200 & 255 \\
+\end{bmatrix}
+$$
+
+Here, the values range from 0 (black) to 255 (white) for an 8-bit grayscale image.
 
 ### 2. Color Image Matrix (RGB)
 
-- Color images are represented by combining three matrices, one for each color channel: Red, Green, and Blue (RGB).
-- Each pixel has three intensity values (R, G, B), forming a 3D matrix where each channel matrix represents the intensity values for that color.
-- Example:
-  - **Red Channel**:
-    \[
-    \begin{bmatrix}
-    255 & 0 & 0 \\
-    128 & 0 & 0 \\
-    \end{bmatrix}
-    \]
-  - **Green Channel**:
-    \[
-    \begin{bmatrix}
-    0 & 255 & 0 \\
-    0 & 128 & 0 \\
-    \end{bmatrix}
-    \]
-  - **Blue Channel**:
-    \[
-    \begin{bmatrix}
-    0 & 0 & 255 \\
-    0 & 0 & 128 \\
-    \end{bmatrix}
-    \]
-  - The combined (RGB) values at each pixel create the color image.
+Color images are represented by combining three matrices, one for each color channel: Red, Green, and Blue (RGB). Each pixel has three intensity values, forming a 3D matrix where each channel matrix represents the intensity values for that color.
+
+For example:
+
+- **Red Channel**:
+  $$
+  \begin{bmatrix}
+  255 & 0 & 0 \\
+  128 & 0 & 0 \\
+  \end{bmatrix}
+  $$
+- **Green Channel**:
+  $$
+  \begin{bmatrix}
+  0 & 255 & 0 \\
+  0 & 128 & 0 \\
+  \end{bmatrix}
+  $$
+- **Blue Channel**:
+  $$
+  \begin{bmatrix}
+  0 & 0 & 255 \\
+  0 & 0 & 128 \\
+  \end{bmatrix}
+  $$
+
+Each pixel’s RGB values combine to create the final color image.
 
 ### 3. Matrix Dimensions and Image Resolution
 
-- The dimensions of the matrix correspond to the resolution of the image. For example, a 1920x1080 image has a 1920x1080 matrix for grayscale or three 1920x1080 matrices for RGB color images.
-- Higher resolution images have larger matrices, requiring more storage and processing power.
+The dimensions of the matrix correspond to the resolution of the image. For example, a 1920x1080 image has a 1920x1080 matrix for grayscale or three 1920x1080 matrices for RGB color images. Higher resolution images have larger matrices, requiring more storage and processing power.
 
 ### 4. Advantages of Matrix Representation
 
-- **Manipulation**: Matrix operations (e.g., filtering, transformation) can be applied to modify images easily.
-- **Storage and Compression**: Matrix formats allow images to be compressed and stored efficiently.
+- **Manipulation**: Matrix operations (e.g., filtering, transformation) can be applied to modify images efficiently.
+- **Storage and Compression**: Matrix formats allow images to be compressed and stored effectively.
 - **Computational Efficiency**: Algorithms can leverage matrix operations for fast processing.
 
 ---
+
+## Dynamic intensity range
