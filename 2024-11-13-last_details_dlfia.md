@@ -16,9 +16,13 @@ tags: []
 - Representing digital image
 - Spatial and intensity image resolution
 
+---
+
 ## Revisiting image processing
 
 ![[Tldraw Image.png]]
+
+---
 
 ## Image sensing and acquisition
 
@@ -26,9 +30,13 @@ Many of the images we study or analyze are produced through the interplay of an 
 
 The illumination source can vary and may include electromagnetic energy sources like radar, infrared, X-ray systems, ultrasound or even computer generated illumination patterns.
 
+---
+
 ## Digital image acquisition
 
 Physical Devices -> Image Sensors -> Digitizer/Film roll
+
+---
 
 ## Image sampling and Quantization
 
@@ -40,8 +48,70 @@ Analog image -> Sampling -> Quantization -> Digital Image
 3. **Quantization**: Quantization is the process that follows sampling, where each sampled point's continuous intensity value is mapped to a finite set of discrete levels. In digital imaging, this often means assigning each sampled point a specific color or grayscale value, represented in binary. The number of quantization levels (e.g., 256 for an 8-bit grayscale image) determines the depth of detail in brightness or color that the image can represent.
 4. **Digital Image:** A digital image is the result of the sampling and quantization processes. It is a discrete representation of the original analog image, stored as a grid of pixels where each pixel has a specific intensity or color value. Digital images can be displayed, processed and stored on digital devices like computers and are commonly represented in file formats like JPEG, PNG or BMP.
 
+---
+
 ## Representing digital images
 
 Digital images are represented through a function, \( f(x, y) \), where \( x \) and \( y \) define spatial locations within the image. This function assigns each point (or pixel) a specific intensity or color value, forming a structured grid that represents the image in digital form.
 
 The spatial axes, \( x \) (horizontal) and \( y \) (vertical), mark the position of each pixel. The function \( f(x, y) \) indicates how intensity or color varies across these positions, allowing each \( (x, y) \) coordinate in the digital grid to match a pixel on a display or printed output. The pixel values indicate the color or brightness at each location, creating an accurate digital representation that can be stored, processed, and displayed effectively.
+
+---
+
+## Representing Digital Images in a Matrix
+
+In digital image processing, images are commonly represented as matrices, where each element in the matrix corresponds to a pixel in the image. This matrix structure allows for efficient storage and manipulation of images using mathematical operations.
+
+### 1. Grayscale Image Matrix
+
+- For a grayscale image, each pixel has a single intensity value, representing shades from black to white.
+- The image is represented as a 2D matrix, where each element \( M\_{i,j} \) corresponds to the intensity at position \( (i, j) \) in the image.
+- Example:
+  \[
+  \begin{bmatrix}
+  0 & 50 & 100 \\
+  150 & 200 & 255 \\
+  \end{bmatrix}
+  \]
+  - Here, the values range from 0 (black) to 255 (white) for an 8-bit grayscale image.
+
+### 2. Color Image Matrix (RGB)
+
+- Color images are represented by combining three matrices, one for each color channel: Red, Green, and Blue (RGB).
+- Each pixel has three intensity values (R, G, B), forming a 3D matrix where each channel matrix represents the intensity values for that color.
+- Example:
+  - **Red Channel**:
+    \[
+    \begin{bmatrix}
+    255 & 0 & 0 \\
+    128 & 0 & 0 \\
+    \end{bmatrix}
+    \]
+  - **Green Channel**:
+    \[
+    \begin{bmatrix}
+    0 & 255 & 0 \\
+    0 & 128 & 0 \\
+    \end{bmatrix}
+    \]
+  - **Blue Channel**:
+    \[
+    \begin{bmatrix}
+    0 & 0 & 255 \\
+    0 & 0 & 128 \\
+    \end{bmatrix}
+    \]
+  - The combined (RGB) values at each pixel create the color image.
+
+### 3. Matrix Dimensions and Image Resolution
+
+- The dimensions of the matrix correspond to the resolution of the image. For example, a 1920x1080 image has a 1920x1080 matrix for grayscale or three 1920x1080 matrices for RGB color images.
+- Higher resolution images have larger matrices, requiring more storage and processing power.
+
+### 4. Advantages of Matrix Representation
+
+- **Manipulation**: Matrix operations (e.g., filtering, transformation) can be applied to modify images easily.
+- **Storage and Compression**: Matrix formats allow images to be compressed and stored efficiently.
+- **Computational Efficiency**: Algorithms can leverage matrix operations for fast processing.
+
+---
