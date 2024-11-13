@@ -155,7 +155,7 @@ A higher dynamic range allows for:
 
 ### 4. Example: Calculating Dynamic Range
 
-For an 8-bit image, if the minimum intensity \( I*{\text{min}} \) is 1 and the maximum \( I*{\text{max}} \) is 255, the dynamic range is calculated as:
+For an 8-bit image, if the minimum intensity value is 1 and the maximum intensity value is 255, the dynamic range is calculated as:
 
 $$
 \text{Dynamic Range} = \frac{255}{1} = 255:1
@@ -178,3 +178,40 @@ This much larger range allows for far more tonal detail.
 ### Summary
 
 Dynamic intensity range is a critical factor in image quality, as it determines the contrast, detail, and realism of an image. Higher bit depths and HDR techniques can help achieve greater dynamic ranges, which improve image clarity and depth.
+
+---
+
+## Spatial Resolution
+
+**Spatial resolution** refers to the level of detail an imaging system can capture, measured by the smallest distinguishable elements within an image. In digital imaging, spatial resolution defines the clarity or fineness of the image, usually based on the pixel density or the number of pixels per unit area.
+
+### 1. Definition
+
+Spatial resolution is determined by the number of pixels in an image. Higher spatial resolution means more pixels are used to represent the image, resulting in finer details and a clearer image. Lower spatial resolution means fewer pixels, resulting in a more pixelated or blurred appearance.
+
+### 2. Measuring Spatial Resolution
+
+Spatial resolution is commonly measured in:
+
+- **Pixels per inch (PPI)**: Often used for screens and monitors, it defines the number of pixels displayed per inch of screen.
+- **Dots per inch (DPI)**: Commonly used for printing, it measures the density of printed dots within a linear inch.
+
+For example, an image with 300 PPI will have higher spatial resolution than an image with 72 PPI, as it has more pixels per unit area, offering better detail.
+
+### 3. Impact on Image Quality
+
+- **High Spatial Resolution**: Provides greater detail, making it ideal for applications requiring precision, such as medical imaging and satellite imagery.
+- **Low Spatial Resolution**: Reduces detail, which can make images appear blurry or pixelated. This is often used for thumbnail images or cases where storage space needs to be minimized.
+
+### 4. Examples
+
+- **Standard Screen Resolution**: A common screen resolution of 1920x1080 pixels on a 15-inch screen has a spatial resolution of approximately 146 PPI.
+- **High-Resolution Imaging**: A 4K display with 3840x2160 pixels on the same screen size has a spatial resolution of about 293 PPI, allowing for finer image details.
+
+### 5. Importance in Digital Imaging
+
+Spatial resolution is a critical factor in determining image clarity and is chosen based on the needs of the application. Higher resolution images require more storage and processing power but provide better detail, which is essential in fields like digital photography, medical imaging, and remote sensing.
+
+> **Note**: Increasing spatial resolution improves image clarity but also increases file size, which can impact storage and performance requirements.
+
+---
