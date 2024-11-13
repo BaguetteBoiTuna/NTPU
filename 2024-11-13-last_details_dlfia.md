@@ -32,6 +32,7 @@ Physical Devices -> Image Sensors -> Digitizer/Film roll
 
 ## Image sampling and Quantization
 
+In Digital Image Processing, signals captured from the physical world need to be translated into digital form through the process called Digitization. To make an image function f(x, y) suitable for digital processing, it must be digitized both spatially and in amplitude. This digitization process involves those steps:
 Analog image -> Sampling -> Quantization -> Digital Image
 
 1. **Analog Image**: An analog image is a continuous representation of an image, typically in the form of light or other electromagnetic waves, such as those captured by traditional film cameras. Analog images vary smoothly without discrete steps or interruptions, meaning they are theoretically infinite levels of detail and are not represented by discrete pixels.
