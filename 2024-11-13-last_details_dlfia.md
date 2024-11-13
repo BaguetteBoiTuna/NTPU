@@ -21,3 +21,7 @@ tags: []
 ## Digital image acquisition
 
 Physical Devices -> Image Sensors -> Digitizer/Film roll
+
+## image sensing and acquisition
+
+Many of the images we study or analyze are produced through the interplay of an "illumination" source and the "reflection" or absorption of energy from this source by the elements comprising the "scene" under observation.
