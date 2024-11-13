@@ -29,3 +29,7 @@ The illumination source can vary and may include electromagnetic energy sources 
 ## Digital image acquisition
 
 Physical Devices -> Image Sensors -> Digitizer/Film roll
+
+## Image sampling and Quantization
+
+Analog image -> Sampling -> Quantization -> Digital Image
