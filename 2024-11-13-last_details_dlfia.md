@@ -120,3 +120,61 @@ The dimensions of the matrix correspond to the resolution of the image. For exam
 ---
 
 ## Dynamic intensity range
+
+In digital imaging, **Dynamic Intensity Range** (also called **dynamic range**) refers to the range of intensity values an imaging system can represent, from the darkest (minimum intensity) to the brightest (maximum intensity) parts of an image. This range determines how well an image can capture contrast, detail, and tonal variations.
+
+### 1. Definition and Calculation
+
+The dynamic intensity range of an image can be defined as the ratio between the maximum and minimum intensity values that the system can capture:
+
+$$
+\text{Dynamic Range} = \frac{I_{\text{max}}}{I_{\text{min}}}
+$$
+
+Where:
+
+- \( I \) (maximum intensity) represents the highest intensity level.
+- \( I \) (minimum intensity) represents the lowest non-zero intensity level.
+
+### 2. Bit Depth and Dynamic Range
+
+In digital images, the **bit depth** of each pixel affects the dynamic range. Bit depth defines the number of discrete intensity levels that each pixel can represent. Common bit depths include:
+
+- **8-bit**: Can represent 256 intensity levels, giving a dynamic range ratio of up to \( 255:1 \).
+- **16-bit**: Can represent 65,536 intensity levels, giving a much higher dynamic range.
+
+The higher the bit depth, the more levels of intensity can be represented, and thus, the greater the dynamic range.
+
+### 3. Importance of Dynamic Intensity Range
+
+A higher dynamic range allows for:
+
+- **Greater Detail in Shadows and Highlights**: With more intensity levels, subtle details in dark and bright areas are preserved.
+- **Better Contrast Representation**: The full range of intensities from dark to light can be accurately depicted, enhancing the perceived contrast of the image.
+- **Improved Realism**: A high dynamic range can capture more lifelike images, especially in high-contrast scenes.
+
+### 4. Example: Calculating Dynamic Range
+
+For an 8-bit image, if the minimum intensity \( I*{\text{min}} \) is 1 and the maximum \( I*{\text{max}} \) is 255, the dynamic range is calculated as:
+
+$$
+\text{Dynamic Range} = \frac{255}{1} = 255:1
+$$
+
+This means the system can distinguish between 255 different intensity levels, from darkest to brightest.
+
+For a 16-bit image:
+
+$$
+\text{Dynamic Range} = \frac{65535}{1} = 65535:1
+$$
+
+This much larger range allows for far more tonal detail.
+
+### 5. Dynamic Range in High Dynamic Range (HDR) Imaging
+
+**HDR Imaging** is a technique that uses a higher dynamic range to capture and display images with greater contrast. HDR systems capture multiple exposures of a scene to combine into a single image, allowing it to retain details in both shadows and highlights. This is particularly useful in photography, video, and medical imaging, where capturing fine details across varying light levels is crucial.
+
+### Summary
+
+Dynamic intensity range is a critical factor in image quality, as it determines the contrast, detail, and realism of an image. Higher bit depths and HDR techniques can help achieve greater dynamic ranges, which improve image clarity and depth.
