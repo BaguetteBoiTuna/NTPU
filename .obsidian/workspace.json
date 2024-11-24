@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2024-11-13-last_details_dlfia"
             }
+          },
+          {
+            "id": "08c90f0b0c8aac76",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,8 +199,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "056df90c572a4925",
+  "active": "08c90f0b0c8aac76",
   "lastOpenFiles": [
+    "2024-11-13-last_details_dlfia.md",
     "2024-11-13-last_details_dlfia.md~",
     "Tldraw Image.png",
     "2024-09-18-deep-learning-for-image-analysis.md",
@@ -228,7 +242,6 @@
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-09-18-image-analysis-introduction.md",
     "2024-10-08-dlfia_dante_assignment1.md~",
-    "2024-10-08-daftds_part1ch2.md~",
     "2024-09-09-ecu.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
