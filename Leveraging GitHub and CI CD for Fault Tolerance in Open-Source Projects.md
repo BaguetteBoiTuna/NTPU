@@ -112,3 +112,44 @@ These findings underscore the value of robust CI/CD workflows in achieving fault
    - **Decentralized CI/CD**: Exploring decentralized tools to reduce single points of failure in CI/CD pipelines.
 
 These lessons emphasize the critical role of structured workflows, automation, and adaptability in managing fault tolerance for open-source projects. Bun’s practices highlight a scalable and effective approach, but continuous innovation and improvement are necessary to address evolving challenges.
+
+## References
+
+1. **Understanding CI/CD**:
+
+   - Verma, R. (2024, October 28). _Understanding CI/CD_. _Open Source For You_. Retrieved from [https://www.opensourceforu.com/2024/10/understanding-ci-cd/](https://www.opensourceforu.com/2024/10/understanding-ci-cd/)
+
+2. **CI/CD Best Practices**:
+
+   - Brown, T. (2020, May 20). _8 CI/CD best practices to set you up for success_. _Opensource.com_. Retrieved from [https://opensource.com/article/20/5/cicd-best-practices](https://opensource.com/article/20/5/cicd-best-practices)
+
+3. **Fault-Tolerant Open-Source Projects**:
+
+   - _Top 23 fault-tolerance Open-Source Projects (Nov 2023)_. _LibHunt_. Retrieved from [https://www.libhunt.com/topic/fault-tolerance](https://www.libhunt.com/topic/fault-tolerance)
+
+4. **CI/CD Tools and Practices**:
+
+   - _15 Best CI/CD Tools That You Should Know_. (2023, October). _GeeksforGeeks_. Retrieved from [https://www.geeksforgeeks.org/best-ci-cd-tools/](https://www.geeksforgeeks.org/best-ci-cd-tools/)
+
+5. **Fault Triggers in Open-Source Software**:
+
+   - _Fault triggers in open-source software: An experience report_. _Academia.edu_. Retrieved from [https://www.academia.edu/21177229/Fault_triggers_in_open_source_software_An_experience_report](https://www.academia.edu/21177229/Fault_triggers_in_open_source_software_An_experience_report)
+
+6. **Impact of CI/CD on Open Source Repositories**:
+
+   - Fairbanks, J., Tharigonda, A., & Eisty, N. U. (2023). _Analyzing the Effects of CI/CD on Open Source Repositories in GitHub and GitLab_. _arXiv preprint arXiv:2303.16393_. Retrieved from [https://arxiv.org/abs/2303.16393](https://arxiv.org/abs/2303.16393)
+
+7. **GoCD - Open Source Continuous Delivery**:
+
+   - _Go continuous delivery_. _Wikipedia_. Retrieved from [https://en.wikipedia.org/wiki/Go_continuous_delivery](https://en.wikipedia.org/wiki/Go_continuous_delivery)
+
+8. **Jenkins - Open Source Automation Server**:
+
+   - _Jenkins (software)_. _Wikipedia_. Retrieved from [https://en.wikipedia.org/wiki/Jenkins\_%28software%29](https://en.wikipedia.org/wiki/Jenkins_%28software%29)
+
+9. **Fault-Tolerant Systems in Rust**:
+
+   - _Top 5 Rust fault-tolerance Projects_. _LibHunt_. Retrieved from [https://www.libhunt.com/l/rust/topic/fault-tolerance](https://www.libhunt.com/l/rust/topic/fault-tolerance)
+
+10. **Developing Fault-Tolerant Software**:
+    - _Developing fault-tolerant software: best practices, process & tips_. _DevTalents_. Retrieved from [https://devtalents.com/building-fault-tolerant-software/](https://devtalents.com/building-fault-tolerant-software/)
