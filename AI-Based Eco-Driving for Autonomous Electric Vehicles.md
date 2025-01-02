@@ -120,3 +120,62 @@ This version strictly reflects the data and observations from your presentation.
    - The AI car took longer (55 seconds vs. 49 seconds), reflecting the impact of smoother driving and the bugs encountered. The difference is not huge despite the bugs, which shows the potential of the algorithm.
 3. **Unexpected Behavior**:
    - The AI car occasionally stopped and restarted unexpectedly, which increased energy consumption and reduced the effectiveness of the algorithm.
+
+## Challenges and Lessons Learned
+
+### Challenges
+
+1. **Algorithmic Bugs**:
+
+   - The most significant issue was the vehicle’s tendency to stop and restart unexpectedly. This behavior, caused by errors in the decision-making logic, increased energy consumption and disrupted smooth driving.
+
+2. **Real-Time Data Handling**:
+
+   - Simulating accurate and consistent V2E communication proved challenging. Inaccurate or delayed inputs affected the performance of the eco-driving algorithm.
+
+3. **Balancing Efficiency and Speed**:
+   - While the algorithm prioritized energy savings, this often came at the cost of increased completion times, highlighting the trade-off between efficiency and speed.
+
+### Lessons Learned
+
+1. **Resource Constraints**:
+
+   - With limited time and a small team, it was challenging to address all edge cases in the algorithm, emphasizing the importance of focusing on core functionality under such constraints.
+
+2. **Value of Simulations**:
+
+   - Using the Godot Engine for simulation provided invaluable insights into the practical challenges of implementing eco-driving strategies in real-world systems.
+
+3. **Trade-Off Awareness**:
+
+   - The project demonstrated that achieving smoother and more energy-efficient driving may require compromising on speed, a consideration critical for real-world applications.
+
+4. **Future Focus Areas**:
+   - Refining the algorithm to eliminate unnecessary stops and improve real-time decision-making.
+   - Enhancing the simulation environment to better replicate real-world conditions.
+
+## Conclusion
+
+The project successfully demonstrated the potential of eco-driving strategies in reducing energy consumption and improving driving efficiency for autonomous vehicles. By leveraging a simplified algorithm and simulated Vehicle-to-Environment (V2E) communication, the simulation highlighted the following key outcomes:
+
+1. **Energy Savings**:
+
+   - The AI-driven algorithm achieved a 32% reduction in energy consumption, showcasing the potential benefits of intelligent driving strategies.
+
+2. **Smoother Driving**:
+
+   - While the algorithm encountered unexpected stops and restarts, it still provided insights into how smoother driving can enhance vehicle efficiency and reduce wear on components.
+
+3. **Trade-Offs**:
+   - The slightly longer completion time reflects the balance between energy savings and driving performance, a critical consideration for real-world implementation.
+
+### Future Directions
+
+This project lays the groundwork for more advanced research and development. Future iterations could focus on:
+
+- Debugging and refining the algorithm to eliminate unnecessary stops and optimize decision-making.
+- Integrating machine learning models for real-time adaptive driving strategies.
+- Expanding the simulation to include more complex traffic scenarios and additional environmental factors.
+
+The project has demonstrated the feasibility of eco-driving strategies, even within the constraints of a simplified simulation, and emphasizes the importance of continuing to explore AI-powered solutions for sustainable transportation.
+
