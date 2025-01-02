@@ -49,3 +49,11 @@ Despite advancements, fully integrating AI into autonomous vehicles presents cha
 
 - Source:
   - [A Critical Evaluation of Eco-Driving Strategies for Connected Autonomous Electric Vehicles at Signalized Intersections](https://ieeexplore.ieee.org/document/10294498)
+
+## Relevance to Our Project
+
+In our project, we utilized the Godot Engine a free and open-source game engine renowned for its versatility in 2D and 3D game development to create a simulation environment for testing eco-driving strategies in autonomous EVs.
+
+While our approach did not involve complex machine learning models, the flexibility of Godot enabled us to script decision-making algorithms that adjust driving behaviors based on simulated environmental inputs, such as traffic signals and road conditions.
+
+Employing Godot provided a practical platform to demonstrate the principles of eco-driving and the potential benefits of AI integration in autonomous EVs. This approach facilitated a hands-on understanding of how intelligent systems can enhance vehicle energy efficiency, even within a simplified simulation framework.
