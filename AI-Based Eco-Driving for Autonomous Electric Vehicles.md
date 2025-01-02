@@ -92,3 +92,11 @@ Our solution integrates:
 - **Metrics**:
   - Energy Savings: Compared energy consumption with and without the algorithm.
   - Time Efficiency: Measured scenario completion times.
+
+## Simulation and Results
+
+The simulation was developed using the Godot Engine, designed to replicate real-world driving scenarios. Key components include:
+
+- **Environment**: Modeled roads, traffic signals, and slow zones.
+- **Vehicle Models**: Vehicles programmed with and without the eco-driving algorithm for comparison.
+- **Data Inputs**: Simulated V2E communication provided real-time information like traffic light states and road conditions (slow zones in our case).
