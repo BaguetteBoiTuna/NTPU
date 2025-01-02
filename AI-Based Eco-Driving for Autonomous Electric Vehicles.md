@@ -12,7 +12,7 @@ This report explores the application of AI-powered eco-driving strategies in aut
 
 ### Problem Statement
 
-The rapid adoption of electric vehicles (EVs) has brought forth new challenges in optimizing energy efficiency to reduce operational costs and environmental impact. While artificial intelligence (AI) offers promising strategies for real-time eco-driving in autonomous EVs, developing fully functional AI systems requires significant resources and infrastructure. For this project, we focused on implementing a simplified algorithm within a simulated environment to demonstrate the feasibility and impact of AI-like eco-driving strategies.
+The rapid adoption of electric vehicles has brought forth new challenges in optimizing energy efficiency to reduce operational costs and environmental impact. While artificial intelligence (AI) offers promising strategies for real-time eco-driving in autonomous EVs, developing fully functional AI systems requires significant resources and infrastructure. For this project, we focused on implementing a simplified algorithm within a simulated environment to demonstrate the feasibility and impact of AI-like eco-driving strategies.
 
 ### Objectives
 
@@ -25,3 +25,16 @@ This project aims to:
 ### Importance and Value
 
 Efficient energy management is critical for increasing EV adoption, lowering operational costs, and supporting global sustainability goals. By reducing energy consumption and emissions, eco-driving strategies contribute to cleaner urban environments and mitigate the environmental impact of transportation. Although the project’s scope is limited to a simplified simulation, the insights gained highlight the potential for future integration of fully AI-powered systems in real-world applications.
+
+## Related Work
+
+### AI-Driven Control Methods
+
+AI has been extensively applied to enhance eco-driving strategies in autonomous electric vehicles. Recent studies have developed AI-based frameworks that utilize deep learning models for better control in autonomous driving, aiming to improve energy efficiency.
+
+- Source:
+  - [Artificial Intelligence Enabled Future Wireless Electric Vehicles with Multi-Model Learning and Decision Making Models](https://ieeexplore.ieee.org/document/10566002)
+
+### Vehicle-to-Everything (V2X) Communication Systems
+
+[Vehicle-to-Everything Communication—The Future of Autonomous Connectivity](https://www.eetasia.com/vehicle-to-everything-communication-the-future-of-autonomous-connectivity/)
