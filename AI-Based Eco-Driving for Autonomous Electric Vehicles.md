@@ -57,3 +57,32 @@ In our project, we utilized the Godot Engine a free and open-source game engine 
 While our approach did not involve complex machine learning models, the flexibility of Godot enabled us to script decision-making algorithms that adjust driving behaviors based on simulated environmental inputs, such as traffic signals and road conditions.
 
 Employing Godot provided a practical platform to demonstrate the principles of eco-driving and the potential benefits of AI integration in autonomous EVs. This approach facilitated a hands-on understanding of how intelligent systems can enhance vehicle energy efficiency, even within a simplified simulation framework.
+
+## Methodology
+
+### 1. Problem Analysis
+
+We identified key factors impacting energy consumption, including:
+
+- Inefficient driving behaviors (e.g., excessive acceleration and braking).
+- Lack of real-time communication between vehicles and the environment.
+- Limited integration of eco-driving strategies in current systems.
+
+This analysis informed the design of our simulation, which replicates these challenges in a controlled environment.
+
+### 2. Solution Design
+
+Our solution integrates:
+
+1. Algorithmic Eco-Driving:
+   - Developed a simplified algorithm to adjust acceleration and braking based on real-time inputs.
+   - Focused on optimizing driving patterns with minimal computational overhead.
+2. Vehicle-to-Environment Communication:
+   - Simulated real-time data exchange (traffic lights) to influence vehicle behavior dynamically.
+
+### 3. Simulation Development
+
+- Scenario Design:
+- Created traffic and road conditions to test the algorithm, including stop-and-go and steady cruising scenarios.
+- Algorithm Integration:
+- Integrated decision-making logic into vehicle models, fine-tuning parameters to prioritize energy efficiency.
