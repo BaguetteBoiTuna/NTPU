@@ -37,4 +37,15 @@ AI has been extensively applied to enhance eco-driving strategies in autonomous 
 
 ### Vehicle-to-Everything (V2X) Communication Systems
 
-[Vehicle-to-Everything Communication—The Future of Autonomous Connectivity](https://www.eetasia.com/vehicle-to-everything-communication-the-future-of-autonomous-connectivity/)
+V2X communication enables vehicles to interact with their environment, including other vehicles, infrastructure, and pedestrians. This technology is foundational for autonomous driving, enhancing safety, efficiency, and driving experience.
+
+- Sources:
+  - [Vehicle-to-Everything Communication—The Future of Autonomous Connectivity](https://www.eetasia.com/vehicle-to-everything-communication-the-future-of-autonomous-connectivity/)
+  - [Vehicle-to-Everything (V2X) Communication: A Roadside Unit for Adaptive Intersection Control of Autonomous Electric Vehicles](https://arxiv.org/abs/2409.00866)
+
+### Challenges in Full AI Integration
+
+Despite advancements, fully integrating AI into autonomous vehicles presents challenges, including computational complexity and real-time data accuracy. A critical evaluation of eco-driving strategies for connected autonomous electric vehicles at signalized intersections highlighted the need for efficient algorithms suitable for real-time applications.
+
+- Source:
+  - [A Critical Evaluation of Eco-Driving Strategies for Connected Autonomous Electric Vehicles at Signalized Intersections](https://ieeexplore.ieee.org/document/10294498)
