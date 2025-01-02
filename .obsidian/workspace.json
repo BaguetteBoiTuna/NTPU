@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "AI-Based Eco-Driving for Autonomous Electric Vehicles"
             }
+          },
+          {
+            "id": "ab7f71235f4f490f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leveraging GitHub and CI CD for Fault Tolerance in Open-Source Projects.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Leveraging GitHub and CI CD for Fault Tolerance in Open-Source Projects"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,12 +215,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91c1270d7f573988",
+  "active": "ab7f71235f4f490f",
   "lastOpenFiles": [
+    "Leveraging GitHub and CI CD for Fault Tolerance in Open-Source Projects.md",
+    "AI-Based Eco-Driving for Autonomous Electric Vehicles.md",
     "AI-Based Eco-Driving for Autonomous Electric Vehicles.md~",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
-    "AI-Based Eco-Driving for Autonomous Electric Vehicles.md",
     "Knowledge hub.md",
     "2024-11-13-last_details_dlfia.md",
     "2024-11-09-midterm_report_dante_dlfia.md",
@@ -247,7 +262,6 @@
     "2024-10-09-image-analysis-techniques.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
     "2024-09-18-image-analysis-introduction.md",
-    "2024-10-08-dlfia_dante_assignment1.md~",
     "2024-09-09-ecu.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
