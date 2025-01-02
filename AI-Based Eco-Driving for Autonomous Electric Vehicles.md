@@ -74,15 +74,21 @@ This analysis informed the design of our simulation, which replicates these chal
 
 Our solution integrates:
 
-1. Algorithmic Eco-Driving:
-   - Developed a simplified algorithm to adjust acceleration and braking based on real-time inputs.
-   - Focused on optimizing driving patterns with minimal computational overhead.
-2. Vehicle-to-Environment Communication:
-   - Simulated real-time data exchange (traffic lights) to influence vehicle behavior dynamically.
+- **Algorithmic Eco-Driving**:
+  - Developed a simplified algorithm to adjust acceleration and braking based on real-time inputs.
+  - Focused on optimizing driving patterns with minimal computational overhead.
+- **Vehicle-to-Environment Communication**:
+  - Simulated real-time data exchange (traffic lights) to influence vehicle behavior dynamically.
 
 ### 3. Simulation Development
 
-- Scenario Design:
-- Created traffic and road conditions to test the algorithm, including stop-and-go and steady cruising scenarios.
-- Algorithm Integration:
-- Integrated decision-making logic into vehicle models, fine-tuning parameters to prioritize energy efficiency.
+- **Scenario Design**:
+  - Created road conditions to test the algorithm, including a stop-and-go and steady cruising scenario.
+- **Algorithm Integration**:
+  - Integrated decision-making logic into vehicle models, fine-tuning parameters to prioritize energy efficiency.
+
+### 4. Testing and Analysis
+
+- **Metrics**:
+  - Energy Savings: Compared energy consumption with and without the algorithm.
+  - Time Efficiency: Measured scenario completion times.
