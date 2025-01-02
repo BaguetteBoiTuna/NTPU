@@ -100,3 +100,23 @@ The simulation was developed using the Godot Engine, designed to replicate real-
 - **Environment**: Modeled roads, traffic signals, and slow zones.
 - **Vehicle Models**: Vehicles programmed with and without the eco-driving algorithm for comparison.
 - **Data Inputs**: Simulated V2E communication provided real-time information like traffic light states and road conditions (slow zones in our case).
+
+• The AI-driven car achieved 32% energy savings despite bugs in the algorithm, compared to the 37% savings for the non-AI car. 2. Completion Time:
+• The AI car took longer (55 seconds vs. 49 seconds), reflecting the impact of smoother driving and the bugs encountered. 3. Unexpected Behavior:
+• The AI car occasionally stopped and restarted unexpectedly, which increased energy consumption and reduced the effectiveness of the algorithm.
+
+This version strictly reflects the data and observations from your presentation. Let me know if this is accurate or if further tweaking is needed!
+
+| Metric                  | Non-AI Car | AI Car (Algorithm-Driven) |
+| ----------------------- | ---------- | ------------------------- |
+| **Energy Savings**      | 37%        | 32%                       |
+| **Completion Time (s)** | 49         | 55                        |
+
+#### Key Observations
+
+1. **Energy Efficiency**:
+   - The AI-driven car achieved 32% energy savings despite bugs in the algorithm, compared to the 37% savings for the non-AI car.
+2. **Completion Time**:
+   - The AI car took longer (55 seconds vs. 49 seconds), reflecting the impact of smoother driving and the bugs encountered. The difference is not huge despite the bugs, which shows the potential of the algorithm.
+3. **Unexpected Behavior**:
+   - The AI car occasionally stopped and restarted unexpectedly, which increased energy consumption and reduced the effectiveness of the algorithm.
