@@ -20,4 +20,8 @@ This project aims to:
 
 1. Explore the principles of energy-efficient eco-driving using algorithmic approaches.
 2. Leverage Vehicle-to-Environment (V2E) communication concepts to improve driving efficiency in real-time within a simulated environment.
-3. Validate the proposed solution through a simulation built in GODOT, showcasing the energy-saving potential of intelligent driving patterns.
+3. Validate the proposed solution through a simulation built in [Godot](https://godotengine.org/), showcasing the energy-saving potential of intelligent driving patterns.
+
+### Importance and Value
+
+Efficient energy management is critical for increasing EV adoption, lowering operational costs, and supporting global sustainability goals. By reducing energy consumption and emissions, eco-driving strategies contribute to cleaner urban environments and mitigate the environmental impact of transportation. Although the project’s scope is limited to a simplified simulation, the insights gained highlight the potential for future integration of fully AI-powered systems in real-world applications.
