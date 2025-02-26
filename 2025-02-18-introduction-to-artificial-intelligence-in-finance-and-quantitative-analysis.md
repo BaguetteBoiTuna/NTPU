@@ -46,8 +46,4 @@ tags: []
 - **Explainable AI**: Transparency in automated decisions.
 - **Integrated Ecosystems**: Seamless data flows between BI & operational systems.
 
-## Visual Overview
-
-![Evolution Diagram](https://via.placeholder.com/800x400.png?text=Evolution+of+DSS%2C+BI+and+Analytics)
-
 ---

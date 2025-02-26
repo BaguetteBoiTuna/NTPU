@@ -11,6 +11,8 @@ tags: []
 
 This course introduces the fundamental concepts, research issues, and hands-on practices of Generative AI innovative Applications.
 
+All content can be found on NTPU's e-learning platform.
+
 ## outline
 
 1. Introduction to Generative AI Innovative Applications

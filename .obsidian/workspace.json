@@ -11,13 +11,30 @@
             "id": "2ff0db482b520c5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-02-18-introduction-to-artificial-intelligence-in-finance-and-quantitative-analysis.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-02-18-introduction-to-artificial-intelligence-in-finance-and-quantitative-analysis"
+            }
+          },
+          {
+            "id": "2687e5d5b8f818f9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,14 +199,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ff0db482b520c5e",
+  "active": "2687e5d5b8f818f9",
   "lastOpenFiles": [
+    "2025-02-18-introduction-to-artificial-intelligence-in-finance-and-quantitative-analysis.md",
+    "2025-02-18-artificial-intelligence-in-finance-and-quantitative-analysis.md",
+    "Knowledge hub.md",
     "2024-09-23-automotive-intelligent-electronic-systems---2.md",
     "AI-Based Eco-Driving for Autonomous Electric Vehicles.md",
     "Leveraging GitHub and CI CD for Fault Tolerance in Open-Source Projects.md",
     "2024-09-09-introduction_to_intelligent_electronics.md",
     "2024-09-09-design_and_application_of_intelligent_electronics.md",
-    "Knowledge hub.md",
     "AI-Based Eco-Driving for Autonomous Electric Vehicles.md~",
     "2024-11-13-last_details_dlfia.md",
     "2024-11-09-midterm_report_dante_dlfia.md",
@@ -227,9 +246,7 @@
     "2024-10-09-foundations-of-deep-learning.md~",
     "2024-10-09-image-analysis-techniques.md~",
     "4913",
-    "2024-10-09-image-analysis-techniques.md",
     "2024-09-18-deep-learning-for-image-analysis.md~",
-    "2024-09-18-image-analysis-introduction.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
