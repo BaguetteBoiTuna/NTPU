@@ -9,9 +9,9 @@ tags: []
 
 Student ID: 711382799
 
-## Objective
+## Link to the Tinkercad Project
 
-The goal of this assignment is to build a smart room automation system using IoT principles. This project demonstrates how to monitor and regulate environmental conditions (temperature, light, and humidity) using sensors and actuators integrated with an Arduino.
+The Tinkercad project can be accessed [here](https://www.tinkercad.com/things/gErg2nNBwSt/editel?returnTo=%2Fdashboard&sharecode=O-c_OqWTiRjCI0B_P1d8vxq_-3vCfnSWsvdiESiTnio).
 
 ## Components Overview
 
