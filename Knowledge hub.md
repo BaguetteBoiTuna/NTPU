@@ -28,3 +28,4 @@ Contains the following courses:
 - [Artificial Intelligence in Finance and Quantitative Analysis](2025-02-18-artificial-intelligence-in-finance-and-quantitative-analysis.md)
 - [Innovation Management](2025-02-26-innovation-management.md)
 - [Culinary Culture around the World](2025-02-27-culinary-culture-around-the-world.md)
+- [Internet of Things (IoT)](2025-03-23-internet-of-things-%28iot%29.md)
