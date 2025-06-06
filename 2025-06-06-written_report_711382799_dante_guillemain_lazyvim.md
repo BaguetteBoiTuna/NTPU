@@ -24,7 +24,7 @@ While lazy.nvim handles package plumbing, **LazyVim** (Folke, Jan 2023) ships a 
 ### 1.1.4 Pedagogical & Industrial Relevance
 
 - **On-boarding speed:** New developers can achieve LSP, DAP, formatter and fuzzy-finder parity with VS Code in minutes rather than hours of dot-file yak-shaving. Blogs aimed at beginners explicitly recommend pre-configured “distros” like LazyVim for smoother entry into modal editing [dev.to](https://dev.to/shricodev/neovim-makes-you-a-10x-dev-and-im-not-kidding-2ka1).
-- **Consistency across devices:** Because LazyVim’s starter repo is a self-contained Git tree, students can clone-and-go on lab machines, personal laptops or CI containers without busting local state.
+- **Consistency across devices:** Because LazyVim's starter repo is a self-contained Git tree, students can clone-and-go on lab machines, personal laptops or CI containers without busting local state.
 - **Sustainability:** The risk of maintainer burnout is openly discussed, but the FOSS community expects a fork-and-carry-on model if stewardship lapses, mirroring other critical Neovim plugins [reddit.com](https://www.reddit.com/r/neovim/comments/1l0abtt/what_happens_if_folke_stops_maintaining_lazyvim/).
 
 ### 1.1.5 Research Gap
@@ -37,19 +37,19 @@ Despite anecdotal praise, **empirical data on how LazyVim affects configuration 
 
 ### 1.2.1 Personal / Academic Drivers
 
-- **Setup fatigue is real.** First-year coding labs show students burning **30-60 min per workstation** just wiring LSP, formatter and key-maps in vanilla Neovim. That time shrinks to single-digit minutes with LazyVim’s one-shot git clone [oai_citation:0‡kmckelvin.com](https://kmckelvin.com/blog/2024/06/lazyvim-stable-productivity-with-neovim/?utm_source=chatgpt.com).
+- **Setup fatigue is real.** First-year coding labs show students burning **30-60 min per workstation** just wiring LSP, formatter and key-maps in vanilla Neovim. That time shrinks to single-digit minutes with LazyVim's one-shot git clone [kmckelvin.com](https://kmckelvin.com/blog/2024/06/lazyvim-stable-productivity-with-neovim/).
 - **Reproducibility across devices.** Our cohort jumps between dorm MacBooks and campus Linux boxes; a **git-versioned, self-contained config** guarantees identical behaviour anywhere, preventing “works-on-my-laptop” glitches that cost grading time.
-- **Curriculum alignment.** The department’s “Tools & Environments” module now mandates exposure to Lua-based Neovim plugins. LazyVim is Lua end-to-end, making it a natural teaching scaffold.
+- **Curriculum alignment.** The department's “Tools & Environments” module now mandates exposure to Lua-based Neovim plugins. LazyVim is Lua end-to-end, making it a natural teaching scaffold.
 
 ### 1.2.2 Industry Pressures
 
-- **Time-to-productivity beats purity.** GitHub statistics show LazyVim sitting at **≈21 k stars and 1.5 k forks** after just two years—adoption curves rarely reached by previous Vim distros [oai_citation:1‡github.com](https://github.com/LazyVim/LazyVim).
-- **Performance expectations.** lazy.nvim (the engine under the hood) released **v11.17.1 on 25 Feb 2025**, touting 5× faster cold-starts than Packer-managed setups [oai_citation:2‡github.com](https://github.com/folke/lazy.nvim/releases). Teams want that snappiness without each developer becoming a perf-tuning guru.
-- **Maintenance burden.** In corporate environments, senior engineers waste billable hours reviewing dot-file PRs. LazyVim centralises the base config so only domain-specific tweaks reach code review.
+- **Time-to-productivity beats purity.** GitHub statistics show LazyVim sitting at **≈21 k stars and 1.5 k forks** after just two years adoption curves rarely reached by previous Vim distros [github.com](https://github.com/LazyVim/LazyVim).
+- **Performance expectations.** lazy.nvim (the engine under the hood) released **v11.17.1 on 25 Feb 2025**, touting 5× faster cold-starts than Packer-managed setups [github.com](https://github.com/folke/lazy.nvim/releases). Teams want that snappiness without each developer becoming a perf-tuning guru.
+- **Maintenance burden.** In corporate environments, senior engineers waste billable hours reviewing dot-file PRs (Pull Requests). LazyVim centralises the base config so only domain-specific tweaks reach code review.
 
 ### 1.2.3 Community Momentum
 
-- Blog posts like _“Why I switched to LazyVim”_ report **80 % of default settings “just work”** and praise painless updates via lazy.nvim’s UI [oai_citation:3‡medium.com](https://medium.com/%40xiangdejun_32936/why-i-switched-to-lazyvim-fc4fdeb888bc?utm_source=chatgpt.com).
+- Blog posts like _“Why I switched to LazyVim”_ report **80 % of default settings “just work”** and praise painless updates via lazy.nvim's UI [medium.com](https://medium.com/%40xiangdejun_32936/why-i-switched-to-lazyvim-fc4fdeb888bc).
 - Reddit performance threads document **≈45 % additional startup cuts** after simple hacks, signalling an active optimisation culture [oai_citation:4‡reddit.com](https://www.reddit.com/r/neovim/comments/1jn9b39/i_improved_my_lazynvim_startup_by_45/?utm_source=chatgpt.com).
 
 ### 1.2.4 Hypothesised Benefits vs Status Quo
