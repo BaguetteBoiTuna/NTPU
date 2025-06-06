@@ -18,7 +18,7 @@ I decided to create a real report, as I would not be satisfied with just talking
 
 ## 1.1 Research Background
 
-### 1.1.1 From _vi_ to “Neo”
+### 1.1.1 From _vi_ to "Neo"
 
 The UNIX editor lineage has marched from **vi (1976)** to **Vim (1991)** and on to **Neovim (2014)**, each step trading monolithic C code for extensibility and modern UX. Neovim's LuaJIT core, built-in LSP client, and Tree-sitter parser opened the flood-gates for high-performance plugins, making it the fastest-growing editor project on GitHub in the last three years.
 
@@ -26,13 +26,13 @@ The UNIX editor lineage has marched from **vi (1976)** to **Vim (1991)** and on 
 
 Early plugin managers Pathogen, Vundle, Plug, then Packer simplified installs but still loaded every plugin on start-up. **lazy.nvim** (Dec 2022) introduced byte-compiled caches, event-based lazy-loading and a UI for update hygiene, slicing cold-start times by **5× versus Packer** in author benchmarks [medium.com](https://medium.com/unixification/lazy-nvim-the-blazingly-fast-neovim-package-manager-19a7a952835c). The project has since accrued **≈17.7 k stars** and >400 forks, with a stable release cadence (v11.17.1, Feb 2025) [github.com](https://github.com/folke/lazy.nvim).
 
-### 1.1.3 LazyVim: “Distro” not Dot-files
+### 1.1.3 LazyVim: "Distro" not Dot-files
 
 While lazy.nvim handles package plumbing, **LazyVim** (Folke, Jan 2023) ships a curated config powered by lazy.nvim. It offers sane defaults, 90 + pre-wired plugins and an **IDE-like UX out-of-the-box**, yet keeps every spec in Lua so users can override anything. GitHub metrics **≈21 k stars**, **1.5 k forks**, latest tag **v14.15.0 (12 May 2025)** signal mainstream adoption well beyond hobbyists [github.com](https://github.com/LazyVim/LazyVim) [github.com](https://github.com/LazyVim/LazyVim/releases/tag/v14.15.0).
 
 ### 1.1.4 Pedagogical & Industrial Relevance
 
-- **On-boarding speed:** New developers can achieve LSP, DAP, formatter and fuzzy-finder parity with VS Code in minutes rather than hours of dot-file yak-shaving. Blogs aimed at beginners explicitly recommend pre-configured “distros” like LazyVim for smoother entry into modal editing [dev.to](https://dev.to/shricodev/neovim-makes-you-a-10x-dev-and-im-not-kidding-2ka1).
+- **On-boarding speed:** New developers can achieve LSP, DAP, formatter and fuzzy-finder parity with VS Code in minutes rather than hours of dot-file yak-shaving. Blogs aimed at beginners explicitly recommend pre-configured "distros" like LazyVim for smoother entry into modal editing [dev.to](https://dev.to/shricodev/neovim-makes-you-a-10x-dev-and-im-not-kidding-2ka1).
 - **Consistency across devices:** Because LazyVim's starter repo is a self-contained Git tree, students can clone-and-go on lab machines, personal laptops or CI containers without busting local state.
 - **Sustainability:** The risk of maintainer burnout is openly discussed, but the FOSS community expects a fork-and-carry-on model if stewardship lapses, mirroring other critical Neovim plugins [reddit.com](https://www.reddit.com/r/neovim/comments/1l0abtt/what_happens_if_folke_stops_maintaining_lazyvim/).
 
@@ -47,8 +47,8 @@ Despite anecdotal praise, **empirical data on how LazyVim affects configuration 
 ### 1.2.1 Personal / Academic Drivers
 
 - **Setup fatigue is real.** First-year coding labs show students burning **30-60 min per workstation** just wiring LSP, formatter and key-maps in vanilla Neovim. That time shrinks to single-digit minutes with LazyVim's one-shot git clone [kmckelvin.com](https://kmckelvin.com/blog/2024/06/lazyvim-stable-productivity-with-neovim/).
-- **Reproducibility across devices.** Our cohort jumps between dorm MacBooks and campus Linux boxes; a **git-versioned, self-contained config** guarantees identical behaviour anywhere, preventing “works-on-my-laptop” glitches that cost grading time.
-- **Curriculum alignment.** The department's “Tools & Environments” module now mandates exposure to Lua-based Neovim plugins. LazyVim is Lua end-to-end, making it a natural teaching scaffold.
+- **Reproducibility across devices.** Our cohort jumps between dorm MacBooks and campus Linux boxes; a **git-versioned, self-contained config** guarantees identical behaviour anywhere, preventing "works-on-my-laptop" glitches that cost grading time.
+- **Curriculum alignment.** The department's "Tools & Environments" module now mandates exposure to Lua-based Neovim plugins. LazyVim is Lua end-to-end, making it a natural teaching scaffold.
 
 ### 1.2.2 Industry Pressures
 
@@ -58,7 +58,7 @@ Despite anecdotal praise, **empirical data on how LazyVim affects configuration 
 
 ### 1.2.3 Community Momentum
 
-- Blog posts like _“Why I switched to LazyVim”_ report **80 % of default settings “just work”** and praise painless updates via lazy.nvim's UI [medium.com](https://medium.com/%40xiangdejun_32936/why-i-switched-to-lazyvim-fc4fdeb888bc).
+- Blog posts like _"Why I switched to LazyVim"_ report **80 % of default settings "just work"** and praise painless updates via lazy.nvim's UI [medium.com](https://medium.com/%40xiangdejun_32936/why-i-switched-to-lazyvim-fc4fdeb888bc).
 - Reddit performance threads document **≈45 % additional startup cuts** after simple hacks, signalling an active optimisation culture [reddit.com](https://www.reddit.com/r/neovim/comments/1jn9b39/i_improved_my_lazynvim_startup_by_45/).
 
 ### 1.2.4 Hypothesised Benefits vs Status Quo
@@ -119,9 +119,9 @@ LazyVim will be considered a net win if it achieves **≥70 percent reduction in
 
 Early managers like **Pathogen (2010)** and **Vundle (2012)** merely eased runtimepath edits. **vim-plug (2013)** added parallel installs, **Packer (2020)** introduced Lua specs, and **lazy.nvim (2022)** finished the jump to full Lua with byte-compiled caches and event-driven lazy-loading. Users report dropping cold-starts from ~500 ms with Packer to **≈50 ms after migrating to lazy.nvim** [reddit.com](https://www.reddit.com/r/neovim/comments/126fkbu/question_which_plugin_manager_should_i_use_packer/) [neovim.discourse.group](https://neovim.discourse.group/t/is-migrating-to-lazy-nvim-worth-it/4292). The lazy.nvim README lists automatic caching, partial-git clones and a profiling UI as headline features [github.com](https://github.com/folke/lazy.nvim).
 
-## 2.2 Rise of “batteries-included” distributions
+## 2.2 Rise of "batteries-included" distributions
 
-The plugin-manager leap sparked a second wave: curated **Neovim distros**. A 2024 comparative blog lists **LunarVim, NvChad, LazyVim, AstroNvim** as the four dominant packs, noting LazyVim for ease of extension and early lazy.nvim adoption [fossen.dev](https://fossen.dev/vim-astronvim.html). GitHub telemetry shows LazyVim accumulating **≈21 k stars and >1.5 k forks by May 2025** with a steady release cadence (latest v14.15.0, 12 May 2025) [github.com](https://github.com/LazyVim/LazyVim/releases). Reddit polls echo that momentum, with LazyVim topping “Which distro do you use?” threads over NvChad and AstroNvim [reddit.com](https://www.reddit.com/r/neovim/comments/1dwpd8m/which_distro_do_you_use/).
+The plugin-manager leap sparked a second wave: curated **Neovim distros**. A 2024 comparative blog lists **LunarVim, NvChad, LazyVim, AstroNvim** as the four dominant packs, noting LazyVim for ease of extension and early lazy.nvim adoption [fossen.dev](https://fossen.dev/vim-astronvim.html). GitHub telemetry shows LazyVim accumulating **≈21 k stars and >1.5 k forks by May 2025** with a steady release cadence (latest v14.15.0, 12 May 2025) [github.com](https://github.com/LazyVim/LazyVim/releases). Reddit polls echo that momentum, with LazyVim topping "Which distro do you use?" threads over NvChad and AstroNvim [reddit.com](https://www.reddit.com/r/neovim/comments/1dwpd8m/which_distro_do_you_use/).
 
 ## 2.3 Architecture and feature set of LazyVim
 
@@ -131,7 +131,7 @@ LazyVim layers an opinionated config on top of lazy.nvim. Key design points:
 | -------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Starter template** | Git repo cloned into `~/.config/nvim`  | Single-file bootstrap, no external installer [lazyvim.github.io](https://lazyvim.github.io/)             |
 | **Plugin specs**     | 90 + plugins declared in Lua           | Auto-lazy-loaded by type, event or filetype [lazyvim.github.io](https://lazyvim.github.io/configuration) |
-| **Update UX**        | `:Lazy` UI handles sync, health checks | Mitigates “dependency spaghetti” cited in earlier distros [lazy.folke.io](https://lazy.folke.io/usage)   |
+| **Update UX**        | `:Lazy` UI handles sync, health checks | Mitigates "dependency spaghetti" cited in earlier distros [lazy.folke.io](https://lazy.folke.io/usage)   |
 | **Override model**   | Local specs in `lua/plugins/`          | Keeps distro immutable yet infinitely extensible                                                         |
 
 ## 2.4 Performance findings
@@ -140,7 +140,7 @@ GitHub discussion threads show typical cold-start ranges **30-60 ms** on mid-201
 
 ## 2.5 Adoption in educational and professional contexts
 
-Bloggers emphasise LazyVim's value for **on-boarding juniors**: clone, open, code [joshmedeski.com](https://joshmedeski.com/posts/create-a-neovim-ide-with-lazyvim/). Reddit anecdotes from students echo that it “just works” for coursework without days of dot-file tinkering [github.com](https://github.com/LazyVim/LazyVim/discussions/766). Corporate devs highlight reduced code-review noise because the base config lives upstream, with teams only forking small overrides [lyndon.codes](https://lyndon.codes/2025/02/05/moving-from-packer-to-lazy-nvim/).
+Bloggers emphasise LazyVim's value for **on-boarding juniors**: clone, open, code [joshmedeski.com](https://joshmedeski.com/posts/create-a-neovim-ide-with-lazyvim/). Reddit anecdotes from students echo that it "just works" for coursework without days of dot-file tinkering [github.com](https://github.com/LazyVim/LazyVim/discussions/766). Corporate devs highlight reduced code-review noise because the base config lives upstream, with teams only forking small overrides [lyndon.codes](https://lyndon.codes/2025/02/05/moving-from-packer-to-lazy-nvim/).
 
 ## 2.6 Research gap
 
@@ -211,7 +211,7 @@ All ten participants managed to replicate the target feature-set (TypeScript LSP
   - **Baseline**: several students stalled on language-server wiring and dependency errors; two never got autocomplete working before the clock ran out.
 
 - **Perceived workload**  
-  The NASA TLX forms show a clear contrast: scores for LazyVim cluster in the “low workload” band (<9 on the 0-100 scale), whereas baseline scores hover around the “high workload” threshold (>50). According to TLX interpretation guides, anything above ~50 signals notable mental strain [researchgate.net](https://www.researchgate.net/figure/The-Interpretation-Score-of-NASA-TLX-8_tbl1_333730333).
+  The NASA TLX forms show a clear contrast: scores for LazyVim cluster in the "low workload" band (<9 on the 0-100 scale), whereas baseline scores hover around the "high workload" threshold (>50). According to TLX interpretation guides, anything above ~50 signals notable mental strain [researchgate.net](https://www.researchgate.net/figure/The-Interpretation-Score-of-NASA-TLX-8_tbl1_333730333).
 
 - **Launch feel**  
   Hyperfine logs reveal that LazyVim consistently opened in under a tenth of a second on the testers machines. The vanilla configs felt visibly slower, with launches stretching into the quarter-second range. Memory readings told the same story: LazyVim stayed lean; custom plugin stacks crept higher.
@@ -223,3 +223,4 @@ All ten participants managed to replicate the target feature-set (TypeScript LSP
 
 PS: This report was written in LazyVim, using the `Obsidian` plugin in markdown.
 ![[Screenshot 2025-06-06 at 20.22.57.png]]
+
