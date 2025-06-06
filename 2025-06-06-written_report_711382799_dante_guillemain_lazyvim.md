@@ -12,6 +12,8 @@ Name: Dante GUILLEMAIN
 Course: Generative AI Innovative Applications
 Professor: Min-Yuh Day
 
+I decided to create a real report, as I would not be satisfied with just talking about the presentation of LazyVim.
+
 # Chapter 1. Introduction
 
 ## 1.1 Research Background
@@ -218,3 +220,6 @@ All ten participants managed to replicate the target feature-set (TypeScript LSP
   Students praised LazyVim's 'clone and go' simplicity and liked the built-in `:Lazy` update UI. Complaints focused almost entirely on the baseline session—chiefly plugin breakage, missing keymaps and time lost hunting down snippets of Lua.
 
 **Bottom line**: across speed, effort and user satisfaction, LazyVim came out ahead. No participant reported any blocking issue with the distro, while plain Neovim required significant troubleshooting to reach feature parity.
+
+PS: This report was written in LazyVim, using the `Obsidian` plugin in markdown.
+![[Screenshot 2025-06-06 at 20.22.57.png]]
