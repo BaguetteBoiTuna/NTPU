@@ -5,6 +5,13 @@ aliases:
 tags: []
 ---
 
+# Evaluating LazyVim for Rapid Neovim Onboarding: A Within-Subjects Experimental Report
+
+ID: 711382799
+Name: Dante GUILLEMAIN
+Course: Generative AI Innovative Applications
+Professor: Min-Yuh Day
+
 # Chapter 1. Introduction
 
 ## 1.1 Research Background
@@ -202,12 +209,12 @@ All ten participants managed to replicate the target feature-set (TypeScript LSP
   - **Baseline**: several students stalled on language-server wiring and dependency errors; two never got autocomplete working before the clock ran out.
 
 - **Perceived workload**  
-  The NASA TLX forms show a clear contrast: scores for LazyVim cluster in the “low workload” band (<40 on the 0-100 scale), whereas baseline scores hover around the “high workload” threshold (>50). According to TLX interpretation guides, anything above ~50 signals notable mental strain [researchgate.net](https://www.researchgate.net/figure/The-Interpretation-Score-of-NASA-TLX-8_tbl1_333730333).
+  The NASA TLX forms show a clear contrast: scores for LazyVim cluster in the “low workload” band (<9 on the 0-100 scale), whereas baseline scores hover around the “high workload” threshold (>50). According to TLX interpretation guides, anything above ~50 signals notable mental strain [researchgate.net](https://www.researchgate.net/figure/The-Interpretation-Score-of-NASA-TLX-8_tbl1_333730333).
 
 - **Launch feel**  
-  Hyperfine logs reveal that LazyVim consistently opened in under a tenth of a second on the testers’ machines. The vanilla configs felt visibly slower, with launches stretching into the quarter-second range. Memory readings told the same story: LazyVim stayed lean; custom plugin stacks crept higher.
+  Hyperfine logs reveal that LazyVim consistently opened in under a tenth of a second on the testers machines. The vanilla configs felt visibly slower, with launches stretching into the quarter-second range. Memory readings told the same story: LazyVim stayed lean; custom plugin stacks crept higher.
 
 - **Qualitative feedback**  
-  Students praised LazyVim’s ‘clone and go’ simplicity and liked the built-in `:Lazy` update UI. Complaints focused almost entirely on the baseline session—chiefly plugin breakage, missing keymaps and time lost hunting down snippets of Lua.
+  Students praised LazyVim's 'clone and go' simplicity and liked the built-in `:Lazy` update UI. Complaints focused almost entirely on the baseline session—chiefly plugin breakage, missing keymaps and time lost hunting down snippets of Lua.
 
 **Bottom line**: across speed, effort and user satisfaction, LazyVim came out ahead. No participant reported any blocking issue with the distro, while plain Neovim required significant troubleshooting to reach feature parity.
