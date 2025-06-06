@@ -153,10 +153,9 @@ Because every subject experiences both conditions, inter-individual differences 
 
 ## 3.2 Participants
 
-- **Sample size**: 15 undergraduate Computer Science majors (Year 2–4).
-- **Prior exposure**: all have basic Vim navigation skills; none has used LazyVim.
-- **Recruitment**: volunteer sign-up e-mail circulated in the Tools and Environments course.
-- **Hardware**: each student uses both a MacBook Pro M3 Pro (arm64, 16 GB RAM) and a campus workstation running Ubuntu 24.04 (x86-64, 16 GB RAM) to test cross-platform consistency.
+- **Sample size**: 10 Computer Science majors (from epitech).
+- **Prior exposure**: none has used LazyVim but used Vi, vim and emacs.
+- **Recruitment**: People I know from my school.
 
 ## 3.3 Materials and Instrumentation
 
