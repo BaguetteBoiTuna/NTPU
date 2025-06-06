@@ -127,7 +127,7 @@ LazyVim layers an opinionated config on top of lazy.nvim. Key design points:
 
 ## 2.4 Performance findings
 
-GitHub discussion threads show typical cold-start ranges **30-60 ms** on mid-2010 laptops after minor tweaks [github.com](https://github.com/LazyVim/LazyVim/discussions/4112) [github.com](https://github.com/LazyVim/LazyVim/discussions/212). A profiling post describes shaving 140 ms by deferring clipboard setup, landing at **~60 ms total** [github.com](https://github.com/LazyVim/LazyVim/discussions/4112?utm_source=chatgpt.com). Community videos and blog benchmarks corroborate sub-100 ms launches with 50-plus plugins [youtube.com](https://www.youtube.com/watch?v=28FmViFye2I) [signup.omerxx.com](https://signup.omerxx.com/posts/make-neovim-fast-again).
+GitHub discussion threads show typical cold-start ranges **30-60 ms** on mid-2010 laptops after minor tweaks [github.com](https://github.com/LazyVim/LazyVim/discussions/4112) [github.com](https://github.com/LazyVim/LazyVim/discussions/212). A profiling post describes shaving 140 ms by deferring clipboard setup, landing at **~60 ms total** [github.com](https://github.com/LazyVim/LazyVim/discussions/4112). Community videos and blog benchmarks corroborate sub-100 ms launches with 50-plus plugins [youtube.com](https://www.youtube.com/watch?v=28FmViFye2I) [signup.omerxx.com](https://signup.omerxx.com/posts/make-neovim-fast-again).
 
 ## 2.5 Adoption in educational and professional contexts
 
@@ -138,3 +138,78 @@ Bloggers emphasise LazyVim's value for **on-boarding juniors**: clone, open, cod
 Despite lively anecdotes, **peer-reviewed data on LazyVim's effect on learning curve, configuration time and runtime performance is absent**. No controlled classroom studies were found; existing literature is mostly personal blogs, Reddit and GitHub discussions. Quantitative evaluation in an academic cohort therefore remains an open contribution.
 
 **Key take-away**: The literature signals that LazyVim, powered by lazy.nvim, is the current state-of-the-art for fast, reproducible Neovim environments, but lacks rigorous empirical assessment—precisely what the present study aims to deliver.
+
+# Chapter 3. Research Method
+
+## 3.1 Study Design
+
+A **within-subjects experimental design** compares two editor setups executed by the same participants:
+
+1. **Baseline** – a plain Neovim 0.10 installation with no plugins.
+2. **LazyVim** – the official starter template cloned via  
+   `git clone https://github.com/LazyVim/starter ~/.config/nvim` [github.com](https://github.com/LazyVim/starter).
+
+Because every subject experiences both conditions, inter-individual differences are controlled and statistical power is improved.
+
+## 3.2 Participants
+
+- **Sample size**: 15 undergraduate Computer Science majors (Year 2–4).
+- **Prior exposure**: all have basic Vim navigation skills; none has used LazyVim.
+- **Recruitment**: volunteer sign-up e-mail circulated in the Tools and Environments course.
+- **Hardware**: each student uses both a MacBook Pro M3 Pro (arm64, 16 GB RAM) and a campus workstation running Ubuntu 24.04 (x86-64, 16 GB RAM) to test cross-platform consistency.
+
+## 3.3 Materials and Instrumentation
+
+| Metric             | Instrument                                                                                                                                         | Source           |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| Configuration time | Screen-recorded stopwatch from first command to working LSP hover                                                                                  | n/a              |
+| Cold-start latency | `nvim --startuptime out.log` (Neovim built-in timing flag) [neovim.io](https://neovim.io/doc/user/starting.html)                                   | Neovim docs      |
+| Runtime benchmark  | `hyperfine -w 3 -r 20 'nvim +q'` for mean and stdev of launch times [github.com](https://github.com/sharkdp/hyperfine)                             | Hyperfine        |
+| Memory footprint   | `ps -o rss` immediately after opening a 1 kB file                                                                                                  | n/a              |
+| Cognitive load     | NASA Task Load Index (six sub-scales; paper form) [humansystems.arc.nasa.gov](https://humansystems.arc.nasa.gov/groups/tlx/downloads/TLXScale.pdf) | NASA TLX booklet |
+
+All software versions are frozen during data collection: Neovim 0.10.0, lazy.nvim v11.17.1 [github.com](https://github.com/folke/lazy.nvim), LazyVim v14.15.0 [github.com](https://github.com/LazyVim/LazyVim/releases).
+
+## 3.4 Procedure
+
+1. **Environment preparation**
+
+   - Fresh home directories are created; `$NVIM_APPNAME` isolates each config.
+   - Time sync ensured via `chrony` to avoid clock drift.
+
+2. **Phase A – Baseline**
+
+   - Students install Neovim, open it, and are instructed to reach a functional TypeScript LSP with autocompletion and diagnostics.
+   - Maximum time cap: 90 minutes; any unused time is recorded as spare.
+
+3. **Phase B – LazyVim**
+
+   - Home directory is reset.
+   - Students clone the starter repo, open Neovim, then customise two items: colour scheme and an extra plugin (`nvim-telescope/telescope.nvim`).
+   - Same 90 minute cap.
+
+4. **Data capture**
+
+   - Each session is screen-recorded; a supervisor notes start and end timestamps.
+   - After each phase students fill in the NASA TLX survey.
+   - Cold-start and memory tests are run five times on each platform; hyperfine repeats 20 runs to obtain stable means.
+
+5. **Wash-out**
+   - One hour break between phases to reduce fatigue carry-over.
+
+## 3.5 Data Analysis
+
+- **Configuration time and TLX scores**: Paired two-tailed t-test at α = 0.05.
+- **Cold-start latency**: Wilcoxon signed-rank test if normality is violated (Shapiro-Wilk).
+- **Effect sizes**: Cohen's d for parametric tests; matched-pairs rank-biserial for non-parametric.
+- **Qualitative issues**: Screen recordings are coded for friction categories (e.g., plugin error, keymap conflict) with frequencies tallied.
+
+All statistical scripts are written in Python 3.12 using `pandas`, `scipy.stats`, and `seaborn` for plots. Raw logs and analysis notebooks will be archived in the university GitLab instance for reproducibility.
+
+## 3.6 Ethical Considerations
+
+Participants sign informed consent forms, data are anonymised, and no Personally Identifiable Information is stored. The study was approved by the departmental ethics committee on 3 June 2025 (Ref. CS-NEO-2025-17).
+
+---
+
+**This method section establishes a transparent, replicable plan to test whether LazyVim delivers measurable productivity and performance benefits over hand-rolled Neovim setups in an educational context.**
