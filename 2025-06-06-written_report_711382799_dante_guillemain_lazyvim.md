@@ -189,26 +189,5 @@ All software versions are frozen during data collection: Neovim 0.10.0, lazy.nvi
 
 4. **Data capture**
 
-   - Each session is screen-recorded; a supervisor notes start and end timestamps.
+   - Each session is made in a call on Discord with screen share;
    - After each phase students fill in the NASA TLX survey.
-   - Cold-start and memory tests are run five times on each platform; hyperfine repeats 20 runs to obtain stable means.
-
-5. **Wash-out**
-   - One hour break between phases to reduce fatigue carry-over.
-
-## 3.5 Data Analysis
-
-- **Configuration time and TLX scores**: Paired two-tailed t-test at α = 0.05.
-- **Cold-start latency**: Wilcoxon signed-rank test if normality is violated (Shapiro-Wilk).
-- **Effect sizes**: Cohen's d for parametric tests; matched-pairs rank-biserial for non-parametric.
-- **Qualitative issues**: Screen recordings are coded for friction categories (e.g., plugin error, keymap conflict) with frequencies tallied.
-
-All statistical scripts are written in Python 3.12 using `pandas`, `scipy.stats`, and `seaborn` for plots. Raw logs and analysis notebooks will be archived in the university GitLab instance for reproducibility.
-
-## 3.6 Ethical Considerations
-
-Participants sign informed consent forms, data are anonymised, and no Personally Identifiable Information is stored. The study was approved by the departmental ethics committee on 3 June 2025 (Ref. CS-NEO-2025-17).
-
----
-
-**This method section establishes a transparent, replicable plan to test whether LazyVim delivers measurable productivity and performance benefits over hand-rolled Neovim setups in an educational context.**
