@@ -50,7 +50,7 @@ Despite anecdotal praise, **empirical data on how LazyVim affects configuration 
 ### 1.2.3 Community Momentum
 
 - Blog posts like _“Why I switched to LazyVim”_ report **80 % of default settings “just work”** and praise painless updates via lazy.nvim's UI [medium.com](https://medium.com/%40xiangdejun_32936/why-i-switched-to-lazyvim-fc4fdeb888bc).
-- Reddit performance threads document **≈45 % additional startup cuts** after simple hacks, signalling an active optimisation culture [oai_citation:4‡reddit.com](https://www.reddit.com/r/neovim/comments/1jn9b39/i_improved_my_lazynvim_startup_by_45/?utm_source=chatgpt.com).
+- Reddit performance threads document **≈45 % additional startup cuts** after simple hacks, signalling an active optimisation culture [reddit.com](https://www.reddit.com/r/neovim/comments/1jn9b39/i_improved_my_lazynvim_startup_by_45/).
 
 ### 1.2.4 Hypothesised Benefits vs Status Quo
 
@@ -68,4 +68,38 @@ Despite anecdotal praise, **empirical data on how LazyVim affects configuration 
 3. **How do students rate cognitive load** (NASA-TLX) before vs after migration?
 4. **Which friction points remain** (e.g., keymap conflicts, plugin‐specific bugs) and how often do they surface?
 
-**Answering these questions will inform whether our department should officially recommend LazyVim in next semester’s tooling syllabus and whether enterprises can justify adopting it to slash onboarding overhead.**
+**Answering these questions will inform whether our department should officially recommend LazyVim in next semester's tooling syllabus and whether enterprises can justify adopting it to slash onboarding overhead.**
+
+## 1.3 Research Objectives
+
+**Primary Goal**  
+Determine how adopting LazyVim affects productivity, performance and cognitive load for computer-science students compared with traditional hand-rolled Neovim setups.
+
+**Specific, measurable objectives**
+
+1. **Quantify setup time savings**
+
+   - Hypothesis: cloning the LazyVim starter repo cuts first-time configuration from ≥45 min to ≤10 min.
+   - Metric: median minutes from `git clone` to functional LSP completion.
+
+2. **Benchmark runtime performance**
+
+   - Measure cold-start latency (`--startuptime`) and peak memory (RSS) on identical hardware.
+   - Target: LazyVim should launch in <100 ms and consume ≤150 MB RAM under default plugin load.
+
+3. **Assess cognitive load**
+
+   - Use NASA-TLX survey immediately after two 90-min coding sessions (vanilla vs LazyVim).
+   - Expectation: TLX score drops by at least 20 percentile points with LazyVim.
+
+4. **Identify residual friction points**
+
+   - Catalogue frequency and severity of issues such as keymap collisions, dependency errors and plugin update failures.
+   - Deliver a ranked list of pain points with suggested mitigations.
+
+5. **Evaluate reproducibility and maintainability**
+   - Verify that the same config produces identical behaviour on macOS (arm64) and Ubuntu (x86-64) lab machines.
+   - Track update workflow: time to apply and validate a LazyVim release bump vs manual plugin upgrades.
+
+**Success Criteria**  
+LazyVim will be considered a net win if it achieves **≥70 percent reduction in setup time, ≥50 percent lower perceived workload, and no critical faults during a two-week classroom pilot**.
