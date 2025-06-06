@@ -27,3 +27,5 @@ All content can be found on NTPU's e-learning platform.
 ### courses
 
 ### assignments
+
+- [[2025-06-06-written_report_711382799_dante_guillemain_lazyvim|written_report_711382799_Dante_GUILLEMAIN_LazyVim]]

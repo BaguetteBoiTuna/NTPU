@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "10476a72257f1b34",
+        "id": "a77eb5024b7f3b0e",
         "type": "tabs",
         "children": [
           {
-            "id": "2b6ec9c9e3843573",
+            "id": "fbfeb1516a573afd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-03-23-assignment-1.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-03-23-assignment-1"
-            }
-          },
-          {
-            "id": "2b70c3967990533a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b70c3967990533a",
+  "active": "fbfeb1516a573afd",
   "lastOpenFiles": [
     "2025-03-23-assignment-1.md",
     "2025-03-23-internet-of-things-(iot).md",
