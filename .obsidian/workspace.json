@@ -11,10 +11,14 @@
             "id": "fbfeb1516a573afd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-06-06-written_report_711382799_dante_guillemain_lazyvim.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-06-written_report_711382799_dante_guillemain_lazyvim"
             }
           }
         ]
@@ -184,9 +188,10 @@
   },
   "active": "fbfeb1516a573afd",
   "lastOpenFiles": [
+    "2025-02-18-generative-ai-innovative-applications.md",
+    "Knowledge hub.md",
     "2025-03-23-assignment-1.md",
     "2025-03-23-internet-of-things-(iot).md",
-    "Knowledge hub.md",
     "2025-02-27-video-about-japan-food.md",
     "2025-02-27-culinary-culture-around-the-world.md",
     "2025-02-18-introduction-to-artificial-intelligence-in-finance-and-quantitative-analysis.md",
@@ -225,7 +230,6 @@
     "2024-10-23-convolutional-neural-network.md",
     "2024-09-10-advanced-computer-architectures.md",
     "2024-10-15-daftds_part1ch3.md",
-    "2024-09-10-daftds_part1ch1.md",
     "2024-10-09-foundations-of-deep-learning.md~",
     "2024-10-09-image-analysis-techniques.md~",
     "4913",
