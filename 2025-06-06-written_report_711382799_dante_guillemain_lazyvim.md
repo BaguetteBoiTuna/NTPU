@@ -11,11 +11,11 @@ tags: []
 
 ### 1.1.1 From _vi_ to “Neo”
 
-The UNIX editor lineage has marched from **vi (1976)** to **Vim (1991)** and on to **Neovim (2014)**, each step trading monolithic C code for extensibility and modern UX. Neovim’s LuaJIT core, built-in LSP client, and Tree-sitter parser opened the flood-gates for high-performance plugins, making it the fastest-growing editor project on GitHub in the last three years [oai_citation:0‡reddit.com](https://www.reddit.com/r/emacs/comments/1hhxf8x/what_can_we_learn_from_neovims_rise_in_popularity/?utm_source=chatgpt.com).
+The UNIX editor lineage has marched from **vi (1976)** to **Vim (1991)** and on to **Neovim (2014)**, each step trading monolithic C code for extensibility and modern UX. Neovim's LuaJIT core, built-in LSP client, and Tree-sitter parser opened the flood-gates for high-performance plugins, making it the fastest-growing editor project on GitHub in the last three years.
 
 ### 1.1.2 The Plugin-Manager Arms Race
 
-Early plugin managers—Pathogen, Vundle, Plug, then Packer—simplified installs but still loaded every plugin on start-up. **lazy.nvim** (Dec 2022) introduced byte-compiled caches, event-based lazy-loading and a UI for update hygiene, slicing cold-start times by **5× versus Packer** in author benchmarks [oai_citation:1‡medium.com](https://medium.com/unixification/lazy-nvim-the-blazingly-fast-neovim-package-manager-19a7a952835c). The project has since accrued **≈17.7 k stars** and >400 forks, with a stable release cadence (v11.17.1, Feb 2025) [oai_citation:2‡github.com](https://github.com/folke/lazy.nvim).
+Early plugin managers Pathogen, Vundle, Plug, then Packer simplified installs but still loaded every plugin on start-up. **lazy.nvim** (Dec 2022) introduced byte-compiled caches, event-based lazy-loading and a UI for update hygiene, slicing cold-start times by **5× versus Packer** in author benchmarks [medium.com](https://medium.com/unixification/lazy-nvim-the-blazingly-fast-neovim-package-manager-19a7a952835c). The project has since accrued **≈17.7 k stars** and >400 forks, with a stable release cadence (v11.17.1, Feb 2025) [github.com](https://github.com/folke/lazy.nvim).
 
 ### 1.1.3 LazyVim: “Distro” not Dot-files
 
