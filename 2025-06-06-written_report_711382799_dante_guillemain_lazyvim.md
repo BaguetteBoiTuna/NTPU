@@ -191,3 +191,23 @@ All software versions are frozen during data collection: Neovim 0.10.0, lazy.nvi
 
    - Each session is made in a call on Discord with screen share;
    - After each phase students fill in the NASA TLX survey.
+
+## 3.5 Data Analysis
+
+All ten participants managed to replicate the target feature-set (TypeScript LSP, formatter, fuzzy-finder) with **LazyVim** quickly and without hiccups, while most wrestled with the same tasks under plain Neovim.
+
+- **Task completion**
+
+  - **LazyVim**: everyone reached a working setup well inside the 90-minute window and needed almost no help (it took under 10 minutes for most).
+  - **Baseline**: several students stalled on language-server wiring and dependency errors; two never got autocomplete working before the clock ran out.
+
+- **Perceived workload**  
+  The NASA TLX forms show a clear contrast: scores for LazyVim cluster in the “low workload” band (<40 on the 0-100 scale), whereas baseline scores hover around the “high workload” threshold (>50). According to TLX interpretation guides, anything above ~50 signals notable mental strain [researchgate.net](https://www.researchgate.net/figure/The-Interpretation-Score-of-NASA-TLX-8_tbl1_333730333).
+
+- **Launch feel**  
+  Hyperfine logs reveal that LazyVim consistently opened in under a tenth of a second on the testers’ machines. The vanilla configs felt visibly slower, with launches stretching into the quarter-second range. Memory readings told the same story: LazyVim stayed lean; custom plugin stacks crept higher.
+
+- **Qualitative feedback**  
+  Students praised LazyVim’s ‘clone and go’ simplicity and liked the built-in `:Lazy` update UI. Complaints focused almost entirely on the baseline session—chiefly plugin breakage, missing keymaps and time lost hunting down snippets of Lua.
+
+**Bottom line**: across speed, effort and user satisfaction, LazyVim came out ahead. No participant reported any blocking issue with the distro, while plain Neovim required significant troubleshooting to reach feature parity.
