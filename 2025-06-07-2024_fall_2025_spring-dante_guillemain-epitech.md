@@ -67,3 +67,4 @@ Adulting hit quickly: applying for the Alien Resident Certificate, translating s
 Choosing NTPU was the right call. I upgraded my presentation skill set, gained a foundational grasp of business concepts, and learned bartending to upgrade future house parties. Taiwan matched every positive thing I read: safe streets, brilliant night-market food, and sunsets from the food-court roof that stick in memory. If offered a rerun, I would accept, though I would ride into Taipei more often.
 
 ## Photos
+PS: As a male individual I don't take a lot of photos.
