@@ -68,3 +68,4 @@ Choosing NTPU was the right call. I upgraded my presentation skill set, gained a
 
 ## Photos
 PS: As a male individual I don't take a lot of photos.
+![[LINE_ALBUM_Final individual report_250609_1.jpg]]![[P_20240901_183957-2.jpg]]![[P_20240903_180923.jpg]]![[P_20240908_191727.jpg]]![[P_20240918_011532.jpg]]![[P_20240913_180424.jpg]]![[P_20250221_152131.jpg]]![[PST00442.jpg]]
