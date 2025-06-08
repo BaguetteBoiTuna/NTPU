@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2025-06-06-written_report_711382799_dante_guillemain_lazyvim"
             }
+          },
+          {
+            "id": "d0210f98649691ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-06-07-2024_fall_2025_spring-dante_guillemain-epitech.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-07-2024_fall_2025_spring-dante_guillemain-epitech"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,13 +201,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbfeb1516a573afd",
+  "active": "d0210f98649691ec",
   "lastOpenFiles": [
+    "Knowledge hub.md",
     "2025-06-06-written_report_711382799_dante_guillemain_lazyvim.md",
     "2025-06-06-written_report_711382799_dante_guillemain_lazyvim.md~",
     "Screenshot 2025-06-06 at 20.22.57.png",
     "2025-02-18-generative-ai-innovative-applications.md",
-    "Knowledge hub.md",
     "2025-03-23-assignment-1.md",
     "2025-03-23-internet-of-things-(iot).md",
     "2025-02-27-video-about-japan-food.md",
