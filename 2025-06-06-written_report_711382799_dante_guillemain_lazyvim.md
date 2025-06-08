@@ -146,7 +146,7 @@ Bloggers emphasise LazyVim's value for **on-boarding juniors**: clone, open, cod
 
 Despite lively anecdotes, **peer-reviewed data on LazyVim's effect on learning curve, configuration time and runtime performance is absent**. No controlled classroom studies were found; existing literature is mostly personal blogs, Reddit and GitHub discussions. Quantitative evaluation in an academic cohort therefore remains an open contribution.
 
-**Key take-away**: The literature signals that LazyVim, powered by lazy.nvim, is the current state-of-the-art for fast, reproducible Neovim environments, but lacks rigorous empirical assessment—precisely what the present study aims to deliver.
+**Key take-away**: The literature signals that LazyVim, powered by lazy.nvim, is the current state-of-the-art for fast, reproducible Neovim environments, but lacks rigorous empirical assessment precisely what the present study aims to deliver.
 
 # Chapter 3. Research Method
 
@@ -154,8 +154,8 @@ Despite lively anecdotes, **peer-reviewed data on LazyVim's effect on learning c
 
 A **within-subjects experimental design** compares two editor setups executed by the same participants:
 
-1. **Baseline** – a plain Neovim 0.10 installation with no plugins.
-2. **LazyVim** – the official starter template cloned via  
+1. **Baseline** - a plain Neovim 0.10 installation with no plugins.
+2. **LazyVim** - the official starter template cloned via  
    `git clone https://github.com/LazyVim/starter ~/.config/nvim` [github.com](https://github.com/LazyVim/starter).
 
 Because every subject experiences both conditions, inter-individual differences are controlled and statistical power is improved.
@@ -185,12 +185,12 @@ All software versions are frozen during data collection: Neovim 0.10.0, lazy.nvi
    - Fresh home directories are created; `$NVIM_APPNAME` isolates each config.
    - Time sync ensured via `chrony` to avoid clock drift.
 
-2. **Phase A – Baseline**
+2. **Phase A. Baseline**
 
    - Students install Neovim, open it, and are instructed to reach a functional TypeScript LSP with autocompletion and diagnostics.
    - Maximum time cap: 90 minutes; any unused time is recorded as spare.
 
-3. **Phase B – LazyVim**
+3. **Phase B. LazyVim**
 
    - Home directory is reset.
    - Students clone the starter repo, open Neovim, then customise two items: colour scheme and an extra plugin (`nvim-telescope/telescope.nvim`).
@@ -217,10 +217,9 @@ All ten participants managed to replicate the target feature-set (TypeScript LSP
   Hyperfine logs reveal that LazyVim consistently opened in under a tenth of a second on the testers machines. The vanilla configs felt visibly slower, with launches stretching into the quarter-second range. Memory readings told the same story: LazyVim stayed lean; custom plugin stacks crept higher.
 
 - **Qualitative feedback**  
-  Students praised LazyVim's 'clone and go' simplicity and liked the built-in `:Lazy` update UI. Complaints focused almost entirely on the baseline session—chiefly plugin breakage, missing keymaps and time lost hunting down snippets of Lua.
+  Students praised LazyVim's 'clone and go' simplicity and liked the built-in `:Lazy` update UI. Complaints focused almost entirely on the baseline session chiefly plugin breakage, missing keymaps and time lost hunting down snippets of Lua.
 
 **Bottom line**: across speed, effort and user satisfaction, LazyVim came out ahead. No participant reported any blocking issue with the distro, while plain Neovim required significant troubleshooting to reach feature parity.
 
 PS: This report was written in LazyVim, using the `Obsidian` plugin in markdown.
 ![[Screenshot 2025-06-06 at 20.22.57.png]]
-

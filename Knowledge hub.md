@@ -29,3 +29,7 @@ Contains the following courses:
 - [Innovation Management](2025-02-26-innovation-management.md)
 - [Culinary Culture around the World](2025-02-27-culinary-culture-around-the-world.md)
 - [Internet of Things (IoT)](2025-03-23-internet-of-things-%28iot%29.md)
+
+## end
+
+- [[2025-06-07-2024_fall_2025_spring-dante_guillemain-epitech|2024_Fall_2025_Spring-Dante_Guillemain-Epitech]]
