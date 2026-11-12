@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3458e6512282d6fe",
+        "id": "e8655b73c8c71122",
         "type": "tabs",
         "children": [
           {
-            "id": "5b7f582d9e4170e0",
+            "id": "538ff4eb33e5b148",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge hub.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Knowledge hub"
             }
           }
         ]
@@ -172,6 +176,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,11 +187,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b7f582d9e4170e0",
+  "active": "538ff4eb33e5b148",
   "lastOpenFiles": [
+    "Knowledge hub.md",
     "2025-06-06-written_report_711382799_dante_guillemain_lazyvim.md",
     "2025-06-07-2024_fall_2025_spring-dante_guillemain-epitech.md",
-    "Knowledge hub.md",
     "PST00442.jpg",
     "P_20250221_152131.jpg",
     "P_20240913_180424.jpg",
